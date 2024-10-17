@@ -163,7 +163,7 @@ body {
 .fancy-heading {
     font-size: 50px; /* Increase font size */
     font-weight: bold; /* Make it bold */
-    background: repeating-linear-gradient(90deg, #6a11cb, #2575fc);
+    background-color: #943df1;
     -webkit-background-clip: text; /* Clip the background to the text */
     -webkit-text-fill-color: transparent; /* Make the fill transparent */
     text-align: center; /* Center-align */
