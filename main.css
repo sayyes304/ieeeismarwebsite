@@ -1,215 +1,216 @@
+/* Global Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    padding-top: 80px; /* Space for fixed navbar */
+    font-size: 16px; /* Base font size */
+    line-height: 1.6; /* Increased readability */
+}
+
 /* Centered content for main sections */
 .center-content {
     display: flex;
-    flex-direction: column; /* Align items in a column */
-    align-items: center;    /* Center items horizontally */
-    text-align: center;     /* Center text inside */
-    margin: 0 auto;        /* Center the container itself */
-}
-
-/* Body styling */
-body {
-    padding-top: 80px;          /* Add padding to the body for spacing */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* Navbar Styling */
 .navbar {
-    background-color: #fff; /* Background color */
-    position: fixed;        /* Fixed position */
-    top: 0;                 /* Stick to the top */
-    width: 100%;            /* Full width */
-    z-index: 1000;          /* Bring it to the front */
-    height: 70px;           /* Set a specific height for the navbar */
-    display: flex;          /* Use flexbox for layout */
-    align-items: center;    /* Center items vertically */
-    padding: 20px;        /* Padding on the sides */
-    justify-content: center; /* Space between logo and links */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
-    transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
-}
-
-/* Optional: Change shadow on scroll for a dynamic effect */
-.navbar.scrolled {
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4); /* Darker shadow when scrolled */
-}
-
-/* Hamburger Menu Styling */
-.hamburger {
-    font-size: 30px;
-    cursor: pointer;
-  }
-
-/* Container for header content */
-.container {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 70px;
     display: flex;
-    max-width: 1200px;     /* Max width for the content */
-    margin: 0 auto;        /* Center the container */
-    display: flex; /* Use flexbox for alignment */
-    justify-content: flex-start; /* Align items to the start */
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Optional: Dynamic shadow on scroll */
+.navbar.scrolled {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
 }
 
 /* Logo Styling */
 .logo {
-    height: auto;            /* Set a height for the logo */
-    margin-right: 50px;      /* Add space between logo and navigation */
+    margin-right: 50px;
     max-width: 100px;
-    display: inline-block;   /* Make sure the logo stays inline */
+    height: auto;
+    display: inline-block;
 }
 
-
-/* Container for header content */
-.header-content {
-    display: flex;           /* Use flexbox for alignment */
-    align-items: center;     /* Center items vertically */
-    padding: 20px;          /* Add padding for spacing */
-    background-color: #fff; /* Set the background color */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
-}
-
-
-/* Navigation Links Styling */
+/* Navigation Links */
 .nav-links {
-    list-style-type: none;     /* Remove bullets from the list */
-    display: flex;             /* Use flexbox for the list */
-    gap: 2px;                /* Space between links */
-    margin: 150;                /* Remove default margin */
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px; /* Space between links */
 }
 
-/* Link Styling */
-.nav-links li a {
-    text-decoration: none;      /* Remove underline from links */
-    color: #000;               /* Change link color */
-    font-weight: normal;         /* Optional: make links bold */
-    font-size: 24px;           /* Set font size */
-    font-family: Arial, sans-serif; /* Change font family */
-    padding: 0 5px;          /* Add padding to each link */
-    display: block;            /* Make the links block-level elements */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+.nav-links li {
+    position: relative;
 }
 
-
-/* Red hover effect */
-.nav-links li a:hover {
-    background-color: rgb(190, 54, 54);      /* Red background on hover */
-    color: white;               /* White text on hover */
-    border-radius: 4px;         /* Optional: Add rounded corners */
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    padding: 0 10px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Logo Wrapper Styling */
-.title-logo-wrapper {
-    display: flex;             /* Flexbox for alignment */
-    align-items: center;       /* Center items vertically */
+.nav-links a:hover {
+    background-color: rgb(190, 54, 54);
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* Hamburger Menu for smaller screens */
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
 }
 
 /* Main Content Styling */
 .main-content {
-    display: flex;             /* Use flexbox for centering */
-    flex-direction: column;    /* Stack items vertically */
-    align-items: center;       /* Center items horizontally */
-    justify-content: center;   /* Center items vertically */
-    text-align: center;        /* Ensure text is centered */
-    padding: 20px;       /* Add padding for spacing */
-    box-sizing: border-box;    /* Ensure padding doesn't affect width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
     min-height: calc(100vh - 140px); /* Full height minus header & footer */
 }
 
 /* Hero Section */
 .hero {
-    display: flex;             /* Flexbox for layout */
-    flex-direction: column;    /* Stack image and content vertically */
-    align-items: center;       /* Center content horizontally */
-    justify-content: center;   /* Center content vertically */
-    text-align: center;        /* Center-align the text */
-    max-width: 800px;         /* Optional: Limit max width for the hero section */
-    width: 60%;               /* Ensure it takes full width */
-}
-
-/* Hero Section */
-.hero img {
-    max-width: 100%;           /* Ensure the image is responsive */
-    height: auto;              /* Maintain image aspect ratio */
-    display: block;            /* Remove any extra spacing around image */
-    margin-bottom: 20px;       /* Add spacing below the image */
-}
-
-/* Content inside the hero section */
-.hero .content {
-    margin-top: 20px;          /* Space between image and content */
-    width: 100%;
-    max-width: 800px;          /* Optional: Limit max width for better readability */
-    font-size: 20px;
-}
-
-
-/* General Navigation Styles */
-.nav-links {
-    list-style: none;  /* Remove bullet points */
-    margin: 0;
-    padding: 0;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.nav-links li {
-    position: relative;
-    padding: 10px;
-}
-
-/* Style for links */
-.nav-links a {
-    text-decoration: none;
-    color: #000;
-    padding: 10px;
-    display: inline-block;  /* Ensures dropdown arrow aligns properly */
-}
-
-
-/* Styling for the enhanced heading */
-.fancy-heading {
-    font-size: 50px; /* Increase font size */
-    font-weight: bold; /* Make it bold */
-    background-color: #943df1;
-    -webkit-background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent; /* Make the fill transparent */
-    text-align: center; /* Center-align */
-    margin-top: 30px;
+.hero img {
+    max-width: 100%;
+    height: auto;
     margin-bottom: 20px;
-    text-transform: uppercase; /* Make text uppercase */
-    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
-    font-family: 'Montserrat', sans-serif; /* Use a modern font */
+}
+
+.hero .content {
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Fancy Heading and Subheading */
+.fancy-heading {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #943df1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fancy-subheading {
-    font-size: 30px; /* Increase font size */
-    font-weight: bold; /* Make it bold */
+    font-size: 30px;
+    font-weight: bold;
     background: repeating-linear-gradient(90deg, #0a090b, #050506);
-    -webkit-background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent; /* Make the fill transparent */
-    text-align: center; /* Center-align */
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-transform: sentencecase; /* Make text sentencecase */
-    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
-    font-family: 'Montserrat', sans-serif; /* Use a modern font */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 30px 0 20px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Description Styling */
 .description {
-    margin-top: 20px;          /* Add margin above the description */
-    text-align: justify;       /* Optional: Justify text for better readability */
-    line-height: 1.6;          /* Increase line height for better readability */
-    max-width: 800px;          /* Limit the width of the description */
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    max-width: 800px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-
 }
 
+/* Important Dates Section */
+.important-dates-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
-/* Ensure clear layout after aside */
-.main-content::after {
-    content: "";
-    display: table;
-    clear: both;
+.important-dates {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.important-dates th, .important-dates td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.important-dates th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+}
+
+.important-dates td {
+    background-color: #fff;
+    color: #555;
+}
+
+.important-dates tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Chairs Section */
+.chairs-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.chairs-category {
+    margin-bottom: 30px;
+}
+
+.chairs-category h3 {
+    font-size: 1.4em;
+    border-left: 4px solid #b41a3ec3;
+    padding-left: 10px;
+    color: #333;
+}
+
+.chairs p {
+    font-size: 1.1em;
+    padding-left: 10px;
+    color: #555;
 }
 
 /* Footer Styling */
@@ -224,145 +225,21 @@ footer {
     width: 100%;
 }
 
-/* Center the Important Dates title */
-.important-dates-title {
-    text-align: center;
-    font-size: 24px;  /* Adjust the font size */
-    color: #333;      /* Adjust the text color */
-    font-weight: bold;
-    margin-bottom: 20px;  /* Add some space below the title */
-    font-family: 'Roboto', sans-serif;
-
+/* General Heading and Paragraph Styles */
+h1, h2, h3 {
+    margin: 0 0 20px;
+    color: #333;
 }
 
-.important-dates {
-    width: 100%;  /* Full width table */
-    border-collapse: collapse;  /* Remove space between table borders */
-    margin: 20px 0;  /* Add some space above and below the table */
-    font-family: 'Arial', sans-serif;  /* Use a clean font */
-    text-align: center;  
-    font-family: 'Roboto', sans-serif;
-
-}
-
-.important-dates th, .important-dates td {
-    padding: 12px 15px;  /* Add some padding to cells */
-    border: 1px solid #ddd;  /* Add light border around cells */
-    font-family: 'Roboto', sans-serif;
-
-}
-
-.important-dates th {
-    background-color: #f4f4f4;  /* Light background for table header */
-    font-weight: bold;  /* Bold text for table header */
-    color: #333;  /* Dark color for header text */
-    font-family: 'Roboto', sans-serif;
-
-}
-
-.important-dates td {
-    background-color: #fff;  /* White background for table cells */
-    color: #555;  /* Darker gray text for table content */
-    font-family: 'Roboto', sans-serif;
-
-}
-
-.important-dates tbody tr:nth-child(even) {
-    background-color: #f9f9f9;  /* Light gray background for alternating rows */
-    font-family: 'Roboto', sans-serif;
-
-}
-
-
-
-/* Heading Styling */
-h2 {
-    margin: 0;              /* Add some margin for spacing */
-    font-size: 2em;            /* Slightly larger font for readability */
-
-}
-h3 {
-    margin: 10px 0;              /* Add some margin for spacing */
-    font-size: 1.5em;            /* Slightly larger font for readability */
-}
-/* Paragraph Styling */
 p {
-    font-size: 1.1em;            /* Slightly larger font for readability */
-    line-height: 1.6;            /* Increase line height for readability */
-    margin: 15px 0;              /* Add space between paragraphs */
-    text-align: justify;         /* Justify text for both left and right alignment */
-
-}
-
-
-
-/* Basic styling for the container and table */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 20px;
-}
-
-.container {
-    max-width: 100px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-    font-size: 3vw;
-}
-
-.chairs-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-.chairs-category {
-    margin-bottom: 30px;
-}
-
-.chairs-category h3 {
-    font-size: 1.4em;
-    border-left: 4px solid #b41a3ec3;
-    padding-left: 10px;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.chairs p {
     font-size: 1.1em;
-    margin: 5px 0;
-    padding-left: 10px;
-    color: #555;
+    text-align: justify;
+    margin: 15px 0;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    background: #ccc;
-    margin: 30px 0;
+/* Utility Class for Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
-
-/* Default styles (for desktop) */
-
-body {
-    font-size: 16px;
-    padding: 20px;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  
