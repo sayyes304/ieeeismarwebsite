@@ -366,36 +366,3 @@ body {
     flex-wrap: nowrap;
   }
   
- 
-
-
-
-/* Media Query for Smaller Screens (e.g., mobile phones) */
-@media (max-width: 768px) {
-    .logo {
-      max-width: 70px; /* Smaller logo on mobile */
-    }
-    
-    .hamburger {
-      font-size: 25px; /* Adjust hamburger size */
-    }
-    
-    header {
-      padding: 5px 15px; /* Reduce padding for smaller screens */
-    }
-}
-  
- /* Media Query for Smaller Screens (e.g., mobile phones) */
-@media (max-width: 348px) {
-    .logo {
-      max-width: 40px; /* Smaller logo on mobile */
-    }
-    
-    .hamburger {
-      font-size: 10px; /* Adjust hamburger size */
-    }
-    
-    header {
-      padding: 3px 8px; /* Reduce padding for smaller screens */
-    }
-}
