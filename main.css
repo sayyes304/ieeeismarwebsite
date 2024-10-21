@@ -43,8 +43,8 @@ body {
     height: 70px;
     display: flex;
     align-items: center;
-    padding: 20px;
-    justify-content: center;
+    padding: 0 20px;
+    justify-content: space-between;
     box-sizing: border-box;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
@@ -192,13 +192,26 @@ header {
 }
 
 .hero .content {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
     width: 100%;
     max-width: 800px;
     padding: 10px; /* Adjust padding */
     box-sizing: border-box;
     text-align: justify; /* Align text for better readability */
+}
+
+/* Responsive font sizes for smaller screens */
+@media (max-width: 768px) {
+    .hero .content {
+        font-size: 18px; /* Slightly smaller font for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero .content {
+        font-size: 16px; /* Even smaller font for mobile devices */
+    }
 }
 
 /* Fancy Heading and Subheading */
@@ -272,29 +285,46 @@ header {
     background-color: #f9f9f9;
 }
 
+/* Organizers Section */
+.organizers-container {
+    max-width: 800px;       
+    margin: 0 auto;          
+    padding: 20px;          
+    text-align: left;        
+}
+
 /* Chairs Section */
 .chairs-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    text-align: left;
 }
 
+/* Category Styling */
 .chairs-category {
     margin-bottom: 30px;
 }
 
+/* Heading Styling */
 .chairs-category h3 {
     font-size: 1.4em;
     border-left: 4px solid #b41a3ec3;
     padding-left: 10px;
     color: #333;
+    text-align: left; /* Left align the heading */
 }
 
+/* Paragraph Styling */
 .chairs p {
     font-size: 1.1em;
     padding-left: 10px;
     color: #555;
+    text-align: left; /* Left align the paragraph */
+    line-height: 1.5; /* Adjust line spacing */
+    margin: 10px 0; /* Add consistent spacing between paragraphs */
 }
+
 
 /* Footer Styling */
 footer {
@@ -309,10 +339,20 @@ footer {
 }
 
 /* General Heading and Paragraph Styles */
-h1, h2, h3 {
+h1, h3 {
     margin: 0 0 20px;
     color: #333;
+
 }
+
+h2 {
+    text-align: left; 
+    padding-left: 10px; 
+    color: #333; 
+    font-size: 1.6em;
+    margin-bottom: 20px; 
+}
+
 
 p {
     font-size: 1.1em;

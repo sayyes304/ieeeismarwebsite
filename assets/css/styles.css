@@ -166,7 +166,7 @@ body {
 
 /* Styling for the enhanced heading */
 .fancy-heading {
-    font-size: 50px; /* Increase font size */
+    font-size: 40px; /* Increase font size */
     font-weight: bold; /* Make it bold */
     background: repeating-linear-gradient(90deg, #6a11cb, #2575fc);
     -webkit-background-clip: text; /* Clip the background to the text */
@@ -180,7 +180,7 @@ body {
 }
 
 .fancy-subheading {
-    font-size: 30px; /* Increase font size */
+    font-size: 24px; /* Increase font size */
     font-weight: bold; /* Make it bold */
     background: repeating-linear-gradient(90deg, #0a090b, #050506);
     -webkit-background-clip: text; /* Clip the background to the text */
@@ -200,6 +200,8 @@ body {
     line-height: 1.6;          /* Increase line height for better readability */
     width: 100%;          /* Limit the width of the description */
     font-size: 20px;
+    font-size: 16px;
+
 }
 
 
@@ -331,5 +333,4 @@ header {
         font-size: 20px; /* Slightly larger font for mobile */
     }
 }
-
 
