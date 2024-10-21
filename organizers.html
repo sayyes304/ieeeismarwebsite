@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sponsors</title>
     <link rel="stylesheet" href="assets\css\styles.css">
-</head>
+
 <link rel="icon" type="image/x-icon" href="/assets\img\favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="assets\img\favicon.png">
+
 <!-- Link to CSS file -->
 <link rel="stylesheet" type="text/css" href="styles.css">
 <body>
-    <header class="navbar">
-        <!-- Logo Section -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <head>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Logo -->
         <a href="index">
-            <img src="assets/img/logo_25.png" alt="Logo" class="logo">
+            <img src="assets\img\logo_25.png" alt="Logo" class="logo">
         </a>
-    
+        
         <!-- Navigation Links -->
         <ul class="nav-links">
             <li><a href="index">Home</a></li>
             <li><a href="organizers">Organizers</a></li>
-    
         </ul>
         <div class="hamburger" onclick="toggleMenu()">
             &#9776; <!-- Unicode for hamburger icon -->
         </div>
+    </nav>
+
         <script src="/assets%5Cjs%5Cfunctions.js"></script>
     </header>
         <div class="main-content">
         <h2>Organizers</h2>
     </head>
-    <script>
-        function toggleMenu() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.classList.toggle('active');
-        }
+    
     </script>
-    <body>
+
         <div class="chairs-container">
             <div class="chairs-category">
                 <h3>General Chairs</h3>
@@ -236,3 +237,14 @@
         <footer>
             IEEE ISMAR 2025 | Daejeon, South Korea | October 2025
         </footer>
+        <script>
+            function toggleMenu() {
+                const navLinks = document.querySelector('.nav-links');
+                navLinks.classList.toggle('active');
+            }
+         <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

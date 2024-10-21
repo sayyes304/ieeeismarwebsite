@@ -1,61 +1,4 @@
-/* Styling the Sponsor Section */
-.sponsors-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;       /* Center the content horizontally */
-    max-width: 800px;          /* Limit the width for better readability */
-    margin: 0 auto;            /* Center the section within the page */
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: justify;       /* Justify the text */
-}
 
-/* Headings for sponsor levels */
-.sponsors-section h3 {
-    font-size: 1.8em;          /* Increase heading size */
-    margin-top: 30px;          /* Space above each section */
-    margin-bottom: 10px;       /* Space below the heading */
-    text-align: center;        /* Center align headings */
-}
-
-/* Paragraphs (e.g., contribution descriptions) */
-.sponsors-section p {
-    font-size: 1.2em;          /* Slightly larger than default paragraph text */
-    line-height: 1.5;          /* Increase line spacing for readability */
-    margin: 10px 0;
-    text-align: center;        /* Center align paragraphs */
-}
-
-/* Lists (for sponsor benefits) */
-.sponsors-section ul {
-    list-style-type: disc;     /* Use default bullet points */
-    padding-left: 20px;        /* Indent the list slightly */
-    margin: 10px 0;
-    text-align: left;          /* Align list items to the left */
-}
-
-/* List Items */
-.sponsors-section ul li {
-    font-size: 1.1em;          /* Make list item text a bit larger */
-    line-height: 1.5;          /* Increase spacing between list items */
-    margin-bottom: 5px;        /* Space between each bullet point */
-}
-
-
-
-
-/* Main Content Styling */
-.main-content {
-    display: flex;               /* Use flexbox for layout */
-    flex-direction: column;      /* Stack items vertically */
-    align-items: center;         /* Center items horizontally */
-    justify-content: center;     /* Center items vertically */
-    text-align: center;          /* Center the text */
-    padding: 10px;
-    box-sizing: border-box;
-    max-width: 800px;            /* Limit the width of content */
-    margin: 0 auto;              /* Center the content horizontally */
-}
 
 /* Heading Styling */
 h2 {
@@ -77,13 +20,6 @@ p {
 }
 
 
-
-/* Center the Get in Touch section */
-.get-in-touch {
-    text-align: center; /* Center all the text */
-    margin-top: 30px; /* Add some space above the section */
-    margin-bottom: 30px; /* Add some space below the section */
-}
 
 /* Basic styling for the container and table */
 body {
@@ -155,33 +91,4 @@ body {
     flex-wrap: nowrap;
   }
   
-  /* Media Query for Smaller Screens (e.g., mobile phones) */
-@media (max-width: 768px) {
-    .logo {
-      max-width: 70px; /* Smaller logo on mobile */
-    }
-    
-    .hamburger {
-      font-size: 25px; /* Adjust hamburger size */
-    }
-    
-    header {
-      padding: 5px 15px; /* Reduce padding for smaller screens */
-    }
-}
-  
- /* Media Query for Smaller Screens (e.g., mobile phones) */
-@media (max-width: 348px) {
-    .logo {
-      max-width: 40px; /* Smaller logo on mobile */
-    }
-    
-    .hamburger {
-      font-size: 10px; /* Adjust hamburger size */
-    }
-    
-    header {
-      padding: 3px 8px; /* Reduce padding for smaller screens */
-    }
-}
  
