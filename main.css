@@ -1,12 +1,26 @@
+/* Global Reset to Remove Unnecessary Margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Global Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f9f9f9;
     margin: 0;
-    padding: 20px;
     padding-top: 80px; /* Space for fixed navbar */
     font-size: 16px; /* Base font size */
     line-height: 1.6; /* Increased readability */
+    box-sizing: border-box;
+
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px; /* Limit width on large screens */
+    margin: 0 auto;
 }
 
 /* Centered content for main sections */
@@ -14,8 +28,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin: 0 auto;
+    text-align: justify;
+    padding: 0 10px;
+    width: 100%;
 }
 
 /* Navbar Styling */
@@ -40,34 +55,75 @@ body {
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
 }
 
-/* Logo Styling */
-.logo {
-    margin-right: 50px;
-    max-width: 100px;
-    height: auto;
-    display: inline-block;
+/* General Navigation Bar Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.logo img {
+    height: 50px;
 }
 
 /* Navigation Links */
 .nav-links {
     list-style: none;
     display: flex;
+    flex-direction: row;
     margin: 0;
     padding: 0;
-    gap: 10px; /* Space between links */
 }
 
+/* Navigation Links for Desktop */
 .nav-links li {
-    position: relative;
+    margin-left: 20px;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #000;
-    font-size: 24px;
-    padding: 0 10px;
-    font-family: Arial, sans-serif;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    color: black;
+    font-size: 18px;
+}
+
+/* Hide Hamburger Menu by Default */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger menu on small screens */
+    }
+
+    .nav-links {
+        display: none; /* Hide links initially */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links.active {
+        display: flex; /* Show links when hamburger is clicked */
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 20px; /* Slightly larger font for mobile */
+    }
 }
 
 .nav-links a:hover {
@@ -87,12 +143,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    min-height: calc(100vh - 140px); /* Full height minus header & footer */
+    justify-content: flex-start; /* Align content to the top */
 }
+
+//* Responsive fixes for small devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Less padding for small screens */
+    }
+    
+    .main-content {
+        width: 100%;
+        text-align: justify; /* Justify text for better readability */
+        padding: 0 10px; /* Ensure content is aligned properly */
+    }
+    
+    .center-content {
+        padding: 0;
+        text-align: justify; /* Adjust text alignment for small devices */
+    }
+}
+
 
 /* Hero Section */
 .hero {
@@ -100,15 +171,24 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 800px;
     width: 100%;
+    max-width: 1200px; /* Set a max-width for the hero section */
     margin: 0 auto;
 }
 
-.hero img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+/* Specific styling for the hero banner image */
+.hero-banner {
+    max-width: 100%;          /* Ensure the image is responsive */
+    height: auto;             /* Maintain aspect ratio */
+    display: block;           /* Remove any extra spacing around the image */
+    margin-bottom: 20px;      /* Add spacing below the image */
+}
+
+/* Restrict size for larger screens */
+@media (min-width: 1200px) {
+    .hero-banner {
+        max-width: 70%;       /* Limit the image size to 70% on large screens */
+    }
 }
 
 .hero .content {
@@ -116,6 +196,9 @@ body {
     margin-top: 20px;
     width: 100%;
     max-width: 800px;
+    padding: 10px; /* Adjust padding */
+    box-sizing: border-box;
+    text-align: justify; /* Align text for better readability */
 }
 
 /* Fancy Heading and Subheading */
@@ -149,7 +232,7 @@ body {
     margin-top: 20px;
     text-align: justify;
     line-height: 1.6;
-    max-width: 800px;
+    width: 100%;
     font-size: 20px;
 }
 

@@ -40,8 +40,6 @@ body {
     display: flex;
     max-width: 1200px;     /* Max width for the content */
     margin: 0 auto;        /* Center the container */
-    display: flex; /* Use flexbox for alignment */
-    justify-content: flex-start; /* Align items to the start */
 }
 
 /* Logo Styling */
@@ -102,7 +100,7 @@ body {
     display: flex;             /* Use flexbox for centering */
     flex-direction: column;    /* Stack items vertically */
     align-items: center;       /* Center items horizontally */
-    justify-content: center;   /* Center items vertically */
+    justify-content: flex-start;   /* Center items vertically */
     text-align: center;        /* Ensure text is centered */
     padding: 20px;       /* Add padding for spacing */
     box-sizing: border-box;    /* Ensure padding doesn't affect width */
@@ -111,21 +109,28 @@ body {
 
 /* Hero Section */
 .hero {
-    display: flex;             /* Flexbox for layout */
-    flex-direction: column;    /* Stack image and content vertically */
-    align-items: center;       /* Center content horizontally */
-    justify-content: center;   /* Center content vertically */
-    text-align: center;        /* Center-align the text */
-    max-width: 800px;         /* Optional: Limit max width for the hero section */
-    width: 60%;               /* Ensure it takes full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the hero section */
+    margin: 0 auto;
 }
 
-/* Hero Section */
-.hero img {
-    max-width: 100%;           /* Ensure the image is responsive */
-    height: auto;              /* Maintain image aspect ratio */
-    display: block;            /* Remove any extra spacing around image */
-    margin-bottom: 20px;       /* Add spacing below the image */
+/* Specific styling for the hero banner image */
+.hero-banner {
+    max-width: 100%;          /* Ensure the image is responsive */
+    height: auto;             /* Maintain aspect ratio */
+    display: block;           /* Remove any extra spacing around the image */
+    margin-bottom: 20px;      /* Add spacing below the image */
+}
+
+/* Restrict size for larger screens */
+@media (min-width: 1200px) {
+    .hero-banner {
+        max-width: 70%;       /* Limit the image size to 70% on large screens */
+    }
 }
 
 /* Content inside the hero section */
@@ -193,7 +198,7 @@ body {
     margin-top: 20px;          /* Add margin above the description */
     text-align: justify;       /* Optional: Justify text for better readability */
     line-height: 1.6;          /* Increase line height for better readability */
-    max-width: 800px;          /* Limit the width of the description */
+    width: 100%;          /* Limit the width of the description */
     font-size: 20px;
 }
 
@@ -254,49 +259,6 @@ footer {
     background-color: #f9f9f9;  /* Light gray background for alternating rows */
 }
 
-
-/* Styling the Sponsor Section */
-.sponsors-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;       /* Center the content horizontally */
-    max-width: 800px;          /* Limit the width for better readability */
-    margin: 0 auto;            /* Center the section within the page */
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: justify;       /* Justify the text */
-}
-
-/* Headings for sponsor levels */
-.sponsors-section h3 {
-    font-size: 1.8em;          /* Increase heading size */
-    margin-top: 30px;          /* Space above each section */
-    margin-bottom: 10px;       /* Space below the heading */
-    text-align: center;        /* Center align headings */
-}
-
-/* Paragraphs (e.g., contribution descriptions) */
-.sponsors-section p {
-    font-size: 1.2em;          /* Slightly larger than default paragraph text */
-    line-height: 1.5;          /* Increase line spacing for readability */
-    margin: 10px 0;
-    text-align: center;        /* Center align paragraphs */
-}
-
-/* Lists (for sponsor benefits) */
-.sponsors-section ul {
-    list-style-type: disc;     /* Use default bullet points */
-    padding-left: 20px;        /* Indent the list slightly */
-    margin: 10px 0;
-    text-align: left;          /* Align list items to the left */
-}
-
-/* List Items */
-.sponsors-section ul li {
-    font-size: 1.1em;          /* Make list item text a bit larger */
-    line-height: 1.5;          /* Increase spacing between list items */
-    margin-bottom: 5px;        /* Space between each bullet point */
-}
 
 
 /* General Navigation Bar Styles */
