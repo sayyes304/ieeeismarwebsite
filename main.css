@@ -1,4 +1,3 @@
-
 /* Organizers Section */
 .organizers-container {
     max-width: 800px;       
@@ -44,7 +43,6 @@
 h1, h3 {
     margin: 0 0 20px;
     color: #333;
-
 }
 
 h2 {
@@ -54,7 +52,6 @@ h2 {
     font-size: 1.6em;
     margin-bottom: 20px; 
 }
-
 
 p {
     font-size: 1.1em;
@@ -67,4 +64,65 @@ p {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust container padding and text alignment for smaller screens */
+    .organizers-container,
+    .chairs-container {
+        padding: 10px;         /* Reduce padding */
+        text-align: center;    /* Center align text on small screens */
+    }
+
+    /* Reduce heading font sizes on small screens */
+    .chairs-category h3 {
+        font-size: 1.2em;      /* Smaller font size for headings */
+    }
+
+    h2 {
+        font-size: 1.4em;      /* Adjust h2 size */
+    }
+
+    /* Adjust paragraph styling for better readability on small screens */
+    .chairs p,
+    p {
+        font-size: 1em;        /* Slightly smaller font size */
+        text-align: justify;   /* Ensure paragraphs are justified */
+        padding-left: 0;       /* Remove padding on small screens */
+    }
+
+    /* Reduce margin for compact layout */
+    .chairs-category,
+    p {
+        margin: 10px 0;        /* Smaller margins */
+    }
+
+    /* Adjust heading margins */
+    h1, h3 {
+        margin: 0 0 15px;      /* Adjust heading margins */
+    }
+}
+
+/* Responsive Styles for very small devices (e.g., phones) */
+@media (max-width: 480px) {
+    /* Further reduce font size and margins on very small screens */
+    .chairs-category h3 {
+        font-size: 1.1em;      /* Even smaller heading size */
+    }
+
+    h2 {
+        font-size: 1.2em;      /* Smaller font size for h2 */
+    }
+
+    p {
+        font-size: 0.9em;      /* Smaller font for paragraphs */
+        margin: 10px 0;        /* Adjust paragraph margin */
+    }
+
+    /* Adjust container padding for very small screens */
+    .organizers-container,
+    .chairs-container {
+        padding: 5px;          /* Further reduce padding */
+    }
 }

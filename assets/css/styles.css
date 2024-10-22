@@ -49,24 +49,21 @@ body {
     display: inline-block;   /* Make sure the logo stays inline */
 }
 
-
-/* Container for header content */
-.header-content {
-    display: flex;           /* Use flexbox for alignment */
-    align-items: center;     /* Center items vertically */
-    padding: 20px;          /* Add padding for spacing */
-    background-color: #fff; /* Set the background color */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .logo {
+        height: 40px;        /* Reduce the logo height slightly for smaller screens */
+        margin-right: 0;     /* Remove the large right margin on smaller screens */
+    }
 }
 
-
-/* Navigation Links Styling */
+/* Navigation Links */
 .nav-links {
-    list-style-type: none;     /* Remove bullets from the list */
-    display: flex;             /* Use flexbox for the list */
-    gap: 2px;                /* Space between links */
-    margin: 150;                /* Remove default margin */
-    padding: 0;               /* Remove default padding */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
 /* Link Styling */
@@ -89,11 +86,6 @@ body {
     border-radius: 4px;         /* Optional: Add rounded corners */
 }
 
-/* Logo Wrapper Styling */
-.title-logo-wrapper {
-    display: flex;             /* Flexbox for alignment */
-    align-items: center;       /* Center items vertically */
-}
 
 /* Main Content Styling */
 .main-content {
@@ -141,6 +133,40 @@ body {
     font-size: 20px;
 }
 
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 10px;           /* Reduce padding on smaller screens */
+        min-height: calc(100vh - 100px); /* Adjust height for smaller devices */
+    }
+
+    .hero-banner {
+        max-width: 90%;          /* Reduce the image width on tablets */
+        margin-bottom: 15px;     /* Adjust bottom margin */
+    }
+
+    .hero .content {
+        font-size: 18px;         /* Slightly reduce font size */
+        max-width: 90%;          /* Allow content to take more width */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 5px;            /* Further reduce padding on small devices */
+        min-height: calc(100vh - 80px); /* Adjust height for very small screens */
+    }
+
+    .hero-banner {
+        max-width: 100%;         /* Ensure image takes full width on small screens */
+        margin-bottom: 10px;     /* Reduce spacing below image */
+    }
+
+    .hero .content {
+        font-size: 16px;         /* Further reduce font size for readability */
+        max-width: 100%;         /* Full width content on small screens */
+    }
+}
 
 
 /* Styling for the enhanced heading */
@@ -183,24 +209,43 @@ body {
 
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .fancy-heading {
+        font-size: 32px;      /* Decrease font size on medium screens */
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
 
-/* Ensure clear layout after aside */
-.main-content::after {
-    content: "";
-    display: table;
-    clear: both;
+    .fancy-subheading {
+        font-size: 20px;      /* Decrease font size for subheading */
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .description {
+        font-size: 15px;      /* Slightly reduce font size for better readability */
+    }
 }
 
-/* Footer Styling */
-footer {
-    background-color: #f8f8f8;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    color: #555;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+@media (max-width: 480px) {
+    .fancy-heading {
+        font-size: 28px;      /* Further reduce font size for small screens */
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .fancy-subheading {
+        font-size: 18px;      /* Smaller font size for subheading */
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 14px;      /* Smaller font size for description */
+        line-height: 1.4;     /* Adjust line height for smaller text */
+        margin-top: 10px;     /* Reduce margin for smaller screens */
+    }
 }
 
 /* Center the Important Dates title */
@@ -240,39 +285,60 @@ footer {
     background-color: #f9f9f9;  /* Light gray background for alternating rows */
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .important-dates-title {
+        font-size: 20px;  /* Slightly smaller font size on small screens */
+        margin-bottom: 15px;  /* Reduce margin below the title */
+    }
 
-
-/* General Navigation Bar Styles */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
+    .important-dates th, .important-dates td {
+        padding: 8px 10px;  /* Decrease padding for smaller screens */
+        font-size: 14px;     /* Reduce font size for readability on small screens */
+    }
 }
 
-.logo img {
-    height: 50px;
+@media (max-width: 480px) {
+    .important-dates-title {
+        font-size: 18px;  /* Even smaller title font size on very small screens */
+    }
+
+    .important-dates th, .important-dates td {
+        padding: 5px 8px;   /* Further decrease padding */
+        font-size: 12px;    /* Smaller font size for mobile devices */
+    }
+
+    .important-dates {
+        font-size: 12px;   /* Make table content smaller for very narrow screens */
+    }
 }
 
-/* Navigation Links */
-.nav-links {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
+/* Footer Styling */
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-/* Navigation Links for Desktop */
-.nav-links li {
-    margin-left: 20px;
+* Responsive Styles */
+@media (max-width: 768px) {
+    footer {
+        padding: 15px;              /* Reduce padding for smaller screens */
+        font-size: 13px;            /* Slightly smaller font size */
+    }
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
+@media (max-width: 480px) {
+    footer {
+        padding: 10px;              /* Further reduce padding on very small screens */
+        font-size: 12px;            /* Smaller font size for mobile devices */
+        text-align: center;         /* Center text for narrow screens */
+    }
 }
 
 /* Hide Hamburger Menu by Default */
@@ -281,12 +347,16 @@ header {
     font-size: 30px;
     flex-direction: column;
     cursor: pointer;
+    position: absolute; 
+    top: 10px; 
+    right: 20px; 
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .hamburger {
         display: flex; /* Show hamburger menu on small screens */
+        margin-left: auto;
     }
 
     .nav-links {
