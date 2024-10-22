@@ -71,7 +71,7 @@ body {
     text-decoration: none;      /* Remove underline from links */
     color: #000;               /* Change link color */
     font-weight: normal;         /* Optional: make links bold */
-    font-size: 24px;           /* Set font size */
+    font-size: 22px;           /* Set font size */
     font-family: Arial, sans-serif; /* Change font family */
     padding: 0 10px;          /* Add padding to each link */
     display: block;            /* Make the links block-level elements */
