@@ -112,8 +112,8 @@ body {
 
 /* Specific styling for the hero banner image */
 .hero-banner {
-    max-width: 70%;          /* Ensure the image is responsive */
-    max-height: 70%;          /* Maintain aspect ratio */
+    max-width: 60%;          /* Ensure the image is responsive */
+    max-height: 60%;          /* Maintain aspect ratio */
     height: auto;             /* Mainitan aspect ratio */  
     display: block;           /* Remove any extra spacing around the image */
     margin-bottom: 0;      /* Add spacing below the image */
@@ -122,8 +122,8 @@ body {
 /* Restrict size for larger screens */
 @media (min-width: 1200px) {
     .hero-banner {
-        max-width: 40%;       /* Limit the image size to 70% on large screens */
-        max-height: 40%;
+        max-width: 40vh;       /* Limit the image size to 70% on large screens */
+        max-height: 40vh;
     }
 }
 
