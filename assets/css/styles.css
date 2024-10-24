@@ -387,3 +387,66 @@ footer {
     }
 }
 
+/* Container for the video and link */
+.video-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Styling the YouTube video iframe with fixed 720x480 size */
+.video {
+    width: 720px;
+    height: 480px;
+    border: none;
+}
+
+/* Styling for the venue link */
+.venue-link {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.venue-link a {
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.venue-link a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Media Queries for responsiveness */
+
+/* For screens larger than 768px (tablets and desktops) */
+@media (min-width: 768px) {
+    .video {
+        width: 720px; /* Keep it fixed at 720px wide for larger screens */
+        height: 480px; /* Fixed height for 720x480 resolution */
+    }
+
+    .venue-link a {
+        font-size: 18px; /* Slightly larger text for bigger screens */
+    }
+}
+
+/* For screens smaller than 768px (phones) */
+@media (max-width: 768px) {
+    .video-container {
+        padding: 0 15px; /* Adds padding around content on small screens */
+    }
+
+    .video {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Maintain aspect ratio by adjusting height automatically */
+    }
+
+    .venue-link {
+        text-align: center; /* Center the link on smaller devices */
+    }
+
+    .venue-link a {
+        font-size: 14px; /* Smaller font size for mobile devices */
+    }
+}
