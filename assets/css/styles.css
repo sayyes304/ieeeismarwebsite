@@ -110,6 +110,100 @@ body {
     margin: 0 auto;
 }
 
+/* Container for the video and link */
+.video-container {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+/* Styling the YouTube video iframe with fixed 720x480 size */
+.video {
+    width: 720px;
+    height: 480px;
+}
+
+/* Flex container for venue text and link */
+.venue-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center;
+    margin: 10px auto 0;         /* Centers container itself */
+    max-width: 720px;            /* Limits width to match video */
+    padding: 0 15px;             /* Adds padding for better spacing */
+}
+
+/* Styling for venue text */
+.venue-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Styling for the link */
+.link-with-icon {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-left: 4px;
+    font-size: 1rem;
+}
+
+.link-with-icon:hover {
+    color: #0056b3;
+}
+
+/* SVG icon styling */
+.link-with-icon svg {
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    fill: currentColor; /* Inherit color from the link */
+}
+
+/* Media Queries for responsiveness */
+
+/* For screens larger than 768px (tablets and desktops) */
+@media (min-width: 768px) {
+    .video-container {
+        max-width: 900px; /* Sets a maximum width for larger screens */
+    }
+
+    .venue-text {
+        font-size: 1.1rem; /* Slightly larger font for better readability */
+    }
+
+    .link-with-icon {
+        font-size: 1.1rem; /* Slightly larger font for better readability */
+        margin-left: 6px;  /* Slightly larger margin for spacing */
+    }
+
+    .link-with-icon svg {
+        width: 18px;  /* Slightly larger icon size for larger screens */
+        height: 18px;
+    }
+}
+
+
+/* For screens smaller than 768px (phones) */
+@media (max-width: 768px) {
+    .video {
+        width: 100%; /* Full width for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    .link-with-icon svg {
+        width: 14px; /* Smaller icon size for smaller screens */
+        height: 14px;
+    }
+}
+
+
 /* Specific styling for the hero banner image */
 .hero-banner {
     max-width: 60%;          /* Ensure the image is responsive */
@@ -382,75 +476,3 @@ footer {
     }
 }
 
-/* Container for the video and link */
-.video-container {
-    text-align: center;
-    margin: 20px auto;
-}
-
-/* Styling the YouTube video iframe with fixed 720x480 size */
-.video {
-    width: 720px;
-    height: 480px;
-    border: none;
-}
-
-/* Styling for the venue link */
-.venue-link {
-    text-align: left;
-    margin-top: 10px;
-}
-
-/* Add an arrow after the "Venue" label */
-.venue-label::after {
-    font-size: 16px;
-    color: #007BFF;
-    margin-right: 5px;
-}
-
-/* Styling for the venue link text */
-.venue-link-text {
-    font-size: 16px;
-    color: #000000;
-    text-decoration: none;
-    font-family: Arial, sans-serif; /* Change font family */
-}
-
-.venue-link-text:hover {
-    text-decoration: underline;
-    color: #0056b3;
-}
-
-/* Media Queries for responsiveness */
-
-/* For screens larger than 768px (tablets and desktops) */
-@media (min-width: 768px) {
-    .video {
-        width: 720px; /* Keep it fixed at 720px wide for larger screens */
-        height: 480px; /* Fixed height for 720x480 resolution */
-    }
-
-    .venue-link-text {
-        font-size: 18px; /* Slightly larger text for bigger screens */
-    }
-}
-
-/* For screens smaller than 768px (phones) */
-@media (max-width: 768px) {
-    .video-container {
-        padding: 0 15px; /* Adds padding around content on small screens */
-    }
-
-    .video {
-        width: 100%; /* Full width for smaller screens */
-        height: auto; /* Maintain aspect ratio by adjusting height automatically */
-    }
-
-    .venue-link {
-        text-align: center; /* Center the link on smaller devices */
-    }
-
-    .venue-link-text {
-        font-size: 14px; /* Smaller font size for mobile devices */
-    }
-}
