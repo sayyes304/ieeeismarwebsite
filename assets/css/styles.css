@@ -406,13 +406,22 @@ footer {
     margin-top: 10px;
 }
 
-.venue-link a {
+/* Add an arrow after the "Venue" label */
+.venue-label::after {
+    content: ' ➔'; /* Unicode arrow */
+    font-size: 16px;
+    color: #007BFF;
+    margin-right: 5px;
+}
+
+/* Styling for the venue link text */
+.venue-link-text {
     font-size: 16px;
     color: #007BFF;
     text-decoration: none;
 }
 
-.venue-link a:hover {
+.venue-link-text:hover {
     text-decoration: underline;
     color: #0056b3;
 }
@@ -426,7 +435,7 @@ footer {
         height: 480px; /* Fixed height for 720x480 resolution */
     }
 
-    .venue-link a {
+    .venue-link-text {
         font-size: 18px; /* Slightly larger text for bigger screens */
     }
 }
@@ -446,7 +455,8 @@ footer {
         text-align: center; /* Center the link on smaller devices */
     }
 
-    .venue-link a {
+    .venue-link-text {
         font-size: 14px; /* Smaller font size for mobile devices */
     }
 }
+
