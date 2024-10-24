@@ -45,7 +45,7 @@ body {
 /* Logo Styling */
 .logo {
     height: 50px;            /* Set a height for the logo */
-    margin-right: 350px;      /* Add space between logo and navigation */
+    margin-right: 500px;      /* Add space between logo and navigation */
     display: inline-block;   /* Make sure the logo stays inline */
 }
 
@@ -174,33 +174,28 @@ body {
 
 
 /* Styling for the enhanced heading */
-.fancy-heading {
+.heading {
     font-size: 40px; /* Increase font size */
     font-weight: bold; /* Make it bold */
-    background: repeating-linear-gradient(90deg, #6a11cb, #2575fc);
-    -webkit-background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent; /* Make the fill transparent */
+    color: black; /* Set text color to black */
     text-align: center; /* Center-align */
     margin-top: 30px;
     margin-bottom: 20px;
     text-transform: uppercase; /* Make text uppercase */
-    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
     font-family: 'Montserrat', sans-serif; /* Use a modern font */
 }
 
-.fancy-subheading {
+.subheading {
     font-size: 24px; /* Increase font size */
     font-weight: bold; /* Make it bold */
-    background: repeating-linear-gradient(90deg, #0a090b, #050506);
-    -webkit-background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent; /* Make the fill transparent */
+    color: black; /* Set text color to black */
     text-align: center; /* Center-align */
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 30px; /* Margin above the subheading */
+    margin-bottom: 20px; /* Margin below the subheading */
     text-transform: sentencecase; /* Make text sentencecase */
-    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
     font-family: 'Montserrat', sans-serif; /* Use a modern font */
 }
+
 
 /* Description Styling */
 .description {
@@ -215,13 +210,13 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .fancy-heading {
+    .heading {
         font-size: 32px;      /* Decrease font size on medium screens */
         margin-top: 20px;
         margin-bottom: 15px;
     }
 
-    .fancy-subheading {
+    .subheading {
         font-size: 20px;      /* Decrease font size for subheading */
         margin-top: 20px;
         margin-bottom: 15px;
@@ -233,13 +228,13 @@ body {
 }
 
 @media (max-width: 480px) {
-    .fancy-heading {
+    .heading {
         font-size: 28px;      /* Further reduce font size for small screens */
         margin-top: 15px;
         margin-bottom: 10px;
     }
 
-    .fancy-subheading {
+    .subheading {
         font-size: 18px;      /* Smaller font size for subheading */
         margin-top: 15px;
         margin-bottom: 10px;
@@ -408,7 +403,6 @@ footer {
 
 /* Add an arrow after the "Venue" label */
 .venue-label::after {
-    content: ' ➔'; /* Unicode arrow */
     font-size: 16px;
     color: #007BFF;
     margin-right: 5px;
@@ -417,8 +411,9 @@ footer {
 /* Styling for the venue link text */
 .venue-link-text {
     font-size: 16px;
-    color: #007BFF;
+    color: #000000;
     text-decoration: none;
+    font-family: Arial, sans-serif; /* Change font family */
 }
 
 .venue-link-text:hover {
@@ -459,4 +454,3 @@ footer {
         font-size: 14px; /* Smaller font size for mobile devices */
     }
 }
-
