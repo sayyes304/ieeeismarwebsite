@@ -45,7 +45,7 @@ body {
 /* Logo Styling */
 .logo {
     height: 50px;            /* Set a height for the logo */
-    margin-right: 500px;      /* Add space between logo and navigation */
+    margin-right: 570px;      /* Add space between logo and navigation */
     display: inline-block;   /* Make sure the logo stays inline */
 }
 
@@ -112,30 +112,31 @@ body {
 
 /* Container for the video and link */
 .video-container {
-    text-align: center;
-    margin: 30px auto;
-    max-width: 1200px;
+    width: 100%;              /* Allow the video container to take full width */
+    max-width: 900px;         /* Reduce max-width for narrower video */
+    margin: 0 auto;           /* Center the container */
+    padding: 0 15px;          /* Add some padding on sides */
+    text-align: left;         /* Align the venue text and link to the left */
 }
 
-/* Styling the YouTube video iframe with fixed 720x480 size */
+/* Styling the YouTube video iframe */
 .video {
-    width: 720px;
-    height: 480px;
+    width: 100%;              /* Make video full width */
+    height: 60vh;             /* Increase height to make it taller */
+    max-height: 600px;        /* Set a max height to prevent it from being too tall */
 }
 
 /* Flex container for venue text and link */
 .venue-container {
     display: flex;
-    justify-content: flex-start; /* Aligns content to the left */
+    justify-content: flex-start; /* Align content to the left */
     align-items: center;
-    margin: 10px auto 0;         /* Centers container itself */
-    max-width: 720px;            /* Limits width to match video */
-    padding: 0 15px;             /* Adds padding for better spacing */
+    margin-top: 10px;            /* Add space above the venue text */
 }
 
 /* Styling for venue text */
 .venue-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #333;
 }
 
@@ -147,7 +148,7 @@ body {
     color: #007bff;
     font-weight: bold;
     margin-left: 4px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .link-with-icon:hover {
@@ -157,51 +158,75 @@ body {
 /* SVG icon styling */
 .link-with-icon svg {
     margin-left: 4px;
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     fill: currentColor; /* Inherit color from the link */
 }
 
-/* Media Queries for responsiveness */
+/* Responsive Styles */
 
-/* For screens larger than 768px (tablets and desktops) */
+/* For screens larger than 768px */
 @media (min-width: 768px) {
     .video-container {
-        max-width: 900px; /* Sets a maximum width for larger screens */
+        max-width: 800px;  /* Reduce max-width for narrower video */
+        padding: 0;        /* Remove padding for better alignment */
     }
 
-    .venue-text {
-        font-size: 1.1rem; /* Slightly larger font for better readability */
-    }
-
-    .link-with-icon {
-        font-size: 1.1rem; /* Slightly larger font for better readability */
-        margin-left: 6px;  /* Slightly larger margin for spacing */
-    }
-
-    .link-with-icon svg {
-        width: 18px;  /* Slightly larger icon size for larger screens */
-        height: 18px;
-    }
-}
-
-
-/* For screens smaller than 768px (phones) */
-@media (max-width: 768px) {
     .video {
-        width: 100%; /* Full width for smaller screens */
-        height: auto; /* Maintain aspect ratio */
+        height: 65vh;      /* Slightly increase height for larger screens */
     }
 
     .venue-text, .link-with-icon {
-        font-size: 0.9rem; /* Adjust font size for smaller screens */
+        font-size: 1.2rem; /* Increase font size for better readability */
     }
 
     .link-with-icon svg {
-        width: 14px; /* Smaller icon size for smaller screens */
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .video-container {
+        padding: 0 10px;   /* Add padding for smaller screens */
+    }
+
+    .video {
+        height: 50vh;      /* Maintain taller height for smaller screens */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 1rem;   /* Adjust font size for smaller screens */
+    }
+
+    .link-with-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* For very small screens (max-width 480px) */
+@media (max-width: 480px) {
+    .video-container {
+        max-width: 100%;   /* Full width for very small screens */
+        padding: 0 5px;    /* Reduce padding */
+    }
+
+    .video {
+        height: 45vh;      /* Maintain proportional height for very small screens */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    .link-with-icon svg {
+        width: 14px;
         height: 14px;
     }
 }
+
 
 
 /* Specific styling for the hero banner image */
