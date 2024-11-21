@@ -1,0 +1,503 @@
+/* Centered content for main sections */
+.center-content {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center;    /* Center items horizontally */
+    text-align: center;     /* Center text inside */
+    margin: 0 auto;        /* Center the container itself */
+}
+
+/* Body styling */
+body {
+    padding-top: 80px;          /* Add padding to the body for spacing */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #fff; /* Background color */
+    position: fixed;        /* Fixed position */
+    top: 0;                 /* Stick to the top */
+    width: 100%;            /* Full width */
+    z-index: 1000;          /* Bring it to the front */
+    height: 70px;           /* Set a specific height for the navbar */
+    display: flex;          /* Use flexbox for layout */
+    align-items: center;    /* Center items vertically */
+    padding: 0 20px;        /* Padding on the sides */
+    justify-content: center; /* Space between logo and links */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
+}
+
+/* Optional: Change shadow on scroll for a dynamic effect */
+.navbar.scrolled {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4); /* Darker shadow when scrolled */
+}
+
+
+/* Container for header content */
+.container {
+    display: flex;
+    max-width: 1200px;     /* Max width for the content */
+    margin: 0 auto;        /* Center the container */
+}
+
+/* Logo Styling */
+.logo {
+    height: 50px;            /* Set a height for the logo */
+    margin-right: 570px;      /* Add space between logo and navigation */
+    display: inline-block;   /* Make sure the logo stays inline */
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .logo {
+        height: 40px;        /* Reduce the logo height slightly for smaller screens */
+        margin-right: 0;     /* Remove the large right margin on smaller screens */
+    }
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+/* Link Styling */
+.nav-links li a {
+    text-decoration: none;      /* Remove underline from links */
+    color: #000;               /* Change link color */
+    font-weight: normal;         /* Optional: make links bold */
+    font-size: 22px;           /* Set font size */
+    font-family: Arial, sans-serif; /* Change font family */
+    padding: 0 10px;          /* Add padding to each link */
+    display: block;            /* Make the links block-level elements */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+
+/* Red hover effect */
+.nav-links li a:hover {
+    background-color: rgb(190, 54, 54);      /* Red background on hover */
+    color: white;               /* White text on hover */
+    border-radius: 4px;         /* Optional: Add rounded corners */
+}
+
+
+/* Main Content Styling */
+.main-content {
+    display: flex;             /* Use flexbox for centering */
+    flex-direction: column;    /* Stack items vertically */
+    align-items: center;       /* Center items horizontally */
+    justify-content: flex-start;   /* Center items vertically */
+    text-align: center;        /* Ensure text is centered */
+    padding: 20px;       /* Add padding for spacing */
+    box-sizing: border-box;    /* Ensure padding doesn't affect width */
+    min-height: calc(100vh - 140px); /* Full height minus header & footer */
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the hero section */
+    margin: 0 auto;
+}
+
+/* Container for the video and link */
+.video-container {
+    width: 100%;              /* Allow the video container to take full width */
+    max-width: 900px;         /* Reduce max-width for narrower video */
+    margin: 0 auto;           /* Center the container */
+    padding: 0 15px;          /* Add some padding on sides */
+    text-align: left;         /* Align the venue text and link to the left */
+}
+
+/* Styling the YouTube video iframe */
+.video {
+    width: 100%;              /* Make video full width */
+    height: 60vh;             /* Increase height to make it taller */
+    max-height: 600px;        /* Set a max height to prevent it from being too tall */
+}
+
+/* Flex container for venue text and link */
+.venue-container {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    margin-top: 10px;            /* Add space above the venue text */
+}
+
+/* Styling for venue text */
+.venue-text {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Styling for the link */
+.link-with-icon {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-left: 4px;
+    font-size: 1.1rem;
+}
+
+.link-with-icon:hover {
+    color: #0056b3;
+}
+
+/* SVG icon styling */
+.link-with-icon svg {
+    margin-left: 4px;
+    width: 18px;
+    height: 18px;
+    fill: currentColor; /* Inherit color from the link */
+}
+
+/* Responsive Styles */
+
+/* For screens larger than 768px */
+@media (min-width: 768px) {
+    .video-container {
+        max-width: 800px;  /* Reduce max-width for narrower video */
+        padding: 0;        /* Remove padding for better alignment */
+    }
+
+    .video {
+        height: 65vh;      /* Slightly increase height for larger screens */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 1.2rem; /* Increase font size for better readability */
+    }
+
+    .link-with-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .video-container {
+        padding: 0 10px;   /* Add padding for smaller screens */
+    }
+
+    .video {
+        height: 50vh;      /* Maintain taller height for smaller screens */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 1rem;   /* Adjust font size for smaller screens */
+    }
+
+    .link-with-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* For very small screens (max-width 480px) */
+@media (max-width: 480px) {
+    .video-container {
+        max-width: 100%;   /* Full width for very small screens */
+        padding: 0 5px;    /* Reduce padding */
+    }
+
+    .video {
+        height: 45vh;      /* Maintain proportional height for very small screens */
+    }
+
+    .venue-text, .link-with-icon {
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    .link-with-icon svg {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+
+
+/* Specific styling for the hero banner image */
+.hero-banner {
+    max-width: 60%;          /* Ensure the image is responsive */
+    max-height: 60%;          /* Maintain aspect ratio */
+    height: auto;             /* Mainitan aspect ratio */  
+    display: block;           /* Remove any extra spacing around the image */
+    margin-bottom: 0;      /* Add spacing below the image */
+}
+
+/* Restrict size for larger screens */
+@media (min-width: 1200px) {
+    .hero-banner {
+        max-width: 40vh;       /* Limit the image size to 70% on large screens */
+        max-height: 40vh;
+    }
+}
+
+/* Content inside the hero section */
+.hero .content {
+    margin-top: 0px;          /* Space between image and content */
+    width: 100%;
+    max-width: 800px;          /* Optional: Limit max width for better readability */
+    font-size: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 10px;           /* Reduce padding on smaller screens */
+        min-height: calc(100vh - 100px); /* Adjust height for smaller devices */
+    }
+
+    .hero-banner {
+        max-width: 30vh;          /* Reduce the image width on tablets */
+        margin-bottom: 0;     /* Adjust bottom margin */
+        max-height: 30vh;
+    }
+
+    .hero .content {
+        font-size: 18px;         /* Slightly reduce font size */
+        max-width: 90%;          /* Allow content to take more width */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 5px;            /* Further reduce padding on small devices */
+        min-height: calc(100vh - 80px); /* Adjust height for very small screens */
+    }
+
+    .hero-banner {
+        max-width: 30vh;         /* Ensure image takes full width on small screens */
+        max-height: 30vh;
+        margin-bottom: 0px;     /* Reduce spacing below image */
+    }
+
+    .hero .content {
+        font-size: 16px;         /* Further reduce font size for readability */
+        max-width: 100%;         /* Full width content on small screens */
+    }
+}
+
+
+/* Styling for the enhanced heading */
+.heading {
+    font-size: 40px; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: black; /* Set text color to black */
+    text-align: center; /* Center-align */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Make text uppercase */
+    font-family: 'Montserrat', sans-serif; /* Use a modern font */
+}
+
+.subheading {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    color: black; /* Set text color to black */
+    text-align: center; /* Center-align */
+    margin-top: 30px; /* Margin above the subheading */
+    margin-bottom: 20px; /* Margin below the subheading */
+    text-transform: sentencecase; /* Make text sentencecase */
+    font-family: 'Montserrat', sans-serif; /* Use a modern font */
+}
+
+
+/* Description Styling */
+.description {
+    margin-top: 20px;          /* Add margin above the description */
+    text-align: justify;       /* Optional: Justify text for better readability */
+    line-height: 1.6;          /* Increase line height for better readability */
+    width: 100%;          /* Limit the width of the description */
+    font-size: 20px;
+    font-size: 16px;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 32px;      /* Decrease font size on medium screens */
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .subheading {
+        font-size: 20px;      /* Decrease font size for subheading */
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .description {
+        font-size: 15px;      /* Slightly reduce font size for better readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 28px;      /* Further reduce font size for small screens */
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .subheading {
+        font-size: 18px;      /* Smaller font size for subheading */
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 14px;      /* Smaller font size for description */
+        line-height: 1.4;     /* Adjust line height for smaller text */
+        margin-top: 10px;     /* Reduce margin for smaller screens */
+    }
+}
+
+/* Center the Important Dates title */
+.important-dates-title {
+    text-align: center;
+    font-size: 24px;  /* Adjust the font size */
+    color: #333;      /* Adjust the text color */
+    font-weight: bold;
+    margin-bottom: 20px;  /* Add some space below the title */
+}
+
+.important-dates {
+    width: 100%;  /* Full width table */
+    border-collapse: collapse;  /* Remove space between table borders */
+    margin: 20px 0;  /* Add some space above and below the table */
+    font-family: 'Arial', sans-serif;  /* Use a clean font */
+    text-align: center;  
+}
+
+.important-dates th, .important-dates td {
+    padding: 12px 15px;  /* Add some padding to cells */
+    border: 1px solid #ddd;  /* Add light border around cells */
+}
+
+.important-dates th {
+    background-color: #f4f4f4;  /* Light background for table header */
+    font-weight: bold;  /* Bold text for table header */
+    color: #333;  /* Dark color for header text */
+}
+
+.important-dates td {
+    background-color: #fff;  /* White background for table cells */
+    color: #555;  /* Darker gray text for table content */
+}
+
+.important-dates tbody tr:nth-child(even) {
+    background-color: #f9f9f9;  /* Light gray background for alternating rows */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .important-dates-title {
+        font-size: 20px;  /* Slightly smaller font size on small screens */
+        margin-bottom: 15px;  /* Reduce margin below the title */
+    }
+
+    .important-dates th, .important-dates td {
+        padding: 8px 10px;  /* Decrease padding for smaller screens */
+        font-size: 14px;     /* Reduce font size for readability on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .important-dates-title {
+        font-size: 18px;  /* Even smaller title font size on very small screens */
+    }
+
+    .important-dates th, .important-dates td {
+        padding: 5px 8px;   /* Further decrease padding */
+        font-size: 12px;    /* Smaller font size for mobile devices */
+    }
+
+    .important-dates {
+        font-size: 12px;   /* Make table content smaller for very narrow screens */
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+* Responsive Styles */
+@media (max-width: 768px) {
+    footer {
+        padding: 15px;              /* Reduce padding for smaller screens */
+        font-size: 13px;            /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 10px;              /* Further reduce padding on very small screens */
+        font-size: 12px;            /* Smaller font size for mobile devices */
+        text-align: center;         /* Center text for narrow screens */
+    }
+}
+
+/* Hide Hamburger Menu by Default */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute; 
+    top: 10px; 
+    right: 20px; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger menu on small screens */
+        margin-left: auto;
+    }
+
+    .nav-links {
+        display: none; /* Hide links initially */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links.active {
+        display: flex; /* Show links when hamburger is clicked */
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 20px; /* Slightly larger font for mobile */
+    }
+}
+

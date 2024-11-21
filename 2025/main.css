@@ -1,0 +1,128 @@
+/* Organizers Section */
+.organizers-container {
+    max-width: 800px;       
+    margin: 0 auto;          
+    padding: 20px;          
+    text-align: left;        
+}
+
+/* Chairs Section */
+.chairs-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Category Styling */
+.chairs-category {
+    margin-bottom: 30px;
+}
+
+/* Heading Styling */
+.chairs-category h3 {
+    font-size: 1.4em;
+    border-left: 4px solid #b41a3ec3;
+    padding-left: 10px;
+    color: #333;
+    text-align: left; /* Left align the heading */
+}
+
+/* Paragraph Styling */
+.chairs p {
+    font-size: 1.1em;
+    padding-left: 10px;
+    color: #555;
+    text-align: left; /* Left align the paragraph */
+    line-height: 1.5; /* Adjust line spacing */
+    margin: 10px 0; /* Add consistent spacing between paragraphs */
+}
+
+
+/* General Heading and Paragraph Styles */
+h1, h3 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+h2 {
+    text-align: left; 
+    padding-left: 10px; 
+    color: #333; 
+    font-size: 1.6em;
+    margin-bottom: 20px; 
+}
+
+p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+/* Utility Class for Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust container padding and text alignment for smaller screens */
+    .organizers-container,
+    .chairs-container {
+        padding: 10px;         /* Reduce padding */
+        text-align: center;    /* Center align text on small screens */
+    }
+
+    /* Reduce heading font sizes on small screens */
+    .chairs-category h3 {
+        font-size: 1.2em;      /* Smaller font size for headings */
+    }
+
+    h2 {
+        font-size: 1.4em;      /* Adjust h2 size */
+    }
+
+    /* Adjust paragraph styling for better readability on small screens */
+    .chairs p,
+    p {
+        font-size: 1em;        /* Slightly smaller font size */
+        text-align: justify;   /* Ensure paragraphs are justified */
+        padding-left: 0;       /* Remove padding on small screens */
+    }
+
+    /* Reduce margin for compact layout */
+    .chairs-category,
+    p {
+        margin: 10px 0;        /* Smaller margins */
+    }
+
+    /* Adjust heading margins */
+    h1, h3 {
+        margin: 0 0 15px;      /* Adjust heading margins */
+    }
+}
+
+/* Responsive Styles for very small devices (e.g., phones) */
+@media (max-width: 480px) {
+    /* Further reduce font size and margins on very small screens */
+    .chairs-category h3 {
+        font-size: 1.1em;      /* Even smaller heading size */
+    }
+
+    h2 {
+        font-size: 1.2em;      /* Smaller font size for h2 */
+    }
+
+    p {
+        font-size: 0.9em;      /* Smaller font for paragraphs */
+        margin: 10px 0;        /* Adjust paragraph margin */
+    }
+
+    /* Adjust container padding for very small screens */
+    .organizers-container,
+    .chairs-container {
+        padding: 5px;          /* Further reduce padding */
+    }
+}
