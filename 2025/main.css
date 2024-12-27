@@ -1,128 +1,515 @@
-/* Organizers Section */
-.organizers-container {
-    max-width: 800px;       
-    margin: 0 auto;          
-    padding: 20px;          
-    text-align: left;        
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box;
+
 }
 
-/* Chairs Section */
-.chairs-container {
-    max-width: 800px;
+/* Committee Page Styling */
+
+/* Hero Section Styling */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden; /* Ensures that no part of the image overflows */
+    
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%; /* Ensures the image covers the full height of the section */
+    object-fit: cover; /* Ensures the image covers the section without distortion */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; /* Centers text vertically */
+    left: 50%; /* Centers text horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for perfect centering */
+    text-align: center; /* Centers text within the div */
+    color: white; /* Makes text white for visibility */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero-text h1 {
+    font-size: 36px; /* Adjust size as needed */
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Ensure the same font family */
+}
+
+/* Dark Overlay */
+.hero-section::before {
+    content: ''; /* Empty content for the overlay */
+    position: absolute; /* Position overlay above the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    z-index: 0; /* Keeps the overlay below the text but above the image */
+}
+
+
+
+/* Organizers container */
+.organizers-container {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center; /* Centers the text horizontally */
+    display: flex; /* Enables flexbox for centering */
+    flex-direction: column; /* Stacks the content vertically */
+    justify-content: center; /* Vertically centers content within the container */
+    align-items: center; /* Horizontally centers content within the container */
+}
+
+
+.organizers-container h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: left;  /* Aligns header to the left */
+    padding-left: 20px; /* Adds some padding to the left edge */
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 800; 
+
+}
+
+/* General styling for the chairs container */
+.chairs {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: flex-start;     /* Align items to the top */
+    gap: 50px; /* Space between each item */
+    flex-wrap: wrap;  /* Allows items to wrap if screen size is small */
+    padding-left: 20px; /* Optional: adds some padding to the left side */
+}
+
+/* Individual chair container */
+.chair {
+    text-align: center; /* Centers the content */
+    position: relative; /* Needed for absolute positioning of name */
+    display: inline-block; /* Ensures the container is tightly wrapping the image */
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+
+/* Styling for each chair item */
+.chairs img {
+    width: 200px; /* Ensures all images are the same size */
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;  /* Ensures the image covers the circle area */
+    object-position: 50% 10%; /* Positions the image in the center */
+
+}
+
+/* Ensuring names below each image are aligned */
+.chairs p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px; /* Adds space between image and text */
+    width: 200px; /* Same width as images for consistent alignment */
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+
+}
+
+/* Category header style */
+
+.chairs-category h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;  /* Aligns header to the left */
+    padding-left: 20px; /* Adds some padding to the left edge */
+    font-family: 'Poppins', sans-serif;
+    color: rgb(37, 37, 197);
+    font-weight: 600; 
+}
+
+/* Media Queries */
+
+/* For smaller screens (e.g., tablets or small devices) */
+@media (max-width: 768px) {
+    .chairs {
+        gap: 0; /* Removes space between items on smaller devices */
+    }
+
+    .chair {
+        flex-basis: 50%; /* Keeps 2 items per row */
+    }
+}
+
+/* For very small screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+    .chairs {
+        gap: 0; /* Removes space between items on smaller devices */
+    }
+
+    .chair {
+        flex-basis: 50%; /* Keeps 2 items per row */
+    }
+}
+
+/* Footer Styling */
+
+.footer {
+    position: relative; /* Enables positioning of content inside the footer */
+    height: 350px; /* Fixed height for footer */
+    width: 100%; /* Ensures the footer spans the full width */
+    text-align: center; /* Centers the text horizontally */
+    overflow: hidden; /* Prevents content from spilling outside the footer */
+    z-index: 1; /* Places the image behind the overlay and text */
+
+}
+
+.footer img {
+    width: 100%; /* Ensures the image spans the full width of the footer */
+    min-height: 100%; /* Ensures the image fills the footer's height without leaving gaps */
+    object-fit: cover; /* Ensures the entire image fits within the footer without cropping */
+    position: absolute; /* Positions the image inside the footer */
+    top: 0; /* Aligns the image to the top of the footer */
+    left: 0; /* Aligns the image to the left of the footer */
+    z-index: -2; /* Places the image behind the overlay and text */
+}
+
+.footer-overlay {
+    position: absolute; /* Positions the overlay on top of the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent dark background */
+    z-index: -1; /* Places the overlay between the image and text */
+}
+
+.footer-content {
+    position: relative; /* Ensures the text stays above the overlay and image */
+    color: white; /* Text color for better contrast */
+    font-size: 16px; /* Adjust text size as needed */
+    padding: 20px; /* Adds spacing around the text */
+    display: inline-block; /* Prevents the text background from spanning the entire width */
+    border-radius: 5px; /* Optional: Adds rounded corners to the text background */
+    max-width: 90%; /* Keeps the text block's width manageable */
+    margin: 0 auto; /* Centers the text block */
+    z-index: 1; /* Ensures the text stays on top of the overlay */
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Dark Overlay */
+.footer::before {
+    content: ''; /* Empty content for the overlay */
+    position: absolute; /* Position overlay above the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    z-index: 0; /* Keeps the overlay below the text but above the image */
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+
+    .footer-content {
+        font-size: 14px; /* Adjust text size */
+        padding: 15px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        height: 120px; /* Further adjust height for extra small screens */
+    }
+
+    .footer-content {
+        font-size: 12px; /* Smaller text size */
+        padding: 10px; /* Smaller padding */
+    }
+}
+
+
+/* Sponsors Page Styling */
+
+h1, h2 {
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+/* Sponsorship Container */
+.sponsorship-container {
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    text-align: left;
 }
 
-/* Category Styling */
-.chairs-category {
+/* Header Style */
+.sponsorship-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sponsorship-header h1 {
+    font-size: 36px;
+    color: rgb(37, 37, 197);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Content Section Style */
+.sponsorship-content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.section {
     margin-bottom: 30px;
 }
 
-/* Heading Styling */
-.chairs-category h3 {
-    font-size: 1.4em;
-    border-left: 4px solid #b41a3ec3;
-    padding-left: 10px;
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: rgb(37, 37, 197);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.section h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(37, 37, 197);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.bar-chart-img {
+    width: 80%; /* Makes the image responsive */
+    max-width: 600px; /* Optional: ensures the image doesn't get too large */
+    height: auto;
+    margin-top: 20px; /* Adds space between the heading and the image */
+    margin-bottom: 20px;
+}
+
+.exhibitor-info {
+    font-family: 'Poppins', sans-serif;
     color: #333;
-    text-align: left; /* Left align the heading */
+    line-height: 1.6;
+    margin-bottom: 30px;
+
 }
 
-/* Paragraph Styling */
-.chairs p {
-    font-size: 1.1em;
-    padding-left: 10px;
-    color: #555;
-    text-align: left; /* Left align the paragraph */
-    line-height: 1.5; /* Adjust line spacing */
-    margin: 10px 0; /* Add consistent spacing between paragraphs */
+.exhibitor-info h2 {
+    color: rgb(37, 37, 197);
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+
+}
+
+.exhibitor-info ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.exhibitor-info ul ul {
+    list-style-type: circle;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.exhibitor-info li {
+    margin-bottom: 10px;
 }
 
 
-/* General Heading and Paragraph Styles */
-h1, h3 {
-    margin: 0 0 20px;
-    color: #333;
+
+.table-container {
+    overflow-x: auto;
 }
 
-h2 {
-    text-align: left; 
-    padding-left: 10px; 
-    color: #333; 
-    font-size: 1.6em;
-    margin-bottom: 20px; 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-p {
-    font-size: 1.1em;
-    text-align: justify;
-    margin: 15px 0;
+table thead th {
+    background-color: #2525C5; /* RGB: 37, 37, 197 */
+    color: white;
+    padding: 12px;
+    text-align: center;
 }
 
-/* Utility Class for Clearfix */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+table tbody td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: white;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    /* Adjust container padding and text alignment for smaller screens */
-    .organizers-container,
-    .chairs-container {
-        padding: 10px;         /* Reduce padding */
-        text-align: center;    /* Center align text on small screens */
+    table, thead, tbody, th, td, tr {
+        display: block;
     }
-
-    /* Reduce heading font sizes on small screens */
-    .chairs-category h3 {
-        font-size: 1.2em;      /* Smaller font size for headings */
+    
+    thead tr {
+        display: none;
     }
-
-    h2 {
-        font-size: 1.4em;      /* Adjust h2 size */
+    
+    tbody tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background: white;
     }
-
-    /* Adjust paragraph styling for better readability on small screens */
-    .chairs p,
-    p {
-        font-size: 1em;        /* Slightly smaller font size */
-        text-align: justify;   /* Ensure paragraphs are justified */
-        padding-left: 0;       /* Remove padding on small screens */
+    
+    tbody td {
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        font-size: 14px;
     }
-
-    /* Reduce margin for compact layout */
-    .chairs-category,
-    p {
-        margin: 10px 0;        /* Smaller margins */
-    }
-
-    /* Adjust heading margins */
-    h1, h3 {
-        margin: 0 0 15px;      /* Adjust heading margins */
+    
+    tbody td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-align: left;
+        padding-right: 10px;
     }
 }
 
-/* Responsive Styles for very small devices (e.g., phones) */
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.section a {
+    color: #1e7a8a;
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px;
+    justify-items: center;
+    
+}
+
+.sponsors-grid img {
+    max-width: 200px; /* Adjust the size of the logos */
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.sponsors-grid img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .sponsors-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    }
+
+    .sponsors-grid img {
+        max-width: 200px; /* Smaller logo size for smaller screens */
+    }
+}
+
 @media (max-width: 480px) {
-    /* Further reduce font size and margins on very small screens */
-    .chairs-category h3 {
-        font-size: 1.1em;      /* Even smaller heading size */
+    .sponsors-grid {
+        grid-template-columns: 1fr; /* Stacks logos vertically */
     }
 
-    h2 {
-        font-size: 1.2em;      /* Smaller font size for h2 */
+    .sponsors-grid img {
+        max-width: 120px; /* Further reduce logo size on very small screens */
+    }
+}
+
+/* Footer Style */
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .sponsorship-container {
+        padding: 15px;
     }
 
-    p {
-        font-size: 0.9em;      /* Smaller font for paragraphs */
-        margin: 10px 0;        /* Adjust paragraph margin */
+    .sponsorship-header h1 {
+        font-size: 28px;
     }
 
-    /* Adjust container padding for very small screens */
-    .organizers-container,
-    .chairs-container {
-        padding: 5px;          /* Further reduce padding */
+    .section h2 {
+        font-size: 20px;
+    }
+
+    .section p {
+        font-size: 14px;
+    }
+
+    .section ul {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .bar-chart-img {
+        max-width: 100%; /* Ensures image doesn't overflow */
     }
 }
