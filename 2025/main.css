@@ -181,8 +181,8 @@ body {
 
 .footer img {
     width: 100%; /* Ensures the image spans the full width of the footer */
-    min-height: 100%; /* Ensures the image fills the footer's height without leaving gaps */
-    object-fit: cover; /* Ensures the entire image fits within the footer without cropping */
+    height: 100%; /* Ensures the image fills the footer's height without leaving gaps */
+    object-fit: absolute; /* Ensures the entire image fits within the footer without cropping */
     position: absolute; /* Positions the image inside the footer */
     top: 0; /* Aligns the image to the top of the footer */
     left: 0; /* Aligns the image to the left of the footer */
@@ -513,8 +513,6 @@ table tbody tr:nth-child(even) {
         max-width: 100%; /* Ensures image doesn't overflow */
     }
 }
-
-
 
 
 /* Call for Papers */
