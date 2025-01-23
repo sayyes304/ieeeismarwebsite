@@ -100,6 +100,7 @@ nav ul li {
     border-radius: 4px;         /* Optional: Add rounded corners */
 }
 
+
 /* Dropdown container */
 .dropdown-content {
     display: none; /* Hidden by default */
@@ -147,6 +148,7 @@ nav ul li {
     background-color: #f0f0f0; /* Change background color on hover */
     color: #e18181; /* Optional: change text color on hover */
 }
+
 
 /* Hero Section */
 .hero {
@@ -846,8 +848,6 @@ html, body {
 }
 
 
-
-
 .footer {
     position: relative; /* Enables positioning of content inside the footer */
     height: 250px; /* Fixed height for footer */
@@ -858,8 +858,8 @@ html, body {
 
 .footer img {
     width: 100%; /* Ensures the image spans the full width of the footer */
-    min-height: 100%; /* Ensures the image fills the footer's height without leaving gaps */
-    object-fit: cover; /* Ensures the entire image fits within the footer without cropping */
+    height: 100%; /* Ensures the image fills the footer's height without leaving gaps */
+    object-fit: absolute; /* Ensures the entire image fits within the footer without cropping */
     position: absolute; /* Positions the image inside the footer */
     top: 0; /* Aligns the image to the top of the footer */
     left: 0; /* Aligns the image to the left of the footer */
