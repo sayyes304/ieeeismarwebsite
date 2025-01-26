@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -8,7 +8,13 @@ body {
     background-color: #f4f4f4;
     overflow-x: hidden; /* Prevent horizontal scrolling */
     box-sizing: border-box;
+}
 
+.page-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Committee Page Styling */
@@ -19,7 +25,6 @@ body {
     width: 100%;
     height: 400px; /* Adjust height as needed */
     overflow: hidden; /* Ensures that no part of the image overflows */
-    
 }
 
 .hero-image {
@@ -35,23 +40,22 @@ body {
     position: absolute;
     top: 50%; /* Centers text vertically */
     left: 50%; /* Centers text horizontally */
-    transform: translate(-50%, calc(-50% + var(--nav-height)/2)); /* Adjusts for perfect centering */
+    transform: translate(-50%, calc(-50% + var(--nav-height) / 2)); /* Adjusts for perfect centering */
     text-align: center; /* Centers text within the div */
-    color: white; /* Makes text white for visibility */
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
 .hero-text h1 {
     font-size: 36px; /* Adjust size as needed */
     font-weight: 700;
     margin: 0;
-    font-family: 'Poppins', sans-serif; /* Ensure the same font family */
+    font-family: "Poppins", sans-serif; /* Ensure the same font family */
+    color: white; /* Makes text white for visibility */
 }
 
 /* Dark Overlay */
 .hero-section::before {
-    content: ''; /* Empty content for the overlay */
+    content: ""; /* Empty content for the overlay */
     position: absolute; /* Position overlay above the image */
     top: 0;
     left: 0;
@@ -60,8 +64,6 @@ body {
     background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
     z-index: 0; /* Keeps the overlay below the text but above the image */
 }
-
-
 
 /* Organizers container */
 .organizers-container {
@@ -75,26 +77,24 @@ body {
     align-items: center; /* Horizontally centers content within the container */
 }
 
-
 .organizers-container h2 {
     font-size: 28px;
     margin-top: 10px;
     margin-bottom: 40px;
-    text-align: left;  /* Aligns header to the left */
+    text-align: left; /* Aligns header to the left */
     padding-left: 20px; /* Adds some padding to the left edge */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: black;
-    font-weight: 800; 
-
+    font-weight: 800;
 }
 
 /* General styling for the chairs container */
 .chairs {
     display: flex;
     justify-content: flex-start; /* Align items to the left */
-    align-items: flex-start;     /* Align items to the top */
+    align-items: flex-start; /* Align items to the top */
     gap: 50px; /* Space between each item */
-    flex-wrap: wrap;  /* Allows items to wrap if screen size is small */
+    flex-wrap: wrap; /* Allows items to wrap if screen size is small */
     padding-left: 20px; /* Optional: adds some padding to the left side */
 }
 
@@ -107,15 +107,13 @@ body {
     width: 200px;
 }
 
-
 /* Styling for each chair item */
 .chairs img {
     width: 200px; /* Ensures all images are the same size */
     height: 200px;
     border-radius: 50%; /* Makes the image circular */
-    object-fit: cover;  /* Ensures the image covers the circle area */
+    object-fit: cover; /* Ensures the image covers the circle area */
     object-position: 50% 10%; /* Positions the image in the center */
-
 }
 
 /* Ensuring names below each image are aligned */
@@ -125,7 +123,7 @@ body {
     text-align: center;
     margin: 3px 0; /* Adds space between image and text */
     width: 200px; /* Same width as images for consistent alignment */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     /* white-space: nowrap;  Prevents text from wrapping to the next line */
 }
@@ -144,11 +142,11 @@ body {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 30px;
-    text-align: left;  /* Aligns header to the left */
+    text-align: left; /* Aligns header to the left */
     padding-left: 20px; /* Adds some padding to the left edge */
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: rgb(37, 37, 197);
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 /* Media Queries */
@@ -184,7 +182,7 @@ body {
     text-align: center; /* Centers the text horizontally */
     overflow: hidden; /* Prevents content from spilling outside the footer */
     z-index: 1; /* Places the image behind the overlay and text */
-
+    margin-top: 2em;
 }
 
 .footer img {
@@ -217,14 +215,13 @@ body {
     max-width: 90%; /* Keeps the text block's width manageable */
     margin: 0 auto; /* Centers the text block */
     z-index: 1; /* Ensures the text stays on top of the overlay */
-    font-weight: 600; 
-    font-family: 'Poppins', sans-serif;
-
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
 }
 
 /* Dark Overlay */
 .footer::before {
-    content: ''; /* Empty content for the overlay */
+    content: ""; /* Empty content for the overlay */
     position: absolute; /* Position overlay above the image */
     top: 0;
     left: 0;
@@ -256,10 +253,10 @@ body {
     }
 }
 
-
 /* Sponsors Page Styling */
 
-h1, h2 {
+h1,
+h2 {
     font-weight: bold;
     color: #1e1e1e;
 }
@@ -281,8 +278,7 @@ h1, h2 {
 .sponsorship-header h1 {
     font-size: 36px;
     color: rgb(37, 37, 197);
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
 /* Content Section Style */
@@ -292,33 +288,27 @@ h1, h2 {
     border-radius: 8px;
 }
 
-.section {
-    margin-bottom: 30px;
-}
-
-.section h2 {
+.page-content h2 {
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
+    margin-top: 1.3em;
     color: rgb(37, 37, 197);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
-
 }
 
-.section h3 {
+.page-content h3
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
     color: rgb(37, 37, 197);
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
-.section p {
+.page-content p {
     font-size: 16px;
     line-height: 1.6;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
 .bar-chart-img {
@@ -330,11 +320,10 @@ h1, h2 {
 }
 
 .exhibitor-info {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #333;
     line-height: 1.6;
     margin-bottom: 30px;
-
 }
 
 .exhibitor-info h2 {
@@ -342,7 +331,6 @@ h1, h2 {
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 600;
-
 }
 
 .exhibitor-info ul {
@@ -361,8 +349,6 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
-
-
 .table-container {
     overflow-x: auto;
 }
@@ -374,12 +360,11 @@ table {
     font-size: 16px;
     text-align: left;
     background: white;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
 table thead th {
-    background-color: #2525C5; /* RGB: 37, 37, 197 */
+    background-color: #2525c5; /* RGB: 37, 37, 197 */
     color: white;
     padding: 12px;
     text-align: center;
@@ -396,28 +381,33 @@ table tbody tr:nth-child(even) {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    table, thead, tbody, th, td, tr {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
         display: block;
     }
-    
+
     thead tr {
         display: none;
     }
-    
+
     tbody tr {
         margin-bottom: 15px;
         border: 1px solid #ddd;
         padding: 10px;
         background: white;
     }
-    
+
     tbody td {
         display: flex;
         justify-content: space-between;
         text-align: right;
         font-size: 14px;
     }
-    
+
     tbody td:before {
         content: attr(data-label);
         font-weight: bold;
@@ -426,20 +416,19 @@ table tbody tr:nth-child(even) {
     }
 }
 
-.section ul {
+.page-content ul {
     list-style-type: disc;
     padding-left: 20px;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
-.section a {
+.page-content a {
     color: #1e7a8a;
     text-decoration: none;
 }
 
-.section a:hover {
+.page-content a:hover {
     text-decoration: underline;
 }
 
@@ -504,15 +493,15 @@ table tbody tr:nth-child(even) {
         font-size: 28px;
     }
 
-    .section h2 {
+    .page-content h2 {
         font-size: 20px;
     }
 
-    .section p {
+    .page-content p {
         font-size: 14px;
     }
 
-    .section ul {
+    .page-content ul {
         padding-left: 15px;
         font-size: 14px;
     }
@@ -522,9 +511,9 @@ table tbody tr:nth-child(even) {
     }
 }
 
-
 /* Call for Papers */
-h1, h2 {
+h1,
+h2 {
     font-weight: bold;
     color: #1e1e1e;
 }
@@ -542,34 +531,32 @@ h1, h2 {
     font-size: 36px;
     font-weight: bold;
     color: rgb(37, 37, 197);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .cfp-content {
     background-color: #fff;
     padding: 40px;
     border-radius: 8px;
 }
-.section {
-    margin-bottom: 30px;
-}
-.section h2 {
+
+.page-content h2 {
     font-size: 24px;
     margin-bottom: 15px;
     color: rgb(37, 37, 197);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
-.section h3 {
+.page-content h3 {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
     color: rgb(37, 37, 197);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.section p {
+.page-content p {
     font-size: 16px;
     line-height: 1.6;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 @media (max-width: 768px) {
     .cfp-container {
@@ -582,10 +569,10 @@ h1, h2 {
     .cfp-content {
         padding: 20px;
     }
-    .section h2 {
+    .page-content h2 {
         font-size: 20px;
     }
-    .section p {
+    .page-content p {
         font-size: 14px;
     }
 }

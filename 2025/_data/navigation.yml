@@ -1,0 +1,9 @@
+- title: Contribute
+  url: "#"
+  children:
+    - title: Call for Papers
+      name: cfp
+- title: Sponsorship
+  url: "/sponsorship.html"
+- title: Committee
+  url: "/committee.html"

@@ -95,6 +95,7 @@ nav ul li {
     text-underline-position: from-font; /* This might not work in all browsers, so check compatibility */
     text-decoration-skip-ink: none; /* Ensures text decoration doesn't affect ink */
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    text-transform: uppercase; 
 }
 
 
@@ -123,8 +124,8 @@ nav ul li {
 
 /* Remove bullet points and styling for subpages */
 .dropdown-content li {
-    padding: 5px 20px; /* Adjust padding for a more spacious layout */
-    list-style: none; /* Ensure no bullets for subpages */
+    padding: 5px 10px;
+    list-style: none;
 }
 
 /* Style for dropdown links */
@@ -136,6 +137,7 @@ nav ul li {
     font-weight: normal; /* Make the text unbold */
     text-align: left; /* Align the text to the left */
     white-space: nowrap; /* Prevent text from wrapping */
+    text-transform: none;
 }
 
 /* Show dropdown on hover */
@@ -150,7 +152,7 @@ nav ul li {
 
 /* Optional hover effect for dropdown links */
 .dropdown-content li a:hover {
-    background-color: #f0f0f0; /* Change background color on hover */
+    background-color: white;
     color: #e18181; /* Optional: change text color on hover */
 }
 
