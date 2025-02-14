@@ -162,7 +162,7 @@ nav ul li {
     position: relative; /* Allows positioning of child elements */
     height: 70vh; /* Adjusted height to make the image smaller */
     width: 100vw; /* Ensure it stretches the full width */
-    min-height: 400px;
+    min-height: 600px; 
     flex-direction: column; /* Stack content vertically */
     display: flex; /* Use flexbox for vertical and horizontal centering of the text */
     justify-content: center; /* Centers the content horizontally */
@@ -662,7 +662,7 @@ html, body {
 }
 
 .important-dates tr:hover {
-    background-color: #E0E7FF; /* Light blue on hover for rows */
+    background-color: #e2e2e2; /* Light grey on hover for rows */
 }
 
 /* Responsive Styles */
@@ -861,12 +861,15 @@ html, body {
     width: 100vw; /* Ensures the footer spans the full width */
     text-align: center; /* Centers the text horizontally */
     overflow: hidden; /* Prevents content from spilling outside the footer */
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);  /* Add a top shadow instead of a translucent background */
+    background-color: white; /* Ensure background is white (footer img's background) */
+    z-index: -3; /* Places the footer-background behind the footer img*/ 
 }
 
 .footer img {
     width: 100%; /* Ensures the image spans the full width of the footer */
     height: 100%; /* Ensures the image fills the footer's height without leaving gaps */
-    object-fit: absolute; /* Ensures the entire image fits within the footer without cropping */
+    object-fit: contain; /* Ensures the entire image fits within the footer without cropping -> maintain image ratio */
     position: absolute; /* Positions the image inside the footer */
     top: 0; /* Aligns the image to the top of the footer */
     left: 0; /* Aligns the image to the left of the footer */
@@ -885,7 +888,6 @@ html, body {
 
 .footer-content {
     position: relative; /* Ensures the text stays above the overlay and image */
-    color: white; /* Text color for better contrast */
     font-size: 16px; /* Adjust text size as needed */
     padding: 20px; /* Adds spacing around the text */
     display: inline-block; /* Prevents the text background from spanning the entire width */
@@ -899,6 +901,7 @@ html, body {
 }
 
 /* Dark Overlay */
+/* Temporarily removed the dark overlay effect by setting the alpha value to zero */
 .footer::before {
     content: ''; /* Empty content for the overlay */
     position: absolute; /* Position overlay above the image */
@@ -906,7 +909,7 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    background: rgba(0, 0, 0, 0); /* Dark transparent background (This line has no visible effect) */
     z-index: 0; /* Keeps the overlay below the text but above the image */
 }
 /* Media queries for responsiveness */
