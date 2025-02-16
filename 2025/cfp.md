@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: 2025/default
 title: Call for Papers
-permalink: /cfp/papers
+# permalink: 2025/cfp/papers
 ---
 
 ## Overview
