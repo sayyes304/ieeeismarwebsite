@@ -1,6 +1,7 @@
 ---
 layout: 2025/page
 title: Sponsorship
+redirect_from: /2025/sponsorship.html
 ---
 
 ## What is ISMAR?
@@ -161,7 +162,7 @@ A deposit amount equal to at least 50% of the total space/sponsorship request mu
 
 If you have any questions, please contact the ISMAR 2025 Sponsorship Chairs at sponsorship_chairs@ieeeismar.org.
 
-## Previous years’ ISMAR Sponsors
+## Previous years' ISMAR Sponsors
 
 <div class="sponsors-grid">
     <img src="{{ 'assets/2025/img/Meta-Logo-4-1536x402.png' | relative_url }}" alt="Sponsor 1 Logo">

@@ -1,7 +1,7 @@
 ---
-layout: 2025/default
+layout: 2025/page
 title: Call for Papers
-# permalink: 2025/cfp/papers
+redirect_from: /2025/Papers.html
 ---
 
 ## Overview
