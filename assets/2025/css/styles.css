@@ -122,6 +122,13 @@ nav ul li {
     margin: 0; /* Remove margin */
 }
 
+/* Nested Dropdown container */
+.dropdown-content .dropdown-content {
+    left: calc(100% + 10px); /* Position to the right of the parent dropdown while accounting for padding */
+    top: 0; /* Align with the top of the parent dropdown */
+    margin-left: 1px; /* Small gap between parent and child dropdown */
+}
+
 /* Remove bullet points and styling for subpages */
 .dropdown-content li {
     padding: 5px 10px;
@@ -142,6 +149,16 @@ nav ul li {
 
 /* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hide nested dropdown by default */
+.dropdown .dropdown-content li .dropdown-content {
+    display: none; 
+}
+
+/* Show nested dropdown on hover */
+.dropdown .dropdown-content li:hover .dropdown-content {
     display: block;
 }
 
