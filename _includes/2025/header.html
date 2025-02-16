@@ -13,7 +13,17 @@
                 {% if item.children %}
                 <ul class="dropdown-content">
                     {% for child in item.children %}
-                    <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                    <li class="{% if child.children %}dropdown{% endif %}">
+                        <a href="{{ child.url | relative_url }}">{{ child.title }}
+                            {% if child.children %}<span class="arrow-right">&#9656;</span>{% endif %}</a>
+                        {% if child.children %}
+                        <ul class="dropdown-content">
+                            {% for grandchild in child.children %}
+                            <li><a href="{{ grandchild.url | relative_url }}">{{ grandchild.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
                     {% endfor %}
                 </ul>
                 {% endif %}
