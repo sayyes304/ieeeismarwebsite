@@ -2,8 +2,8 @@
   url: "#"
   children:
     - title: Call for Papers
-      name: cfp
+      url: "2025/contribute/papers"
 - title: Sponsorship
-  url: "/sponsorship.html"
+  url: "2025/sponsorship"
 - title: Committee
-  url: "/committee.html"
+  url: "2025/committee"

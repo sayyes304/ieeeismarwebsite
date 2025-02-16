@@ -650,6 +650,7 @@ html, body {
 
 .important-dates th {
     font-size: 1.1rem; /* Header font size */
+    color: white;
 }
 
 .important-dates td {
