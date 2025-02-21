@@ -1,9 +1,8 @@
 ---
 layout: 2025/page
 title: Author Guidelines 2025
-last_updated: "2025-02-15 2:32AM GMT"
 ---
-*Last updated: 2025-02-15 2:32AM GMT*
+*Last updated: 2025-02-15 8:23PM GMT*
 
 The guidelines cover all submitted papers to the single-track paper program. For more information on the specific tracks and associated deadlines, please see this year's [call for papers](/2025/contribute/papers).
 
@@ -235,7 +234,7 @@ You can also find the full list of papers previously published at ISMAR in the I
 
 -   Is ISMAR a visual tracking-only conference?
 
-> No. ISMAR has and continues to help bring to the world key works on real time 3D tracking, scene mapping, pose estimation and registration. However, ISMAR welcomes submissions of all types related to Augmented, Mixed, and Virtual Reality. At ISMAR we are highlighting the interest in work that goes beyond tracking. Issues on usefulness of AR, learning, training, therapy, rehabilitation, virtual analytics, entertainment, context, behavior, and object recognition together with other wearable sensors using computer vision, sensor networks and new types of onboard and external sensing technologies become very relevant to augment our world. Note that this is list is not exclusive by any means, so if you have questions, please contact the Program Chairs via email: conference_paper_chairs@ismar2025.org
+> No. ISMAR has and continues to help bring to the world key works on real time 3D tracking, scene mapping, pose estimation and registration. However, ISMAR welcomes submissions of all types related to Augmented, Mixed, and Virtual Reality. At ISMAR we are highlighting the interest in work that goes beyond tracking. Issues on usefulness of AR, learning, training, therapy, rehabilitation, virtual analytics, entertainment, context, behavior, and object recognition together with other wearable sensors using computer vision, sensor networks and new types of onboard and external sensing technologies become very relevant to augment our world. Note that this is list is not exclusive by any means, so if you have questions, please contact the Program Chairs via email: program2025@ieeeismar.net.
 
 -   Does the IEEE International Symposium on Mixed and Augmented Reality (ISMAR) only accept submissions focusing on Mixed and Augmented Reality?
 
