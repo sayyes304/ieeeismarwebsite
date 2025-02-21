@@ -3,10 +3,8 @@
   children:
     - title: Call for Papers
       url: "2025/contribute/papers"
-    - title: Guidelines
-      children:
-        - title: Paper Authors
-          url: "2025/contribute/guidelines/authors"
+    - title: Author Guidelines
+      url: "2025/contribute/guidelines/authors"
 - title: Sponsorship
   url: "2025/sponsorship"
 - title: Committee

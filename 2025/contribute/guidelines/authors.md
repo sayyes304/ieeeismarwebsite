@@ -1,6 +1,6 @@
 ---
 layout: 2025/page
-title: Author Guidelines 2025
+title: Author Guidelines
 ---
 *Last updated: 2025-02-15 8:23PM GMT*
 
