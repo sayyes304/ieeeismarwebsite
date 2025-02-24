@@ -25,7 +25,7 @@ redirect_from: 2025/committee.html
             </div>
         </div>
         <div class="'chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Arindam Dey.jpg' | relative_url }}" />
+                <img src="{{ 'assets/2025/img/Committee Members Images/Gabbard.png' | relative_url }}" />
                 <p class="name">Joseph L. Gabbard</p>
                 <p>Virginia Tech</p>
             </div>
