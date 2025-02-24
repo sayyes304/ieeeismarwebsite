@@ -24,6 +24,11 @@ redirect_from: 2025/committee.html
                 <p>Meta</p>
             </div>
         </div>
+        <div class="'chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Arindam Dey.jpg' | relative_url }}" />
+                <p class="name">Joseph L. Gabbard</p>
+                <p>Virginia Tech</p>
+            </div>
         <!-- TODO: Fix missing div and fix CSS so that alignment is correct -->
 
         <hr />
@@ -261,7 +266,7 @@ redirect_from: 2025/committee.html
                 <div class="chair">
                     <img src="{{ 'assets/2025/img/Committee Members Images/Jen-Shuo Liu.jpeg' | relative_url }}" />
                     <p class="name">Jen-Shuo Liu</p>
-                    <p>Columbia University</p>
+                    <p>Samsung Research America</p>
                 </div>
             </div>
         </div>
