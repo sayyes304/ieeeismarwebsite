@@ -23,12 +23,13 @@ redirect_from: 2025/committee.html
                 <p class="name">Arindam Dey</p>
                 <p>Meta</p>
             </div>
-        </div>
-        <div class="'chair">
+            <div class="'chair">
                 <img src="{{ 'assets/2025/img/Committee Members Images/Gabbard.png' | relative_url }}" />
                 <p class="name">Joseph L. Gabbard</p>
                 <p>Virginia Tech</p>
             </div>
+        </div>
+        
         <!-- TODO: Fix missing div and fix CSS so that alignment is correct -->
 
         <hr />
