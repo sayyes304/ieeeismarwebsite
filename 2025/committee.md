@@ -454,8 +454,8 @@ redirect_from: 2025/committee.html
                     <p>KAIST</p>
                 </div>
                 <div class="chair">
-                    <img src="{{ 'assets/2025/img/Committee Members Images/Jeongmi Kim.png' | relative_url }}" />
-                    <p class="name">Jeongmi Kim</p>
+                    <img src="{{ 'assets/2025/img/Committee Members Images/Jeongmi Lee.png' | relative_url }}" />
+                    <p class="name">Jeongmi Lee</p>
                     <p>KAIST</p>
                 </div>
                 <div class="chair">
