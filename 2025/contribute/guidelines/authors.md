@@ -238,7 +238,7 @@ You can also find the full list of papers previously published at ISMAR in the I
 
 -   Does the IEEE International Symposium on Mixed and Augmented Reality (ISMAR) only accept submissions focusing on Mixed and Augmented Reality?
 
-> No. The ISMAR conference accepts submissions from all areas of Extended Reality, including Virtual Reality, Augmented Reality, Mixed Reality, and others. See a list with example topics in the [Call for Papers](https://ieeeismar.org/cfp/).
+> No. The ISMAR conference accepts submissions from all areas of Extended Reality, including Virtual Reality, Augmented Reality, Mixed Reality, and others. See a list with example topics in the [Call for Papers](https://www.ieeeismar.net/2025/contribute/papers/).
 
 -   Is it acceptable to publish my paper on ArXiv?
 
