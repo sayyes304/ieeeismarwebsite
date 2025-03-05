@@ -31,7 +31,6 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
     <div class="chairs-category">
         <h3>Technical Program Chairs</h3>
         <div class="chairs">
@@ -48,9 +47,46 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
-        <h3>Associate Program Chairs</h3>
+        <h3>Paper Chairs (Journal & Conference)</h3>
+        <div class="chairs">
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Gun Lee.jpg' | relative_url }}" />
+                <p class="name">Gun Lee</p>
+                <p>University of South Australia</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Qi Sun.jpg' | relative_url }}" />
+                <p class="name">Qi Sun</p>
+                <p>NYU</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Ulrich Eck.jpg' | relative_url }}" />
+                <p class="name">Ulrich Eck</p>
+                <p>Technische Universität München</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Alexander Plopski.jpeg' | relative_url }}" />
+                <p class="name">Alexander Plopski</p>
+                <p>TU Graz</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Missie Smith.jpg' | relative_url }}" />
+                <p class="name">Missie Smith</p>
+                <p>Auburn University</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Markus Tatzgern.jpg' | relative_url }}" />
+                <p class="name">Markus Tatzgern</p>
+                <p>Salzburg University of Applied Sciences</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="chairs-category">
+        <h3>Associate Paper Chairs</h3>
         <div class="chairs">
             <div class="chair">
                 <img
@@ -96,44 +132,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
-    <div class="chairs-category">
-        <h3>Paper Chairs (Journal & Conference)</h3>
-        <div class="chairs">
-            <div class="chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Gun Lee.jpg' | relative_url }}" />
-                <p class="name">Gun Lee</p>
-                <p>University of South Australia</p>
-            </div>
-            <div class="chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Qi Sun.jpg' | relative_url }}" />
-                <p class="name">Qi Sun</p>
-                <p>NYU</p>
-            </div>
-            <div class="chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Ulrich Eck.jpg' | relative_url }}" />
-                <p class="name">Ulrich Eck</p>
-                <p>Technische Universität München</p>
-            </div>
-            <div class="chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Alexander Plopski.jpeg' | relative_url }}" />
-                <p class="name">Alexander Plopski</p>
-                <p>TU Graz</p>
-            </div>
-            <div class="chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Missie Smith.jpg' | relative_url }}" />
-                <p class="name">Missie Smith</p>
-                <p>Auburn University</p>
-            </div>
-            <div class="chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Markus Tatzgern.jpg' | relative_url }}" />
-                <p class="name">Markus Tatzgern</p>
-                <p>Salzburg University of Applied Sciences</p>
-            </div>
-        </div>
-    </div>
 
-    
     <div class="chairs-category">
         <h3>Poster Chairs</h3>
         <div class="chairs">
@@ -155,7 +154,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Panel & Special Session Chairs</h3>
         <div class="chairs">
@@ -177,7 +176,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Publication Chairs</h3>
         <div class="chairs">
@@ -205,7 +204,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Finance Chairs</h3>
         <div class="chairs">
@@ -227,7 +226,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Registration Chairs</h3>
         <div class="chairs">
@@ -244,7 +243,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Web Chairs</h3>
         <div class="chairs">
@@ -266,7 +265,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Design Chairs</h3>
         <div class="chairs">
@@ -283,7 +282,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Publicity, SNS & Communications Chairs</h3>
         <div class="chairs">
@@ -310,7 +309,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Doctoral Consortium Chairs</h3>
         <div class="chairs">
@@ -327,7 +326,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Workshop Chairs</h3>
         <div class="chairs">
@@ -354,7 +353,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Tutorial Chairs</h3>
         <div class="chairs">
@@ -376,7 +375,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Demonstrations Chairs</h3>
         <div class="chairs">
@@ -398,7 +397,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Standard Chairs</h3>
         <div class="chairs">
@@ -420,7 +419,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Industrial Exhibition & Sponsorship Chairs</h3>
         <div class="chairs">
@@ -447,7 +446,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Diversity, Equity, Inclusion, and Accessibility Chairs</h3>
         <div class="chairs">
@@ -464,7 +463,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Local Arrangements Chairs</h3>
         <div class="chairs">
@@ -496,7 +495,7 @@ redirect_from: 2025/committee.html
         </div>
     </div>
 
-    
+
     <div class="chairs-category">
         <h3>Social Event Chairs</h3>
         <div class="chairs">
@@ -517,7 +516,7 @@ redirect_from: 2025/committee.html
             </div>
         </div>
     </div>
-    
+
     <div class="chairs-category">
         <h3>Student Volunteer Chairs</h3>
         <div class="chairs">
@@ -543,4 +542,5 @@ redirect_from: 2025/committee.html
             </div>
         </div>
     </div>
+
 </div>
