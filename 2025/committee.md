@@ -29,24 +29,71 @@ redirect_from: 2025/committee.html
                 <p>Virginia Tech</p>
             </div>
         </div>
-        
-        <!-- TODO: Fix missing div and fix CSS so that alignment is correct -->
+    </div>
 
-        <hr />
+    <hr />
 
-        <div class="chairs-category">
-            <h3>Technical Program Chairs</h3>
-            <div class="chairs">
-                <div class="chair">
-                    <img src="{{ 'assets/2025/img/Committee Members Images/Maud Marchal.jpg' | relative_url }}" />
-                    <p class="name">Maud Marchal</p>
-                    <p>University of Rennes</p>
-                </div>
-                <div class="chair">
-                    <img src="{{ 'assets/2025/img/Committee Members Images/Jeanine Stefanucci.jpg' | relative_url }}" />
-                    <p class="name">Jeanine Stefanucci</p>
-                    <p>University of Utah</p>
-                </div>
+    <div class="chairs-category">
+        <h3>Technical Program Chairs</h3>
+        <div class="chairs">
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Maud Marchal.jpg' | relative_url }}" />
+                <p class="name">Maud Marchal</p>
+                <p>University of Rennes</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Jeanine Stefanucci.jpg' | relative_url }}" />
+                <p class="name">Jeanine Stefanucci</p>
+                <p>University of Utah</p>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="chairs-category">
+        <h3>Associate Program Chairs</h3>
+        <div class="chairs">
+            <div class="chair">
+                <img
+                    src="{{ 'assets/2025/img/Committee Members Images/Praneeth Chakravarthula.jpg' | relative_url }}" />
+                <p class="name">Praneeth Chakravarthula</p>
+                <p>UNC-Chapel Hill</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Brendan David-John.jpg' | relative_url }}" />
+                <p class="name">Brendan David-John</p>
+                <p>Virginia Tech</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Kangsoo Kim.jpg' | relative_url }}" />
+                <p class="name">Kangsoo Kim</p>
+                <p>University of Calgary</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Daniel Martin.jpg' | relative_url }}" />
+                <p class="name">Daniel Martin</p>
+                <p>University of Zaragoza</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Alejandro Martin-Gomez.jpg' | relative_url }}" />
+                <p class="name">Alejandro Martin-Gomez</p>
+                <p>University of Arkansas</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Shohei Mori.jpg' | relative_url }}" />
+                <p class="name">Shohei Mori</p>
+                <p>University of Stuttgart</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Tham Piumsomboon.jpg' | relative_url }}" />
+                <p class="name">Tham Piumsomboon</p>
+                <p>University of Canterbury</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Richard Skarbez.jpg' | relative_url }}" />
+                <p class="name">Richard Skarbez</p>
+                <p>La Trobe University</p>
             </div>
         </div>
 
@@ -155,7 +202,8 @@ redirect_from: 2025/committee.html
                     <p>Purdue University</p>
                 </div>
                 <div class="chair">
-                    <img src="{{ 'assets/2025/img/Committee Members Images/Mohammed Safayet Arefin.jpeg' | relative_url }}" />
+                    <img
+                        src="{{ 'assets/2025/img/Committee Members Images/Mohammed Safayet Arefin.jpeg' | relative_url }}" />
                     <p class="name">Mohammed Safayet Arefin</p>
                     <p>Colorado State University</p>
                 </div>
@@ -329,12 +377,14 @@ redirect_from: 2025/committee.html
                     <p>Pusan National University</p>
                 </div>
                 <div class="chair">
-                    <img src="{{ 'assets/2025/img/Committee Members Images/Sun Joo (Grace) Ahn.jpg' | relative_url }}" />
+                    <img
+                        src="{{ 'assets/2025/img/Committee Members Images/Sun Joo (Grace) Ahn.jpg' | relative_url }}" />
                     <p class="name">Sun Joo (Grace) Ahn</p>
                     <p>University of Georgia</p>
                 </div>
                 <div class="chair">
-                    <img src="{{ 'assets/2025/img/Committee Members Images/Alejandro Martin-Gomez.jpg' | relative_url }}" />
+                    <img
+                        src="{{ 'assets/2025/img/Committee Members Images/Alejandro Martin-Gomez.jpg' | relative_url }}" />
                     <p class="name">Alejandro Martin-Gomez</p>
                     <p>University of Arkansas</p>
                 </div>
@@ -516,5 +566,4 @@ redirect_from: 2025/committee.html
             </div>
         </div>
     </div>
-    <!-- TODO: Fix missing div and fix CSS so that alignment is correct -->
 </div>
