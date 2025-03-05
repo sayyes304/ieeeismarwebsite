@@ -47,12 +47,16 @@ redirect_from: /
         </thead>
         <tbody>
             <tr>
-                <td><b>Abstract</b></td>
+                <td><b>Paper Abstract</b></td>
                 <td><b>April 4th, 2025 (23:59 AoE, Friday)</b></td>
             </tr>
             <tr>
                 <td><b>Papers</b></td>
                 <td><b>April 11th, 2025 (23:59 AoE, Friday)</b></td>
+            </tr>
+            <tr>
+                <td><b>Poster Papers</b></td>
+                <td><b>July 29th, 2025 (23:59 AoE, Tuesday)</b></td>
             </tr>
         </tbody>
     </table>
