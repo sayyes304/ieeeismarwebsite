@@ -139,6 +139,15 @@ body {
     margin-bottom: 10px;
 }
 
+.chairs-category {
+    width: 100%;
+    border-bottom: 1px solid #ccc; /* Adds a horizontal line below each category */
+}
+
+.chairs-category:last-child {
+    border-bottom: none; /* Removes the line after the last category */
+}
+
 /* Category header style */
 
 .chairs-category h3 {
