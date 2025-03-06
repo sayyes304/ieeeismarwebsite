@@ -4,6 +4,7 @@ title: Organizing Committee
 redirect_from:
 - 2025/committee.html
 - 2025/committee
+- 2025/committee/
 ---
 
 <div class="organizers-container">
