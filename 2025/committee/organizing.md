@@ -1,8 +1,9 @@
 ---
 layout: 2025/page-full-width
 title: Organizing Committee
-redirect_from: 2025/committee.html
-redirect_from: 2025/comittee
+redirect_from:
+- 2025/committee.html
+- 2025/committee
 ---
 
 <div class="organizers-container">
