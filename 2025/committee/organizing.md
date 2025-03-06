@@ -1,7 +1,8 @@
 ---
 layout: 2025/page-full-width
-title: Conference Committee
+title: Organizing Committee
 redirect_from: 2025/committee.html
+redirect_from: 2025/comittee
 ---
 
 <div class="organizers-container">
@@ -399,10 +400,10 @@ redirect_from: 2025/committee.html
 
 
     <div class="chairs-category">
-        <h3>Standard Chairs</h3>
+        <a href="/2025/committee/standardization"><h3>Standardization Chairs</h3></a>
         <div class="chairs">
             <div class="chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Takeshi Kurata.jpeg' | relative_url }}" />
+                <img src="{{ 'assets/2025/img/Committee Members Images/Takeshi Kurata.jpg' | relative_url }}" />
                 <p class="name">Takeshi Kurata</p>
                 <p>AIST</p>
             </div>

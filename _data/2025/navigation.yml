@@ -10,4 +10,8 @@
 - title: Sponsorship
   url: "2025/sponsorship"
 - title: Committee
-  url: "2025/committee"
+  children:
+    - title: Organizing Committee
+      url: "2025/committee/organizing"
+    - title: Standardization Committee
+      url: "2025/committee/standardization"
