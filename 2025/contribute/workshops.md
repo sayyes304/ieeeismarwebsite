@@ -9,7 +9,7 @@ The ISMAR 2025 organizing committee invites proposals for workshops to be held i
 
 ISMAR workshops provide a platform for presenting novel work, work in progress, and position papers. The workshops bring together researchers, developers, technology providers, practitioners, and users for an in-depth and interactive discussion of important / emerging issues in augmented, mixed, and virtual reality through an informal yet thought-provoking exchange of ideas and information. We encourage workshops that go beyond the “mini-conferences” format of organization and promote interactive discussions among presenters and participants.
 
-The workshops may target a specific application area, research area, or topic of general interest to the ISMAR community. The scope of the workshop should align with the main conference topics. For more details, please visit the conference website at [ISMAR 2025 website](https://www.ieeeismar.net/2025/) (https://www.ieeeismar.net/2025/)
+The workshops may target a specific application area, research area, or topic of general interest to the ISMAR community. The scope of the workshop should align with the main conference topics. For more details, please visit the conference website at [ISMAR 2025 website](https://www.ieeeismar.net/2025/)
 
 We envision the workshops as launch pads to propel the ISMAR community forward in specific research directions, build a sub-community around shared research interests, and build bridges between ISMAR and other research communities.
 Workshop proposals must be submitted before May 2nd, 2025 (23:59 AoE, Friday). A committee will review the workshop proposals and notify the organizing team of acceptance by May 23th, 2025.
@@ -18,11 +18,11 @@ Workshop proposals must be submitted before May 2nd, 2025 (23:59 AoE, Friday). A
 ## Important Dates
 
 - Workshop proposal deadline: **May 2nd, 2025 (23:59 AoE, Friday)**
-- ●Workshop acceptance notification: **May 23th, 2025 (Friday)**
-- ●Workshop calls for participation issued by: **June 6th, 2025 (Friday)**
+- Workshop acceptance notification: **May 23th, 2025 (Friday)**
+- Workshop calls for participation issued by: **June 6th, 2025 (Friday)**
 - Revise and Resubmit deadline: **June 18th, 2025 (23:59 AoE, Wednesday)**
-- ●Workshop acceptance notification to participants issued by: **August 1st, 2025 (Friday)**
-- ●Camera-ready materials: **August 15th, 2025 (Friday)**
+- Workshop acceptance notification to participants issued by: **August 1st, 2025 (Friday)**
+- Camera-ready materials: **August 15th, 2025 (Friday)**
 
 ## Workshop Format
 
@@ -38,30 +38,30 @@ Workshop submissions can be directed to workshop_chairs@ieeeismar.org (please us
 
 The proposal should be submitted as a single PDF document containing:
 
-1.Title of the workshop.
-2.Preferred date for the workshop:
+1. Title of the workshop.
+2. Preferred date for the workshop:
 - October 8ht (Wednesday)
 - October 12th (Sunday)
 - No preference
-3.Presentation mode:
+3. Presentation mode:
 - Online or
 - Physically in Daejeon, South Korea
 - Hybrid
-4.Themes and topics of interest:
+4. Themes and topics of interest:
 - Brief description of the research issues that the workshop will address.
 - Reasons why the workshop is of interest to the conference participants.
 - Reasons why the workshop is timely and relevant for ISMAR 2025.
 - Industrial interest (optional).
-5.Format of the workshop (including a rudimentary agenda).
-6.Whether workshop materials should be published in the proceedings.
-7.Organizers (having two organizers for a workshop is the minimum requirement):
+5. Format of the workshop (including a rudimentary agenda).
+6. Whether workshop materials should be published in the proceedings.
+7. Organizers (having two organizers for a workshop is the minimum requirement):
 - Names.
 - Affiliations.
 - Research interest.
 - Short bio.
-8.Potential program committee members.
-9.Audience: approximate the expected number of participants and submissions (range)
-10.Call for participation document.
+8. Potential program committee members.
+9. Audience: approximate the expected number of participants and submissions (range)
+10. Call for participation document.
 
 **A template for the workshop proposal can be found here:** [Proposal Template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.ieeeismar.net%2F2024%2Fwp-content%2Fuploads%2F2024%2F04%2FISMAR_2024_Workshop_Proposal_v3.docx&wdOrigin=BROWSELINK).
 
