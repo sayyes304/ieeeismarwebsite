@@ -55,6 +55,10 @@ redirect_from: /
                 <td><b>April 11th, 2025 (23:59 AoE, Friday)</b></td>
             </tr>
             <tr>
+                <td><b>Workshops</b></td>
+                <td><b>May 2nd, 2025 (23:59 AoE, Friday)</b></td>
+            </tr>
+            <tr>
                 <td><b>Poster Papers</b></td>
                 <td><b>July 29th, 2025 (23:59 AoE, Tuesday)</b></td>
             </tr>
