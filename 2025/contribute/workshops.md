@@ -60,7 +60,7 @@ The proposal should be submitted as a single PDF document containing:
 - Research interest.
 - Short bio.
 8. Potential program committee members.
-9. Audience: approximate the expected number of participants and submissions (range)
+9. Audience: approximate the expected number of participants and submissions (range).
 10. Call for participation document.
 
 **A template for the workshop proposal can be found here:** [Proposal Template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.ieeeismar.net%2F2024%2Fwp-content%2Fuploads%2F2024%2F04%2FISMAR_2024_Workshop_Proposal_v3.docx&wdOrigin=BROWSELINK).
