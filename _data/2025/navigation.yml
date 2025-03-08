@@ -12,6 +12,7 @@
 - title: Sponsorship
   url: "2025/sponsorship"
 - title: Committee
+  url: "javascript:void(0)"
   children:
     - title: Organizing Committee
       url: "2025/committee/organizing"
