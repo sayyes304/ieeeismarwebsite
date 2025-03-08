@@ -9,7 +9,7 @@ The ISMAR 2025 organizing committee invites proposals for workshops to be held i
 
 ISMAR workshops provide a platform for presenting novel work, work in progress, and position papers. The workshops bring together researchers, developers, technology providers, practitioners, and users for an in-depth and interactive discussion of important / emerging issues in augmented, mixed, and virtual reality through an informal yet thought-provoking exchange of ideas and information. We encourage workshops that go beyond the “mini-conferences” format of organization and promote interactive discussions among presenters and participants.
 
-The workshops may target a specific application area, research area, or topic of general interest to the ISMAR community. The scope of the workshop should align with the main conference topics. For more details, please visit the conference website at [ISMAR 2025 website](https://www.ieeeismar.net/2025/)
+The workshops may target a specific application area, research area, or topic of general interest to the ISMAR community. The scope of the workshop should align with the main conference topics. For more details, please visit the conference website at [ISMAR 2025 website](https://www.ieeeismar.net/2025/)(https://www.ieeeismar.net/2025/).
 
 We envision the workshops as launch pads to propel the ISMAR community forward in specific research directions, build a sub-community around shared research interests, and build bridges between ISMAR and other research communities.
 Workshop proposals must be submitted before May 2nd, 2025 (23:59 AoE, Friday). A committee will review the workshop proposals and notify the organizing team of acceptance by May 23th, 2025.
@@ -28,11 +28,11 @@ Workshop proposals must be submitted before May 2nd, 2025 (23:59 AoE, Friday). A
 
 ISMAR workshops may be organized in different formats.  We encourage a format that involves interactions and discussions beyond a “mini-conference” format (i.e., a series of paper presentations followed by Q&A).  The workshop, for example, can be organized in a seminar style, where attendees are invited to participate in the discussion of the papers in the workshop actively.  Organizers may include, for example, break-out sessions, hands-on sessions, curated panels, or pro-contra discussions of reading lists. Workshops may also be organized as a combination of multiple formats. **The organizers should clearly explain the proposed format of their workshop in the proposal.**
 
-### Publication Options
+## Publication Options
 
 Workshop organizers can choose one of two options regarding publication: (1) The workshop’s papers will be published in ISMAR 2025 adjunct proceedings and IEEE Xplore (Accepted papers should be formatted using the [IEEE Computer Society VGTC format](https://tc.computer.org/vgtc/publications/conference/) and will be subject to the registration and publication processing policy of ISMAR 2025), or (2) The workshop’s papers will not be published but will be distributed as supplemental material along with the ISMAR 2025 proceedings, as a part of the conference material.
 
-### Submission Guidelines for Workshop Proposals
+## Submission Guidelines for Workshop Proposals
 
 Workshop submissions can be directed to workshop_chairs@ieeeismar.org (please use the subject “ISMAR 2025 Workshop Proposal“ and cc all co-organizers on the email).
 
@@ -67,12 +67,12 @@ The proposal should be submitted as a single PDF document containing:
 
 Organizers (a minimum of two organizers per workshop) are expected to be proactive in the field where they propose a workshop. Potential workshop organizers should also note that at least one workshop organizer is required to attend the workshops they proposed. Any change to the workshop organization team must be submitted in writing at least two weeks before the workshop paper deadline. No changes to the workshop organization team can be made after this date to ensure that potential participants submitting papers to workshops are aware of the final organization team.
 
-### Workshop Organization
+## Workshop Organization
 
 The workshop organizers are responsible for setting up an online reviewing system, as well as managing the paper submissions and reviews for their respective workshops.  Note that no PCS or similar system will be provided for the workshops.
 Workshop organizers will be expected to issue their calls for participation no later than June 16th, 2025 (Monday) and to issue any acceptance decisions to their participants no later than August 11th, 2025 (Monday) to allow sufficient time for travel planning and advance registration to the conference. All camera-ready material for the proceedings should be collected by August 25th, 2025 (Monday).
 At least one workshop organizer is required to attend the workshop they are organizing.
 
-### Workshop Organization
+## Workshop Organization
 
 If you have any questions about this call, please contact: workshop_chairs@ieeeismar.org
