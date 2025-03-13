@@ -446,6 +446,16 @@ redirect_from:
                 <p class="name">Il Yeo</p>
                 <p>Apple</p>
             </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Zhong Tie.jpg' | relative_url }}" />
+                <p class="name">Zhong Tie</p>
+                <p>Shanghai Theatre Academy</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Takafumi Taketomi.jpg' | relative_url }}" />
+                <p class="name">Takafumi Taketomi</p>
+                <p>CyberAgent</p>
+            </div>                        
         </div>
     </div>
 
