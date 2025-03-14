@@ -9,6 +9,11 @@
       url: "2025/contribute/workshops"
     - title: Author Guidelines
       url: "2025/contribute/guidelines/authors"
+- title: Attend
+  url: "javascript:void(0)"
+  children:
+    - title: Daejeon
+      url: "2025/attend/daejeon"      
 - title: Sponsorship
   url: "2025/sponsorship"
 - title: Committee
