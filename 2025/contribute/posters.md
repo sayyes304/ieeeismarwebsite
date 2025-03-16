@@ -3,7 +3,7 @@ layout: 2025/page
 title: Call for Poster Papers
 
 ---
-*Last updated: 2025-03-05 5:24AM GMT*
+*Last updated: 2025-03-16 2:23AM GMT*
 
 ## Overview
 
@@ -13,7 +13,7 @@ ISMAR 2025 will cover industry and research activities related to the full range
 
 ## Poster Submissions
 
-We welcome paper submissions of **2 pages,** only papers. including the list of references, in the VGTC conference template. Detailed submission guidelines are available here (TBD). Poster papers will be reviewed based on the extended abstract, which can contain smaller contributions, late-breaking developments, or in-progress work. 
+We welcome paper submissions of **2 pages,** only papers. including the list of references, in the VGTC conference template. Detailed submission guidelines are available [here](/2025/contribute/guidelines/submissions/). Poster papers will be reviewed based on the extended abstract, which can contain smaller contributions, late-breaking developments, or in-progress work. 
 
 ISMAR considers poster papers of 2 pages to be **non-archival**. This means that authors of 2-page poster papers can resubmit more extended versions of their accepted work, with additional details, at later ISMAR conferences. All paper submissions must be in English and **left blind for review.**
 
@@ -81,9 +81,10 @@ All topics relevant to and advancing AR, MR, and VR are of interest. We emphasiz
   - Industrial, military, emergency response
   - Therapy and rehabilitation
 
-Submission guidelines will be available on the [ISMAR 2025 website](https://www.ieeeismar.net/2025/) (https://www.ieeeismar.net/2025/)
+<br>
 
-For questions, contact: poster2025@ieeeismar.net
+---
 
-ISMAR 2025 Poster Chairs:  
-Byung-Kuk Seo, Sungchul Jung, Florian Weidner
+*For questions, contact: poster2025@ieeeismar.net*
+
+*ISMAR 2025 Poster Chairs:<br>Byung-Kuk Seo, Sungchul Jung, Florian Weidner*

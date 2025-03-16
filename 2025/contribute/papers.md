@@ -3,7 +3,7 @@ layout: 2025/page
 title: Call for Papers
 redirect_from: /2025/Papers.html
 ---
-*Last updated: 2025-02-15 2:32AM GMT*
+*Last updated: 2025-03-16 2:23AM GMT*
 
 ## Overview
 
@@ -39,7 +39,7 @@ The review process will have two cycles under the single submission deadline.
 
 ### Review Cycle I (Submission to Initial Notification)
 
-Submissions will be assigned to two members of the ISMAR 2025 International Program Committee (IPC): a primary coordinator (1AC) and a secondary coordinator (2AC). Submissions that violate the submission guidelines will be desk rejected. Those submissions that are not desk rejected will receive at least three full reviews by 2AC and two external reviewers.
+Submissions will be assigned to two members of the ISMAR 2025 International Program Committee (IPC): a primary coordinator (1AC) and a secondary coordinator (2AC). Submissions that violate the [submission guidelines](/2025/contribute/guidelines/submissions) will be desk rejected. Those submissions that are not desk rejected will receive at least three full reviews by 2AC and two external reviewers.
 
 Based on the reviews and initial discussions among the reviewers and coordinators in consultation with a subset of the IPC, the Program Chairs will make one of the following initial recommendations for each submission. If a submission is rejected, authors will be able to resubmit to the poster track:
 
@@ -104,9 +104,10 @@ All topics relevant to and advancing AR, MR, and VR are of interest. We emphasiz
   - Industrial, military, emergency response
   - Therapy and rehabilitation
 
-Submission guidelines will be available on the [ISMAR 2025 website](https://www.ieeeismar.net/2025/) (https://www.ieeeismar.net/2025/)
+<br>
 
-For questions, contact: program2025@ieeeismar.net
+---
 
-ISMAR 2025 Scientific Program Chairs:  
-Ulrich Eck, Gun Lee, Alexander Plopski, Missie Smith, Qi Sun, Markus Tatzgern
+*For questions, contact: program2025@ieeeismar.net*
+
+*ISMAR 2025 Scientific Program Chairs:<br>Ulrich Eck, Gun Lee, Alexander Plopski, Missie Smith, Qi Sun, Markus Tatzgern*
