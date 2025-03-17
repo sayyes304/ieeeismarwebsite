@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Call for Workshops
 ---
-*Last updated: 2025-03-08 11:49AM GMT*
+*Last updated: 2025-03-08 02:36AM GMT*
 
 ## Overview
 The ISMAR 2025 organizing committee invites proposals for workshops to be held in conjunction with the ISMAR conference. The workshops will be scheduled on October 8th (Wednesday) and October 12th (Sunday) and can be conducted in person, online, or in hybrid mode, in alignment with the ISMAR conference.
@@ -73,6 +73,8 @@ The workshop organizers are responsible for setting up an online reviewing syste
 Workshop organizers will be expected to issue their calls for participation no later than June 16th, 2025 (Monday) and to issue any acceptance decisions to their participants no later than August 11th, 2025 (Monday) to allow sufficient time for travel planning and advance registration to the conference. All camera-ready material for the proceedings should be collected by August 25th, 2025 (Monday).
 At least one workshop organizer is required to attend the workshop they are organizing.
 
-## Contact Information
+<br>
+
+---
 
 If you have any questions about this call, please contact: workshops2025@ieeeismar.net
