@@ -77,6 +77,6 @@ At least one workshop organizer is required to attend the workshop they are orga
 
 ---
 
-If you have any questions about this call, please contact: workshops2025@ieeeismar.net
+*If you have any questions about this call, please contact: workshops2025@ieeeismar.net*
 
 *ISMAR 2025 Workshop Chairs:<br>Jong Weon Lee, Hyungil Kim, Callum Parker, Tobias Schwandt*
