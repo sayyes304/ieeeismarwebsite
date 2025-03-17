@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Call for Workshops
 ---
-*Last updated: 2025-03-17 02:36AM GMT*
+*Last updated: 2025-03-17 2:57AM GMT*
 
 ## Overview
 The ISMAR 2025 organizing committee invites proposals for workshops to be held in conjunction with the ISMAR conference. The workshops will be scheduled on October 8th (Wednesday) and October 12th (Sunday) and can be conducted in person, online, or in hybrid mode, in alignment with the ISMAR conference.
@@ -78,3 +78,5 @@ At least one workshop organizer is required to attend the workshop they are orga
 ---
 
 If you have any questions about this call, please contact: workshops2025@ieeeismar.net
+
+*ISMAR 2025 Workshop Chairs:<br>Jong Weon Lee, Hyungil Kim, Callum Parker, Tobias Schwandt*

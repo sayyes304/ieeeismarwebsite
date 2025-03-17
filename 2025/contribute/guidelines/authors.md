@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Author Guidelines
 ---
-*Last updated: 2025-03-16 2:24PM GMT*
+*Last updated: 2025-03-17 2:57AM GMT*
 
 The guidelines cover all submitted papers to the single-track paper program. For more information on the specific tracks and associated deadlines, please see this year's [call for papers](/2025/contribute/papers).
 
@@ -13,11 +13,8 @@ ISMAR 2025 will host a **single track** for papers and include a revise and resu
 This year, there is one submission deadline for a unified review process for both the IEEE TVCG journal and the conference-only papers. The possible outcomes of this unified process are:
 
 -   Accept as IEEE TVCG paper, with the presentation at ISMAR 2025
-
 -   Accept as IEEE ISMAR 2025 conference paper, with presentation
-
 -   Recommend as IEEE ISMAR 2025 poster
-
 -   Reject
 
 ### Before Submission:
