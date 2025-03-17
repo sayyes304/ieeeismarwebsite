@@ -73,6 +73,6 @@ The workshop organizers are responsible for setting up an online reviewing syste
 Workshop organizers will be expected to issue their calls for participation no later than June 16th, 2025 (Monday) and to issue any acceptance decisions to their participants no later than August 11th, 2025 (Monday) to allow sufficient time for travel planning and advance registration to the conference. All camera-ready material for the proceedings should be collected by August 25th, 2025 (Monday).
 At least one workshop organizer is required to attend the workshop they are organizing.
 
-## Workshop Organization
+## Contact Information
 
 If you have any questions about this call, please contact: workshops2025@ieeeismar.net
