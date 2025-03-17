@@ -75,4 +75,4 @@ At least one workshop organizer is required to attend the workshop they are orga
 
 ## Workshop Organization
 
-If you have any questions about this call, please contact: workshop_chairs@ieeeismar.org
+If you have any questions about this call, please contact: workshops2025@ieeeismar.net
