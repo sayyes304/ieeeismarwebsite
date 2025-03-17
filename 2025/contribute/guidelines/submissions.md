@@ -2,19 +2,18 @@
 layout: 2025/page
 title: Submission Guidelines
 ---
-*Last updated: 2025-03-16 2:19PM GMT*
+*Last updated: 2025-03-17 2:57AM GMT*
 
 Please note that ISMAR 2025 has **only a single track.** For papers submitted to ISMAR there are **BOTH** abstract submission deadlines and full papers submission deadlines. See the [call for papers](/2025/contribute/papers) for specific dates. The use of a teaser image in papers is encouraged.
-All submissions must be done electronically via [PCS](https://new.precisionconference.com/ismar).
+
+**All submissions must be done electronically via [PCS](https://new.precisionconference.com/ismar)**.
 
 ## Abstract Deadline
 
 Prior to the respective track abstract deadline, authors are required to provide:
 
 - The paper title
-
 - Complete abstract
-
 - Authors
 
 If the abstract form is not completed at this time with the information detailed above, then a full paper will not be allowed to be submitted.
@@ -24,7 +23,6 @@ If the abstract form is not completed at this time with the information detailed
 Prior to the respective track deadline, authors of submitted abstracts are required to provide:
 
 - A complete paper submission
-
 - Any supplementary files
 
 ## Paper Formatting and Page Length
