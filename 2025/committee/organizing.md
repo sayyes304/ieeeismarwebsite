@@ -314,6 +314,29 @@ redirect_from:
 
 
     <div class="chairs-category">
+        <h3>Hybrid Media Chairs</h3>
+        <div class="chairs">
+
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Isaac Cho.png' | relative_url }}" />
+                <p class="name">Isaac Cho</p>
+                <p>Utah State University</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Jaein Hwang.jpeg' | relative_url }}" />
+                <p class="name">Jaein Hwang</p>
+                <p>KIST</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Taishi Sawabe.jpg' | relative_url }}" />
+                <p class="name">Taishi Sawabe</p>
+                <p>NAIST</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="chairs-category">
         <h3>Doctoral Consortium Chairs</h3>
         <div class="chairs">
             <div class="chair">
