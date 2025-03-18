@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Call for Workshops
 ---
-*Last updated: 2025-03-17 2:57AM GMT*
+*Last updated: 2025-03-18 5:11AM GMT*
 
 ## Overview
 The ISMAR 2025 organizing committee invites proposals for workshops to be held in conjunction with the ISMAR conference. The workshops will be scheduled on October 8th (Wednesday) and October 12th (Sunday) and can be conducted in person, online, or in hybrid mode, in alignment with the ISMAR conference.
@@ -34,7 +34,7 @@ Workshop organizers can choose one of two options regarding publication: (1) The
 
 ## Submission Guidelines for Workshop Proposals
 
-Workshop submissions can be directed to workshop_chairs@ieeeismar.org (please use the subject “ISMAR 2025 Workshop Proposal“ and cc all co-organizers on the email).
+Workshop submissions can be directed to workshops2025@ieeeismar.net (please use the subject “ISMAR 2025 Workshop Proposal“ and cc all co-organizers on the email).
 
 The proposal should be submitted as a single PDF document containing:
 
@@ -63,7 +63,7 @@ The proposal should be submitted as a single PDF document containing:
 9. Audience: approximate the expected number of participants and submissions (range).
 10. Call for participation document.
 
-**A template for the workshop proposal can be found here:** [Proposal Template](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.ieeeismar.net%2F2024%2Fwp-content%2Fuploads%2F2024%2F04%2FISMAR_2024_Workshop_Proposal_v3.docx&wdOrigin=BROWSELINK).
+**A template for the workshop proposal can be download here:** [Proposal Template](/2025/files/ISMAR_2025_Workshop_Proposal.docx).
 
 Organizers (a minimum of two organizers per workshop) are expected to be proactive in the field where they propose a workshop. Potential workshop organizers should also note that at least one workshop organizer is required to attend the workshops they proposed. Any change to the workshop organization team must be submitted in writing at least two weeks before the workshop paper deadline. No changes to the workshop organization team can be made after this date to ensure that potential participants submitting papers to workshops are aware of the final organization team.
 

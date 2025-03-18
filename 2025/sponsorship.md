@@ -160,7 +160,7 @@ A deposit amount equal to at least 50% of the total space/sponsorship request mu
 
 ## Questions? Contact Us
 
-If you have any questions, please contact the ISMAR 2025 Sponsorship Chairs at sponsorship_chairs@ieeeismar.org.
+If you have any questions, please contact the ISMAR 2025 Sponsorship Chairs at sponsorship2025@ieeeismar.net.
 
 ## Previous years' ISMAR Sponsors
 
