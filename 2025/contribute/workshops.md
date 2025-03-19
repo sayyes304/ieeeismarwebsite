@@ -63,7 +63,7 @@ The proposal should be submitted as a single PDF document containing:
 9. Audience: approximate the expected number of participants and submissions (range).
 10. Call for participation document.
 
-**A template for the workshop proposal can be download here:** [Proposal Template](/2025/files/ISMAR_2025_Workshop_Proposal.docx).
+**A template for the workshop proposal can be download [here](/2025/files/ISMAR_2025_Workshop_Proposal.docx)**.
 
 Organizers (a minimum of two organizers per workshop) are expected to be proactive in the field where they propose a workshop. Potential workshop organizers should also note that at least one workshop organizer is required to attend the workshops they proposed. Any change to the workshop organization team must be submitted in writing at least two weeks before the workshop paper deadline. No changes to the workshop organization team can be made after this date to ensure that potential participants submitting papers to workshops are aware of the final organization team.
 
