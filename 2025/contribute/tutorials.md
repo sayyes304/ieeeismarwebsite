@@ -20,7 +20,7 @@ The scope of the proposals should be consistent with the main conference topics.
 - **Proposal deadline: May 9th, 2025 (23:59 AoE, Friday)**
 - **Acceptance notification: May 30th, 2025 (Friday)**
 - **Tutorial calls for participation issued by: June 13th, 2025 (Friday)**
-- **Camera-ready materials: August 22nd, 2025 (Friday)**
+- **Camera-ready materials: August 15th, 2025 (Friday)**
 
 ## Format
 
@@ -75,7 +75,7 @@ After sending your proposal to the aforementioned email address, you will receiv
 
 The rooms allocated for the tutorials will have round tables and chairs, but all technical supporting equipment and materials need to be provided by the tutorial organizers. Room capacity is approximately 35-40 persons. The tutorial organizers are responsible for setting up an online participation system, as well as managing the online participation. 
 
-**Tutorial organizers will be expected to issue their calls for participation no later than June 13th, 2025 (Friday), and all camera-ready material for the tutorials should be collected by August 22nd, 2025 (Friday).**
+**Tutorial organizers will be expected to issue their calls for participation no later than June 13th, 2025 (Friday), and all camera-ready material for the tutorials should be collected by August 15th, 2025 (Friday).**
 
 ## Tutorial Proposal Submissions
 
@@ -86,6 +86,6 @@ We invite tutorial proposals that provide academic value to be published as exte
 - **Length**
   - The extended abstract should not exceed 6 pages.
 - **Camera-Ready Deadline**
-  - The final version of the tutorial must be submitted by August 22.
+  - The final version of the tutorial must be submitted by August 15.
 
 **We look forward to your valuable contributions that will enhance the academic depth and breadth of our conference.**
