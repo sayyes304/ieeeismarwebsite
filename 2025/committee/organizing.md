@@ -317,11 +317,12 @@ redirect_from:
         <h3>Hybrid Media Chairs</h3>
         <div class="chairs">
 
-            <div class="chair">
+            <!-- <div class="chair">
                 <img src="{{ 'assets/2025/img/Committee Members Images/Isaac Cho.png' | relative_url }}" />
                 <p class="name">Isaac Cho</p>
                 <p>Utah State University</p>
-            </div>
+            </div> -->
+            <!-- Temporarily Hidden according to the chair’s request until mid-April. -->
             <div class="chair">
                 <img src="{{ 'assets/2025/img/Committee Members Images/Jaein Hwang.jpeg' | relative_url }}" />
                 <p class="name">Jaein Hwang</p>
@@ -349,11 +350,6 @@ redirect_from:
                 <p class="name">Si-jung Kim</p>
                 <p>University of Nevada Las Vegas</p>
             </div>
-            <div class="chair">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Lee Lisle.jpg' | relative_url }}" />
-                <p class="name">Lee Lisle</p>
-                <p>Virginia Tech</p>
-            </div>            
         </div>
     </div>
 
