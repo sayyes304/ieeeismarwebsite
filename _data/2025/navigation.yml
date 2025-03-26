@@ -9,8 +9,13 @@
       url: "2025/contribute/workshops"
     - title: Call for Tutorials
       url: "2025/contribute/tutorials"
-    - title: Author Guidelines
-      url: "2025/contribute/guidelines/authors"
+    title: Guidelines
+      url: "javascript:void(0)"
+      children:
+        - title: Author Guidelines
+          url: "2025/contribute/guidelines/authors"
+        - title: Paper Reviewing Guidelines
+          url: "2025/contribute/guidelines/reviewing"
     - title: Submission Guidelines
       url: "2025/contribute/guidelines/submissions"
 - title: Sponsorship
