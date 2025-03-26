@@ -16,9 +16,9 @@ The main selection criteria will be the expected general interest of the demonst
 
 ## Important Deadlines
 
-- Submission deadline: August 4th, 2025 (23:59 AoE)
-- Notification: August 18th, 2025 (23:59 AoE)
-- Camera ready deadline: August 22nd, 2025 (23:59 AoE)
+- Submission deadline: July 29th, 2025 (23:59 AoE)
+- Notification: August 13th, 2025 (23:59 AoE)
+- Camera ready deadline: August 20st, 2025 (23:59 AoE)
 
 ## Submission Guidelines
 
@@ -40,4 +40,4 @@ Templates must follow the IEEE Computer Society format at [https://tc.computer.o
 
 *For questions, contact: demo_chairs@ieeeismar.org*
 
-*ISMAR 2025 Demo Chairs:<br>Nilufar Baghaei, Yongsoon Choi, Jin Ryong Kim*
+*ISMAR 2025 Demo Chairs:<br>Nilufar Baghaei, Jin Ryong Kim, Yongsoon Choi*
