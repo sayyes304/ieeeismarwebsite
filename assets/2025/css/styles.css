@@ -153,20 +153,16 @@ nav ul li {
 /* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-    opacity: 1;
-    visibility: visible;
 }
 
 .dropdown-content {
     pointer-events: none;
-    transition-delay: 0.1s;
   }
 
 
 /* Hide nested dropdown by default */
 .dropdown .dropdown-content li .dropdown-content {
     display: none;
-    transition-delay: 0s;
 }
 
 /* Show nested dropdown on hover */
