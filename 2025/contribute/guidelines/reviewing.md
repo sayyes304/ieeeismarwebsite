@@ -118,12 +118,15 @@ In some situations, a submission may build upon prior work. As part of the Autho
 The authors will provide information whether they followed the ethical guidelines imposed by their affiliation and report if approval has been obtained or why no approval may have been necessary in the submission form. This will be considered during the review process. 
 As such, the lack of a clear statement on ethics review and participant consent in the paper should be raised but not be grounds for rejection past the desk-reject stage. 
 
-Thank you for your support and work to ensure the highest-quality ISMAR reviews. 
+Thank you for your support and work to ensure the highest-quality ISMAR reviews.
 
-Do not hesitate to contact us for any further information: program2025@ieeeismar.net
+<br>
 
-ISMAR 2025 Paper Chairs
-Ulrich Eck, Gun Lee, Alexander Plopski, Missie Smith, Qi Sun, Markus Tatzgern
+---
+*Do not hesitate to contact us for any further information: program2025@ieeeismar.net*
+
+*ISMAR 2025 Paper Chairs*
+*Ulrich Eck, Gun Lee, Alexander Plopski, Missie Smith, Qi Sun, Markus Tatzgern*
 
 
 ## Document History
