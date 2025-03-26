@@ -85,6 +85,6 @@ All topics relevant to and advancing AR, MR, and VR are of interest. We emphasiz
 
 ---
 
-*For questions, contact: poster2025@ieeeismar.net*
+*For questions, contact: posters2025@ieeeismar.net*
 
 *ISMAR 2025 Poster Chairs:<br>Byung-Kuk Seo, Sungchul Jung, Florian Weidner*
