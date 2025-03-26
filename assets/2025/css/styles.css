@@ -173,26 +173,24 @@ nav ul li {
     color: #e18181; /* Optional: change text color on hover */
 }
 
+/* Remove ALL arrow additions */
 .dropdown > a::after,
 .dropdown > span::after {
   content: "" !important;
 }
 
-/* Desktop arrow styling */
-@media (min-width: 769px) {
-  .dropdown > a:not(:only-child)::after,
-  .dropdown > span:not(:only-child)::after {
-    content: " ▼" !important;
-    font-size: 0.7em;
-    margin-left: 5px;
-    display: inline-block;
-  }
+/* Add single arrow ONLY when needed */
+.dropdown.has-children > a::after,
+.dropdown.has-children > span::after {
+  content: " ▼" !important;
+  font-size: 0.7em;
+  margin-left: 5px;
 }
 
-/* Mobile arrow styling */
+/* Mobile specific styling */
 @media (max-width: 768px) {
-  .dropdown > a:not(:only-child)::after,
-  .dropdown > span:not(:only-child)::after {
+  .dropdown.has-children > a::after,
+  .dropdown.has-children > span::after {
     content: "▼" !important;
     float: right;
     margin-left: 0;
