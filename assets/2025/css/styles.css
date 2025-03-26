@@ -203,23 +203,38 @@ nav ul li {
 
 /* Desktop hover behavior */
 @media (min-width: 769px) {
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* Add invisible padding to prevent hover gap */
+    padding-top: 5px;
+  }
+
+  .dropdown-content::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    height: 5px;
+  }
+
   .dropdown:hover .dropdown-content,
-  .dropdown-content:hover {  /* This is the key addition */
+  .dropdown-content:hover {
     display: block;
   }
-  
-  /* Optional but recommended additions */
-  .dropdown {
-    position: relative; /* Needed for proper dropdown positioning */
-  }
-  .dropdown-content {
-    margin-top: 0; /* Removes gap between menu item and dropdown */
-  }
-}
-  /* Clean arrow styling */
-  .dropdown > a::after {
-    font-size: 0.7em;
-    margin-left: 5px;
+
+  /* Nested dropdowns */
+  .dropdown-content .dropdown-content {
+    left: 100%;
+    top: 0;
+    margin-top: -5px;
   }
 }
 
