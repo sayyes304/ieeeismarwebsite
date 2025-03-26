@@ -177,15 +177,6 @@ nav ul li {
 .dropdown-content {
   display: none;
   position: absolute;
-  /* ... keep your existing styles ... */
-}
-
-.dropdown > a::after,
-.dropdown > span::after,
-.dropdown > a::before,
-.dropdown > span::before {
-  content: "" !important;
-  display: none !important;
 }
 
 /* Mobile styles */
@@ -202,13 +193,6 @@ nav ul li {
     position: static;
   }
 
-  /* Fix for double arrows */
-  .dropdown > a::after {
-    content: "▼" !important;
-    float: right;
-    margin-left: 0;
-  }
-
   /* Hide HTML arrows */
   .dropdown > a {
     position: relative;
@@ -222,13 +206,6 @@ nav ul li {
 @media (min-width: 769px) {
   .dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  /* Clean arrow styling */
-  .dropdown > a::after {
-    content: " ▼";
-    font-size: 0.7em;
-    margin-left: 5px;
   }
 }
 
