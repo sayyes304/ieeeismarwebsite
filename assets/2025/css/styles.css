@@ -129,7 +129,6 @@ nav ul li {
     margin-left: 1px; /* Small gap between parent and child dropdown */
 }
 
-/* Remove bullet points and styling for subpages */
 .dropdown-content li {
     padding: 5px 10px;
     list-style: none;
@@ -204,10 +203,19 @@ nav ul li {
 
 /* Desktop hover behavior */
 @media (min-width: 769px) {
-  .dropdown:hover .dropdown-content {
+  .dropdown:hover .dropdown-content,
+  .dropdown-content:hover {  /* This is the key addition */
     display: block;
   }
   
+  /* Optional but recommended additions */
+  .dropdown {
+    position: relative; /* Needed for proper dropdown positioning */
+  }
+  .dropdown-content {
+    margin-top: 0; /* Removes gap between menu item and dropdown */
+  }
+}
   /* Clean arrow styling */
   .dropdown > a::after {
     font-size: 0.7em;
