@@ -198,12 +198,6 @@ nav ul li {
     display: block;
     padding: 10px;
   }
-  
-  /* Add visual indicator for dropdowns */
-  .dropdown > a:after, .dropdown > span:after {
-    content: " ▼";
-    float: right;
-  }
 }
 
 /* Hero Section */
