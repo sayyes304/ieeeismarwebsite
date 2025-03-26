@@ -173,31 +173,57 @@ nav ul li {
     color: #e18181; /* Optional: change text color on hover */
 }
 
-dropdown > a::after,
-.dropdown > span::after {
-  content: "" !important;
+/* Base dropdown styles (keep your existing) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* ... keep your existing styles ... */
 }
 
-/* Desktop arrow styling */
-@media (min-width: 769px) {
-  .dropdown > a:not(:only-child)::after,
-  .dropdown > span:not(:only-child)::after {
-    content: " ▼" !important;
-    font-size: 0.7em;
-    margin-left: 5px;
-    display: inline-block;
-  }
-}
-
-/* Mobile arrow styling */
+/* Mobile styles */
 @media (max-width: 768px) {
-  .dropdown > a:not(:only-child)::after,
-  .dropdown > span:not(:only-child)::after {
+  .dropdown-content {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .dropdown-content .dropdown-content {
+    left: 0;
+    margin-left: 15px;
+    position: static;
+  }
+
+  /* Fix for double arrows */
+  .dropdown > a::after {
     content: "▼" !important;
     float: right;
     margin-left: 0;
   }
+
+  /* Hide HTML arrows */
+  .dropdown > a {
+    position: relative;
+  }
+  .dropdown > a .arrow {
+    display: none;
+  }
 }
+
+/* Desktop hover behavior */
+@media (min-width: 769px) {
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Clean arrow styling */
+  .dropdown > a::after {
+    content: " ▼";
+    font-size: 0.7em;
+    margin-left: 5px;
+  }
+}
+
 
 /* Hero Section */
 .hero {
