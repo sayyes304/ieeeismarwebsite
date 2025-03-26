@@ -180,6 +180,14 @@ nav ul li {
   /* ... keep your existing styles ... */
 }
 
+.dropdown > a::after,
+.dropdown > span::after,
+.dropdown > a::before,
+.dropdown > span::before {
+  content: "" !important;
+  display: none !important;
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
   .dropdown-content {
