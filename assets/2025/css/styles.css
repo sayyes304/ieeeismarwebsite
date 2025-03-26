@@ -234,6 +234,8 @@ nav ul li {
   .dropdown-content .dropdown-content {
     left: 100%;
     top: 0;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
     margin-top: -5px;
   }
 }
