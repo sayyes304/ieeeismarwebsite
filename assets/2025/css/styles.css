@@ -219,7 +219,7 @@ nav ul li {
   .dropdown-content::before {
     content: "";
     position: absolute;
-    top: -5px;
+    top: -10px;
     left: 0;
     right: 0;
     height: 5px;
