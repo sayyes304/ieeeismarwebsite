@@ -47,13 +47,14 @@ Select this option if the research is relevant and the topic is of value for the
 - Definitely reject (rating of 1): I would argue strongly for rejecting this submission. 
 Select this option if the contribution is not understandable and the paper has no recognizable merits, or it is entirely unclear what information the ISMAR community gains from this submission. 
 
-### Writing a Review
+## Writing a Review
 
 The following guidelines outline the content and key points of a high-quality review for ISMAR 2025. We believe that all paper reviews should be written with the same guidelines in mind. Please adhere to the guidelines and contact the program chairs or review coordinators for any questions. 
 - A high-quality review should have about 1-page of well-considered commentary (at least 500 words), or more, if warranted. Short and/or content-free reviews are insufficient and frustrate the authors. 
 - While we expect high-quality reviews, as ISMAR and TVCG will only accept high-quality papers that also receive high-quality reviews. The reviews are checked by the administration to ensure quality before acceptance is confirmed.
 - The program committee and primary reviewers will be asked to evaluate the reviews for paper submissions based on the criteria of ISMAR. Those criteria are given here:
-“When assessing the reviews, ask yourself, “Does the reviewer provide specific feedback in their ‘Public Comments’ (which are comments for the author) for a recommendation to be made?” We recommend reading the review reports to make sure they meet appropriate standards of quality, thoroughness, and professionalism. If a review lacks sufficient detail or is otherwise incomplete, please ask the reviewer for more information or invite a new reviewer, so that the recommendation and decision are substantiated by these comments. Further, It is unacceptable for a reviewer to require additional citations for the sole purpose of influencing bibliometric measures of either an individual or a periodical, as mentioned in the IEEE PSPB Operations Manual (PDF) Section 8.2.2.A.4.”
+“When assessing the reviews, ask yourself, “Does the reviewer provide specific feedback in their ‘Public Comments’ (which are comments for the author) for a recommendation to be made?” We recommend reading the review reports to make sure they meet appropriate standards of quality, thoroughness, and professionalism. If a review lacks sufficient detail or is otherwise incomplete, please ask the reviewer for more information or invite a new reviewer, so that the recommendation and decision are substantiated by these comments. Further, It is unacceptable for a reviewer to require additional citations for the sole purpose of influencing bibliometric measures of either an individual or a periodical, as mentioned in the [IEEE PSPB Operations Manual (PDF)](https://www.ieee.org/documents/opsmanual.pdf) Section 8.2.2.A.4.”
+
 - Thus reviewers must state specifically the reason(s) for the decision selected for the paper. Clearly describe on what grounds the paper should be accepted (or rejected).
 - Reviewers should describe the contributions in the paper and why they are noteworthy or important to the community.
 - They should explicitly and clearly discuss the weaknesses and limitations in a positive and constructive manner. Specifically, be positive and not insulting. 
@@ -62,19 +63,19 @@ The following guidelines outline the content and key points of a high-quality re
 Mind that your decisions affect the public appearance of ISMAR 2025. Therefore, the program chairs are very serious about ensuring the highest possible reviewing standards for ISMAR 2025. The coordinators and/or program chairs will ask you to improve your review if they think the reasons for your judgment are unclear.
 
 We strongly recommend that you read the entire (short) article by Ken Hinckley, which we found to give a lot of constructive advice:
-Hinckley, K. (2016). So You’re a Program Committee Member Now: On Excellence in Reviews and Meta-Reviews and Championing Submitted Work That Has Merit. (https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/Excellence-in-Reviews-MobileHCI-2015-Web-Site.pdf)
+[Hinckley, K. (2016). So You’re a Program Committee Member Now: On Excellence in Reviews and Meta-Reviews and Championing Submitted Work That Has Merit].(https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/Excellence-in-Reviews-MobileHCI-2015-Web-Site.pdf)
 
 Here are some of the major elements from Hinckley’s paper, in some cases modified by adding insights from further advice by Steve Mann and Mark Bernstein, for quick reference:
 - A high quality review should have a number of paragraphs (or even several pages of well-considered commentary if warranted).
 - Short and/or content-free reviews are insufficient and will be caught by our reviewer’s review process.
-- Read papers with care and sympathy. Many hours of work — in some cases, years of work — have gone into research and writing this paper. Try to avoid last-minute reviews.
+- **Read papers with care and sympathy**. Many hours of work — in some cases, years of work — have gone into research and writing this paper. Try to avoid last-minute reviews.
 - State specifically why the paper is “great”, “mediocre” or “bad”.
 - Clearly describe on what grounds the paper should be accepted (or rejected).
 - Describe the contributions in the paper and why they are noteworthy, or important.
 - Reflect on the contributions or possible contributions of the work.
 - Explicitly and clearly discuss the weaknesses and limitations in a positive and constructive manner. Specifically, don’t be insulting – be positive.
 - Clearly and explicitly call out the strengths and utility of the work.
-- Your review should not be about what should have been done; rather it should be a critique of what the authors actually did.
+- **Your review should not be about what should have been done; rather it should be a critique of what the authors actually did.**
 - Consider how the author’s arguments, results, and demonstrations fit into closely related work as well as the field as a whole.
 - Do not reject a paper because of a few missed citations.
 - In fact, do not reject a paper because of anything that can be easily fixed/addressed. Clearly state the requirements as all conditionally accepted papers will be shepherded towards an improved version that fulfills those requirements.
