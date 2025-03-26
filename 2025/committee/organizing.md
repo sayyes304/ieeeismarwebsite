@@ -409,7 +409,7 @@ redirect_from:
             <div class="chair">
                 <img src="{{ 'assets/2025/img/Committee Members Images/Yongsoon Choi.jpg' | relative_url }}" />
                 <p class="name">Yongsoon Choi</p>
-                <p>Seogang University</p>
+                <p>Sogang University</p>
             </div>
             <div class="chair">
                 <img src="{{ 'assets/2025/img/Committee Members Images/Jin Ryong Kim.jpg' | relative_url }}" />
