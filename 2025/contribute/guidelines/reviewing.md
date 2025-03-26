@@ -120,12 +120,14 @@ As such, the lack of a clear statement on ethics review and participant consent 
 
 Thank you for your support and work to ensure the highest-quality ISMAR reviews.
 
-## Document History
-
-This document was updated and extended by the ISMAR 2025 Paper Chairs: Ulrich Eck, Gun Lee, Alexander Plopski, Missie Smith, Qi Sun, Markus Tatzgern, extended by the ISMAR 2024 Program Chairs:  Ulrich Eck, Misha Sra, Jeanine Stefanucci, Maki Sugimoto, Markus Tatzgern, Ian Williams after being extended by the ISMAR 2023 Conference Paper Chairs: Jens Grubert, Andrew Cunningham, Evan Peng, Gerd Bruder, Anne-Hélène Olivier, and Ian Williams. These guidelines were updated for the ISMAR 2022 conference papers review process: Henry Duh, Jens Grubert, Jianmin Zheng, Ian Williams, and Adam Jones. These guidelines are based on the work of the ISMAR 2019 PC Chairs: Shimin Hu, Denis Kalkofen, Joseph L. Gabbard, Jonathan Ventura, Jens Grubert, and Stefanie Zollmann.
-
 <br>
 ---
 *Do not hesitate to contact us for any further information: program2025@ieeeismar.net*
+
 *ISMAR 2025 Paper Chairs*
+
 *Ulrich Eck, Gun Lee, Alexander Plopski, Missie Smith, Qi Sun, Markus Tatzgern*
+
+## Document History
+
+This document was updated and extended by the ISMAR 2025 Paper Chairs: Ulrich Eck, Gun Lee, Alexander Plopski, Missie Smith, Qi Sun, Markus Tatzgern, extended by the ISMAR 2024 Program Chairs:  Ulrich Eck, Misha Sra, Jeanine Stefanucci, Maki Sugimoto, Markus Tatzgern, Ian Williams after being extended by the ISMAR 2023 Conference Paper Chairs: Jens Grubert, Andrew Cunningham, Evan Peng, Gerd Bruder, Anne-Hélène Olivier, and Ian Williams. These guidelines were updated for the ISMAR 2022 conference papers review process: Henry Duh, Jens Grubert, Jianmin Zheng, Ian Williams, and Adam Jones. These guidelines are based on the work of the ISMAR 2019 PC Chairs: Shimin Hu, Denis Kalkofen, Joseph L. Gabbard, Jonathan Ventura, Jens Grubert, and Stefanie Zollmann.
