@@ -173,30 +173,47 @@ nav ul li {
     color: #e18181; /* Optional: change text color on hover */
 }
 
+/* Mobile styles */
 @media (max-width: 768px) {
-  /* Make dropdowns stack vertically */
   .dropdown-content {
     position: static;
-    display: none;
     width: 100%;
     box-shadow: none;
   }
-  
-  /* Nested dropdowns indent */
+
   .dropdown-content .dropdown-content {
-    left: 15px;
-    top: auto;
+    left: 0;
+    margin-left: 15px;
+    position: static;
   }
-  
-  /* Show dropdown when parent is clicked */
-  .dropdown:focus-within .dropdown-content {
+
+  /* Fix for double arrows */
+  .dropdown > a::after {
+    content: "▼" !important;
+    float: right;
+    margin-left: 0;
+  }
+
+  /* Hide HTML arrows */
+  .dropdown > a {
+    position: relative;
+  }
+  .dropdown > a .arrow {
+    display: none;
+  }
+}
+
+/* Desktop hover behavior */
+@media (min-width: 769px) {
+  .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  /* Make dropdown toggles full width */
-  .dropdown > a, .dropdown > span {
-    display: block;
-    padding: 10px;
+  /* Clean arrow styling */
+  .dropdown > a::after {
+    content: " ▼";
+    font-size: 0.7em;
+    margin-left: 5px;
   }
 }
 
