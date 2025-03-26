@@ -173,6 +173,38 @@ nav ul li {
     color: #e18181; /* Optional: change text color on hover */
 }
 
+@media (max-width: 768px) {
+  /* Make dropdowns stack vertically */
+  .dropdown-content {
+    position: static;
+    display: none;
+    width: 100%;
+    box-shadow: none;
+  }
+  
+  /* Nested dropdowns indent */
+  .dropdown-content .dropdown-content {
+    left: 15px;
+    top: auto;
+  }
+  
+  /* Show dropdown when parent is clicked */
+  .dropdown:focus-within .dropdown-content {
+    display: block;
+  }
+  
+  /* Make dropdown toggles full width */
+  .dropdown > a, .dropdown > span {
+    display: block;
+    padding: 10px;
+  }
+  
+  /* Add visual indicator for dropdowns */
+  .dropdown > a:after, .dropdown > span:after {
+    content: " ▼";
+    float: right;
+  }
+}
 
 /* Hero Section */
 .hero {
