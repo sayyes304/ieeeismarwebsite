@@ -152,14 +152,9 @@ nav ul li {
     display: block;
 }
 
-.dropdown-content {
-    pointer-events: none;
-  }
-
-
 /* Hide nested dropdown by default */
 .dropdown .dropdown-content li .dropdown-content {
-    display: none;
+    display: none; 
 }
 
 /* Show nested dropdown on hover */
@@ -178,12 +173,6 @@ nav ul li {
     color: #e18181; /* Optional: change text color on hover */
 }
 
-/* Base dropdown styles (keep your existing) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-}
-
 /* Mobile styles */
 @media (max-width: 768px) {
   .dropdown-content {
@@ -196,6 +185,12 @@ nav ul li {
     left: 0;
     margin-left: 15px;
     position: static;
+  }
+
+  /* Fix for double arrows */
+  .dropdown > a::after {
+    float: right;
+    margin-left: 0;
   }
 
   /* Hide HTML arrows */
@@ -212,8 +207,13 @@ nav ul li {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
+  /* Clean arrow styling */
+  .dropdown > a::after {
+    font-size: 0.7em;
+    margin-left: 5px;
+  }
 }
-
 
 /* Hero Section */
 .hero {
