@@ -121,7 +121,9 @@ As such, the lack of a clear statement on ethics review and participant consent 
 Thank you for your support and work to ensure the highest-quality ISMAR reviews.
 
 <br>
+
 ---
+
 *Do not hesitate to contact us for any further information: program2025@ieeeismar.net*
 
 *ISMAR 2025 Paper Chairs*
