@@ -1,16 +1,18 @@
 - title: Contribute
   url: "javascript:void(0)"
   children:
-    - title: Call for Papers
+    - title: Papers
       url: "2025/contribute/papers"
-    - title: Call for Poster Papers
+    - title: Poster Papers
       url: "2025/contribute/posters"
-    - title: Call for Workshops
+    - title: Workshops
       url: "2025/contribute/workshops"
-    - title: Call for Demos
+    - title: Demos
       url: "2025/contribute/demos"
-    - title: Call for Tutorials
+    - title: Tutorials
       url: "2025/contribute/tutorials"
+    - title: Doctoral Consortium
+      url: "2025/contribute/doctoral-consortium"
     - title: Guidelines
       url: "javascript:void(0)"
       children:

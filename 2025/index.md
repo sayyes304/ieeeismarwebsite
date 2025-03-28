@@ -59,7 +59,19 @@ redirect_from: /
                 <td><b>May 2nd, 2025 (23:59 AoE, Friday)</b></td>
             </tr>
             <tr>
+                <td><b>Tutorials</b></td>
+                <td><b>May 9th, 2025 (23:59 AoE, Friday)</b></td>
+            </tr>
+            <tr>
+                <td><b>Doctoral Consortium</b></td>
+                <td><b>June 9th, 2025 (23:59 AoE, Monday)</b></td>
+            </tr>
+            <tr>
                 <td><b>Poster Papers</b></td>
+                <td><b>July 29th, 2025 (23:59 AoE, Tuesday)</b></td>
+            </tr>
+            <tr>
+                <td><b>Demos</b></td>
                 <td><b>July 29th, 2025 (23:59 AoE, Tuesday)</b></td>
             </tr>
         </tbody>
