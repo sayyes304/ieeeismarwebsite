@@ -13,14 +13,15 @@ ISMAR 2025 will cover industry and research activities related to the full range
 
 ## Poster Submissions
 
-We welcome paper submissions of **2 pages,** only papers. including the list of references, in the VGTC conference template. Detailed submission guidelines are available [here](/2025/contribute/guidelines/submissions/). Poster papers will be reviewed based on the extended abstract, which can contain smaller contributions, late-breaking developments, or in-progress work. 
+We welcome paper submissions of **2 pages,** only papers. including the list of references, in the VGTC conference template. Detailed submission guidelines are available [here](/2025/contribute/guidelines/poster-paper-guidelines/). Poster papers will be reviewed based on the extended abstract, which can contain smaller contributions, late-breaking developments, or in-progress work. 
 
 ISMAR considers poster papers of 2 pages to be **non-archival**. This means that authors of 2-page poster papers can resubmit more extended versions of their accepted work, with additional details, at later ISMAR conferences. All paper submissions must be in English and **left blind for review.**
 
 All submissions will be accepted or rejected as poster papers.
 
-1.  All accepted poster papers will be archived in the IEEE Xplore digital library.
-2.  All accepted poster papers will be subject to the registration and publication processing policies of ISMAR 2025.
+1. All accepted poster papers will be published in the conference adjunct proceedings of ISMAR 2025.
+2.  All accepted poster papers will be archived in the IEEE Xplore digital library.
+3.  All accepted poster papers will be subject to the registration and publication processing policies of ISMAR 2025.
 
 ## Important Deadlines
 
