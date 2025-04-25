@@ -105,3 +105,28 @@ redirect_from: /
         width="450" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const today = new Date();
+    const rows = document.querySelectorAll('.important-dates tbody tr');
+    
+    rows.forEach(row => {
+        const dateText = row.querySelector('td:last-child b').textContent;
+        const dateMatch = dateText.match(/([A-Za-z]+) (\d+)(?:st|nd|rd|th), (\d{4})/);
+        
+        if (dateMatch) {
+            const month = dateMatch[1];
+            const day = dateMatch[2];
+            const year = dateMatch[3];
+            const deadline = new Date(`${month} ${day}, ${year}`);
+            
+            if (deadline < today) {
+                row.classList.add('passed-date');
+            }
+        }
+    });
+});
+    
+</script>
