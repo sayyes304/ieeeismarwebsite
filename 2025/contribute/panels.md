@@ -11,12 +11,12 @@ IEEE ISMAR is the premier conference for Augmented Reality (AR) and Mixed Realit
 
 This year, according to ISMAR conference guidelines, all panelists must be in-person.
 
-Panel proposals should be submitted electronically to panels_chairs@ieeeismar.net by June 24th, 2025 and should include:
-A title for the panel session
-A brief description of the overall issues to be discussed (500 words or less)
-The names, contact information, and short (100 words or less) biographies for the organizer and each panelist. Panelists should come from multiple organizations. Panelists from industry may be eligible for a complimentary one-day registration. Other panelists and the moderator should register normally.
-A confirmation that all panelists can participate in-person
-We will publish a one page description of the panel in the ISMAR adjunct proceedings.
+Panel proposals should be submitted electronically to panels_chairs@ieeeismar.net by **June 24th, 2025** and should include:
+- A title for the panel session
+- A brief description of the overall issues to be discussed (500 words or less)
+- The names, contact information, and short (100 words or less) biographies for the organizer and each panelist. Panelists should come from multiple organizations. Panelists from industry may be eligible for a complimentary one-day registration. Other panelists and the moderator should register normally.
+- A confirmation that all panelists can participate in-person
+- We will publish a one page description of the panel in the ISMAR adjunct proceedings.
 
 For more information and inquiries, please contact the Panels Chairs at panels_chairs@ieeeismar.net.
 
