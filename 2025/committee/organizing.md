@@ -466,7 +466,7 @@ redirect_from:
             </div>
             <div class="chair">
                 <img src="{{ 'assets/2025/img/Committee Members Images/Il Yeo.jpg' | relative_url }}" />
-                <p class="name">Il Yeo</p>
+                <p class="name">Il Will Yeo</p>
                 <p>Apple</p>
             </div>
             <div class="chair">
