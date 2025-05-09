@@ -17,23 +17,4 @@
     </div>
 </footer>
 
-<script>
-    // Automatically detect and style passed deadlines
-    document.addEventListener('DOMContentLoaded', function() {
-        const today = new Date();
-        const deadlines = document.querySelectorAll('strong'); // Target bold dates
-        
-        deadlines.forEach(el => {
-            const text = el.textContent;
-            // Extract date (e.g., "April 4th, 2025" → "April 4, 2025")
-            const dateMatch = text.match(/([A-Za-z]+ \d+)(?:st|nd|rd|th), (\d{4})/);
-            if (dateMatch) {
-                const dateStr = `${dateMatch[1]}, ${dateMatch[2]}`; // "April 4, 2025"
-                const deadline = new Date(dateStr);
-                if (deadline < today) {
-                    el.classList.add('passed-deadline');
-                }
-            }
-        });
-    });
-    </script>
+
