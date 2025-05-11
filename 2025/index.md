@@ -59,8 +59,10 @@ redirect_from: /
                 <td><b>May 2nd, 2025 (23:59 AoE, Friday)</b></td>
             </tr>
             <tr>
-                <td><b>Tutorials</b></td>
-                <td><b>May 9th, 2025 (23:59 AoE, Friday)</b></td>
+            <td><b>Tutorials</b></td>
+            <td>
+                <b><s class="manual-strike" style="color: #999;">May 9th, 2025 (23:59 AoE, Friday)</s><br>May 16th, 2025 (23:59 AoE, Friday)</b>
+            </td>
             </tr>
             <tr>
                 <td><b>Doctoral Consortium</b></td>
@@ -109,35 +111,35 @@ redirect_from: /
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // 1. Get current date and time
     const now = new Date();
     console.log("Current time:", now.toISOString());
 
-    // 2. Select all table rows (skip header)
     const rows = document.querySelectorAll('.important-dates tbody tr');
     
     rows.forEach(row => {
-        // 3. Get both cells in the row
         const submissionCell = row.querySelector('td:first-child b');
         const deadlineCell = row.querySelector('td:nth-child(2) b');
-        
-        // 4. Extract the deadline date
+
+        // 🚫 Skip this row if it contains a manual-strike
+        if (row.querySelector('.manual-strike')) {
+            console.log("Skipped manual-strike row:", deadlineCell.textContent.trim());
+            return;
+        }
+
         const text = deadlineCell.textContent.trim();
         const dateMatch = text.match(/([A-Za-z]+) (\d+)(?:st|nd|rd|th), (\d{4}) \(23:59 AoE/);
-        
+
         if (!dateMatch) {
             console.warn("Couldn't parse date from:", text);
             return;
         }
-        
-        // 5. Create deadline date (accounting for AoE timezone)
+
         const month = dateMatch[1];
         const day = dateMatch[2];
         const year = dateMatch[3];
         const deadline = new Date(`${month} ${day}, ${year} 11:59:00 GMT`);
         deadline.setDate(deadline.getDate() + 1); // AoE is UTC-12
-        
-        // 6. Check if deadline has passed
+
         if (deadline < now) {
             submissionCell.classList.add('passed-deadline');
             deadlineCell.classList.add('passed-deadline');
