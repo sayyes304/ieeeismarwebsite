@@ -28,10 +28,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const deadlines = document.querySelectorAll('strong, .deadline'); 
     
     deadlines.forEach(el => {
+        // 🚫 Skip if this element is manually styled
+        if (el.classList.contains('manual-strike')) {
+            console.log("Skipped manually styled deadline:", el.textContent.trim());
+            return;
+        }
+
         const text = el.textContent.trim();
         
         // 3. Match dates with optional AoE time
-        // Formats: "May 9th, 2025" or "May 9th, 2025 (23:59 AoE)"
         const dateMatch = text.match(/([A-Za-z]+) (\d+)(?:st|nd|rd|th), (\d{4})(?: \(23:59 AoE\))?/);
         
         if (dateMatch) {
@@ -43,11 +48,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // 4. Create deadline date (account for AoE timezone)
             let deadline;
             if (hasAoE) {
-                // AoE is UTC-12, so 23:59 AoE = 11:59 UTC next day
                 deadline = new Date(`${month} ${day}, ${year} 11:59:00 GMT`);
-                deadline.setDate(deadline.getDate() + 1);
+                deadline.setDate(deadline.getDate() + 1); // AoE is UTC-12
             } else {
-                // Default to end of day (23:59 UTC)
                 deadline = new Date(`${month} ${day}, ${year} 23:59:00 GMT`);
             }
             
