@@ -15,7 +15,8 @@ The scope of the proposals should be consistent with the main conference topics.
 
 ## Important Dates
 
-- <strong>Proposal deadline:</strong> <s style="color: #999;">May 9th, 2025 (23:59 AoE, Friday)</s>, <strong>Date extended to May 16th, 2025 (23:59 AoE, Friday)</strong>- **Acceptance notification: May 30th, 2025 (Friday)**
+- <strong>Proposal deadline:</strong> <s style="color: #999;">May 9th, 2025 (23:59 AoE, Friday)</s>, <strong>Date extended to May 16th, 2025 (23:59 AoE, Friday)</strong>
+- **Acceptance notification: May 30th, 2025 (Friday)**
 - **Tutorial calls for participation issued by: June 13th, 2025 (Friday)**
 - **Camera-ready materials: August 15th, 2025 (Friday)**
 
