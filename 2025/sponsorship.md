@@ -102,7 +102,7 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Contributor">–</td>
     </tr>
     <tr>
-        <td rowspan="4" data-label="Category">Interaction</td>
+        <td rowspan="5" data-label="Category">Interaction</td>
         <td data-label="">Complimentary Exhibition Booth (3m*3m)</td>
         <td data-label="Diamond">10</td>
         <td data-label="Platinum">5</td>
