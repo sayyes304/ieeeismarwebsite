@@ -75,6 +75,15 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Contributor">–</td>
     </tr>
     <tr>
+        <td data-label="">Exhibition Space</td>
+        <td data-label="Diamond">Large table, Early priority move-in</td>
+        <td data-label="Platinum">Large table near diamond</td>
+        <td data-label="Gold">Large table</td>
+        <td data-label="Silver">Stand</td>
+        <td data-label="Bronze">Stand</td>
+        <td data-label="Contributor">–</td>
+    </tr>
+    <tr>
         <td data-label="">Advertising in Program (Printed/Virtual)</td>
         <td data-label="Diamond">Large</td>
         <td data-label="Platinum">Medium</td>
@@ -122,9 +131,9 @@ The benefits of sponsoring ISMAR include:
     </tr>
     <tr>
         <td data-label="">Dedicated Workshop</td>
-        <td data-label="Diamond">4 hours</td>
-        <td data-label="Platinum">2 hours</td>
-        <td data-label="Gold">1 hour</td>
+        <td data-label="Diamond">Yes (4 hours)</td>
+        <td data-label="Platinum">Yes (2 hours)</td>
+        <td data-label="Gold">Yes (1 hour)</td>
         <td data-label="Silver">–</td>
         <td data-label="Bronze">–</td>
         <td data-label="Contributor">–</td>
@@ -138,7 +147,6 @@ The benefits of sponsoring ISMAR include:
         <td data-label="Bronze">5,000</td>
         <td data-label="Contributor">500</td>
     </tr>
-
 </tbody>
 </table>
 
