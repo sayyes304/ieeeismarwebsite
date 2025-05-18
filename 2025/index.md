@@ -59,10 +59,17 @@ redirect_from: /
                 <td><b>May 2nd, 2025 (23:59 AoE, Friday)</b></td>
             </tr>
             <tr>
-            <td><b>Tutorials</b></td>
-            <td>
-                <b><s class="manual-strike" style="color: #999;">May 9th, 2025 (23:59 AoE, Friday)</s><br>May 16th, 2025 (23:59 AoE, Friday)</b>
-            </td>
+                <td><b>Workshops</b></td>
+                <td><b>May 2nd, 2025 (23:59 AoE, Friday)</b></td>
+            </tr>
+            <tr>
+                <td><b>Tutorials</b></td>
+                <td>
+                    <b>
+                        <s style="color: #999;">May 9th, 2025 (23:59 AoE, Friday)</s><br>
+                        <s>May 16th, 2025 (23:59 AoE, Friday)</s>
+                    </b>
+                </td>
             </tr>
             <tr>
                 <td><b>Doctoral Consortium</b></td>
