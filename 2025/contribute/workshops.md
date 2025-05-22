@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Call for Workshops
 ---
-*Last updated: 2025-03-21 2:53PM GMT*
+*Last updated: 2025-05-23 0:03AM GMT*
 
 ## Overview
 The ISMAR 2025 organizing committee invites proposals for workshops to be held in conjunction with the ISMAR conference. The workshops will be scheduled on October 8th (Wednesday) and October 12th (Sunday) and can be conducted in person, online, or in hybrid mode, in alignment with the ISMAR conference.
@@ -12,13 +12,13 @@ ISMAR workshops provide a platform for presenting novel work, work in progress, 
 The workshops may target a specific application area, research area, or topic of general interest to the ISMAR community. The scope of the workshop should align with the main conference topics. For more details, please visit the conference website at [ISMAR 2025 website](https://www.ieeeismar.net/2025/)(https://www.ieeeismar.net/2025/).
 
 We envision the workshops as launch pads to propel the ISMAR community forward in specific research directions, build a sub-community around shared research interests, and build bridges between ISMAR and other research communities.
-Workshop proposals must be submitted before May 2nd, 2025 (23:59 AoE, Friday). A committee will review the workshop proposals and notify the organizing team of acceptance by May 23th, 2025.
+Workshop proposals must be submitted before May 2nd, 2025 (23:59 AoE, Friday). A committee will review the workshop proposals and notify the organizing team of acceptance by ~~May 23rd~~ May 30th, 2025.
 
 
 ## Important Dates
 
 - Workshop proposal deadline: **May 2nd, 2025 (23:59 AoE, Friday)**
-- Workshop acceptance notification: **May 23th, 2025 (Friday)**
+- Workshop acceptance notification: <strong class="passed-deadline">**May 23rd, 2025 (Friday)**</strong> **May 30th, 2025 (Friday)**
 - Workshop calls for participation issued by: **June 6th, 2025 (Friday)**
 - Workshop acceptance notification to participants issued by: **August 1st, 2025 (Friday)**
 - Camera-ready materials: **August 15th, 2025 (Friday)**
