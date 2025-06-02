@@ -19,7 +19,7 @@ Workshop proposals must be submitted before May 2nd, 2025 (23:59 AoE, Friday). A
 
 - Workshop proposal deadline: **May 2nd, 2025 (23:59 AoE, Friday)**
 - Workshop acceptance notification: <strong class="passed-deadline">**May 23rd, 2025 (Friday)**</strong> **May 30th, 2025 (Friday)**
-- Workshop calls for participation issued by: **June 6th, 2025 (Friday)**
+- Workshop calls for participation issued by: **June 13th, 2025 (Friday)**
 - Workshop acceptance notification to participants issued by: **August 1st, 2025 (Friday)**
 - Camera-ready materials: **August 15th, 2025 (Friday)**
 
