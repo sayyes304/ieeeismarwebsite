@@ -89,7 +89,7 @@ title: International Program Committee
 **Domitile Lourdeaux**, Université de technologie de Compiègne, Compiègne, France<br>
 **Feiyu Lu**, J.P. Morgan Chase & Co., New York, United States<br>
 **Katja Zibrek**, INRIA, Rennes, France<br>
-**Vito Manghisi**, University, Bari, Italy<br>
+**Vito Manghisi**, Polytechnic University, Bari, Italy<br>
 **Antonio Uva**, Polytechnic Institute of Bari, Bari, Italy<br>
 **Jean-Yves Didier**, Université Paris-Saclay, Evry, France<br>
 **Takefumi Hiraki**, University of Tsukuba, Ibaraki, Japan<br>
