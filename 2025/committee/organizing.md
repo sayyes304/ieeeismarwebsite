@@ -354,6 +354,38 @@ redirect_from:
 
 
     <div class="chairs-category">
+        <h3>Mental Health Chairs</h3>
+        <div class="chairs">
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Nilufar Baghaei.jpg' | relative_url }}" />
+                <p class="name">Nilufar Baghaei</p>
+                <p>University of Queensland</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Hai-Ning Liang.jpeg' | relative_url }}" />
+                <p class="name">Hai-Ning Liang</p>
+                <p>HKUST</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Stephen Viller.png' | relative_url }}" />
+                <p class="name">Stephen Viller</p>
+                <p>The University of Queensland</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Richard Porter.png' | relative_url }}" />
+                <p class="name">Richard Porter</p>
+                <p>University of Otago</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Mark Billinghurst.png' | relative_url }}" />
+                <p class="name">Mark Billinghurst</p>
+                <p>The University of South Australia</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="chairs-category">
         <h3>Workshop Chairs</h3>
         <div class="chairs">
             <div class="chair">
