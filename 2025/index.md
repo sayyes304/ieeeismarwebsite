@@ -76,6 +76,10 @@ redirect_from: /
                 <td><b>June 9th, 2025 (23:59 AoE, Monday)</b></td>
             </tr>
             <tr>
+                <td><b>Mental Health</b></td>
+                <td><b>July 21st, 2025 (23:59 AoE, Monday)</b></td>
+            </tr>
+            <tr>
                 <td><b>Poster Papers</b></td>
                 <td><b>July 29th, 2025 (23:59 AoE, Tuesday)</b></td>
             </tr>
