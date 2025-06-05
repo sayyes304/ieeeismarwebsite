@@ -32,11 +32,11 @@
           url: "2025/contribute/guidelines/poster-paper-guidelines"
 - title: Sponsorship
   url: "2025/sponsorship"
-- title: Attend
-  url: "javascript:void(0)"
-  children:
-    - title: Travel Information
-      url: "https://sc29meeting.kr/TravelInfo"
+# - title: Attend
+#   url: "javascript:void(0)"
+#   children:
+#     - title: Travel Information
+#       url: "https://sc29meeting.kr/TravelInfo"
 - title: Committee
   url: "javascript:void(0)"
   children:
