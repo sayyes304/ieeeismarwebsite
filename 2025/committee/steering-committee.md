@@ -8,7 +8,7 @@ title: Steering Committee
         <h3>Steering Committee Members</h3>
         <div class="steering">
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Wolfgang Broll.jpg' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Wolfgang Broll.jpg' | relative_url }}" />
         <p class="name">Wolfgang Broll</p>
         <div class="member-info">
             <p class="role">Chair</p>
@@ -17,7 +17,7 @@ title: Steering Committee
         </div>
     </div>
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Tobias Höllerer.jpg' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Tobias Höllerer.jpg' | relative_url }}" />
         <p class="name">Tobias Höllerer</p>
         <div class="member-info">
             <p class="role">Vice-Chair</p>
@@ -26,7 +26,7 @@ title: Steering Committee
         </div>
     </div>
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Barrett Ens.jpg' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Barrett Ens.jpg' | relative_url }}" />
         <p class="name">Barrett Ens</p>
         <div class="member-info">
             <p class="role">Finance Officer</p>
@@ -35,7 +35,7 @@ title: Steering Committee
         </div>
     </div>
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Jens Grubert.jpg' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Jens Grubert.jpg' | relative_url }}" />
         <p class="name">Jens Grubert</p>
         <div class="member-info">
             <p class="role">Sponsorship Officer</p>
@@ -44,7 +44,7 @@ title: Steering Committee
         </div>
     </div>
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Kiyoshi Kiyokawa.webp' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Kiyoshi Kiyokawa.webp' | relative_url }}" />
         <p class="name">Kiyoshi Kiyokawa</p>
         <div class="member-info">
             <p class="role">Awards & Liaison Officer</p>
@@ -53,7 +53,7 @@ title: Steering Committee
         </div>
     </div>
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Daisuke Iwai.jpg' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Daisuke Iwai.jpg' | relative_url }}" />
         <p class="name">Daisuke Iwai</p>
         <div class="member-info">
             <p class="role">Technical Program Officer</p>
@@ -62,7 +62,7 @@ title: Steering Committee
         </div>
     </div>
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Guillaume Moreau.jpg' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Guillaume Moreau.jpg' | relative_url }}" />
         <p class="name">Guillaume Moreau</p>
         <div class="member-info">
             <p class="role">Conference Coordination Officer</p>
@@ -71,7 +71,7 @@ title: Steering Committee
         </div>
     </div>
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Ulrich Eck.jpg' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Ulrich Eck.jpg' | relative_url }}" />
         <p class="name">Ulrich Eck</p>
         <div class="member-info">
             <p class="role">Conference Location Officer</p>
@@ -80,7 +80,7 @@ title: Steering Committee
         </div>
     </div>
     <div class="steering-member">
-        <img src="{{ 'assets/2025/img/Steering Committee/Stefanie Zollmann.webp' | relative_url }}" />
+        <img src="{{ 'assets\2025\img\Steering Committee\Stefanie Zollmann.webp' | relative_url }}" />
         <p class="name">Stefanie Zollmann</p>
         <div class="member-info">
             <p class="role">Communications Officer</p>
