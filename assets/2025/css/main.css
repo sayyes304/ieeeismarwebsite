@@ -670,8 +670,8 @@ body {
     text-align: center;
     position: relative;
     margin-bottom: 30px;
-    width: calc(33.33% - 20px); /* Makes sure each member takes 1/3 of the container width, minus gap */
-    box-sizing: border-box; /* Ensures padding/margins are included in width calculation */
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -705,16 +705,16 @@ body {
 
 /* Styling for email addresses */
 .steering p a {
-    font-size: 16px; /* Default font size for larger screens */
+    font-size: 16px; 
     font-family: "Poppins", sans-serif;
-    color: #0073e6; /* You can change this color */
+    color: #0073e6; 
     text-decoration: none;
-    word-wrap: break-word; /* Ensures long emails break into multiple lines if needed */
-    overflow-wrap: break-word; /* Handles overflow and breaks long words */
-    width: 100%; /* Ensures the email takes the full width */
-    max-width: 200px; /* Restricts the width for better handling */
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    width: 100%; 
+    max-width: 200px;
     text-align: center;
-    white-space: nowrap; /* Prevents the email from wrapping to the next line */
+    white-space: nowrap; 
 }
 
 /* Styling for role and affiliation */
@@ -724,8 +724,8 @@ body {
     font-family: "Poppins", sans-serif;
     text-align: center;
     margin: 3px 0;
-    width: 200px; /* Same width as name for alignment */
-    white-space: nowrap; /* Prevents wrapping for role and affiliation */
+    width: 200px; 
+    white-space: nowrap; 
 }
 
 /* Category header style */
@@ -740,10 +740,6 @@ body {
     font-weight: 600;
 }
 
-/* Media Queries for responsive design */
-
-/* Media Queries for responsive design */
-
 /* For medium screens (tablets, etc.) */
 @media (max-width: 768px) {
     .steering-member {
@@ -751,13 +747,13 @@ body {
     }
 
     .steering p a {
-        max-width: 100%; /* Ensure email addresses take up the full width */
-        font-size: 14px; /* Slightly smaller font size for medium screens */
+        max-width: 100%; 
+        font-size: 11px; 
     }
 
     .steering p.role,
     .steering p.affiliation {
-        font-size: 14px; /* Increase font size for role and affiliation on medium screens */
+        font-size: 14px; 
     }
 }
 
@@ -768,13 +764,13 @@ body {
     }
 
     .steering p a {
-        max-width: 100%; /* Ensure email addresses take up the full width */
-        font-size: 14px; /* Slightly larger font size for mobile screens */
+        max-width: 100%; 
+        font-size: 11px; 
     }
 
     .steering p.role,
     .steering p.affiliation {
-        font-size: 12px; /* Increase font size for role and affiliation on mobile screens */
+        font-size: 12px; 
     }
 }
 
