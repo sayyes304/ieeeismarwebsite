@@ -7,69 +7,86 @@ title: Steering Committee
     <div class="steering-category">
         <h3>Steering Committee Members</h3>
         <div class="steering">
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Wolfgang Broll.jpg' | relative_url }}" />
-                <p class="name">Wolfgang Broll</p>
-                <p>Chair</p>
-                <p>TU Ilmenau, Germany</p>
-                <p><a href="mailto:chairs.steering@ismar.net">chairs.steering@ismar.net</a></p>
-            </div>
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Tobias Höllerer.jpg' | relative_url }}" />
-                <p class="name">Tobias Höllerer</p>
-                <p>Vice-Chair</p>
-                <p>UCSB, United States</p>
-                <p><a href="mailto:chairs.steering@ismar.net">chairs.steering@ismar.net</a></p>
-            </div>
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Barrett Ens.jpg' | relative_url }}" />
-                <p class="name">Barrett Ens</p>
-                <p>Finance Officer</p>
-                <p>University of British Columbia, Canada</p>
-                <p><a href="mailto:finance.steering@ismar.net">finance.steering@ismar.net</a></p>
-            </div>
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Jens Grubert.jpg' | relative_url }}" />
-                <p class="name">Jens Grubert</p>
-                <p>Sponsorship Officer</p>
-                <p>HS Coburg, Germany</p>
-                <p><a href="mailto:sponsorship.steering@ismar.net">sponsorship.steering@ismar.net</a></p>
-            </div>
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Kiyoshi Kiyokawa.webp' | relative_url }}" />
-                <p class="name">Kiyoshi Kiyokawa</p>
-                <p>Awards & Liaison Officer</p>
-                <p>NAIST, Japan</p>
-                <p><a href="mailto:awards_liaison.steering@ismar.net">awards_liaison.steering@ismar.net</a></p>
-            </div>
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Daisuke Iwai.jpg' | relative_url }}" />
-                <p class="name">Daisuke Iwai</p>
-                <p>Technical Program Officer</p>
-                <p>University of Osaka, Japan</p>
-                <p><a href="mailto:science.steering@ismar.net">science.steering@ismar.net</a></p>
-            </div>
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Guillaume Moreau.jpg' | relative_url }}" />
-                <p class="name">Guillaume Moreau</p>
-                <p>Conference Coordination Officer</p>
-                <p>IMT Atlantique, France</p>
-                <p><a href="mailto:conference_coordination.steering@ismar.net">conference_coordination.steering@ismar.net</a></p>
-            </div>
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Ulrich Eck.jpg' | relative_url }}" />
-                <p class="name">Ulrich Eck</p>
-                <p>Conference Location Officer</p>
-                <p>TU Munich, Germany</p>
-                <p><a href="mailto:conference_location.steering@ismar.net">conference_location.steering@ismar.net</a></p>
-            </div>
-            <div class="steering-member">
-                <img src="{{ 'assets/2025/img/Committee Members Images/Stefanie Zollmann.webp' | relative_url }}" />
-                <p class="name">Stefanie Zollmann</p>
-                <p>Communications Officer</p>
-                <p>University of Otago, New Zealand</p>
-                <p><a href="mailto:communications.steering@ismar.net">communications.steering@ismar.net</a></p>
-            </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Wolfgang Broll.jpg' | relative_url }}" />
+        <p class="name">Wolfgang Broll</p>
+        <div class="member-info">
+            <p class="role">Chair</p>
+            <p class="affiliation">TU Ilmenau, Germany</p>
+            <p><a href="mailto:chairs.steering@ismar.net">chairs.steering@ismar.net</a></p>
+        </div>
+    </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Tobias Höllerer.jpg' | relative_url }}" />
+        <p class="name">Tobias Höllerer</p>
+        <div class="member-info">
+            <p class="role">Vice-Chair</p>
+            <p class="affiliation">UCSB, United States</p>
+            <p><a href="mailto:chairs.steering@ismar.net">chairs.steering@ismar.net</a></p>
+        </div>
+    </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Barrett Ens.jpg' | relative_url }}" />
+        <p class="name">Barrett Ens</p>
+        <div class="member-info">
+            <p class="role">Finance Officer</p>
+            <p class="affiliation">University of British Columbia, Canada</p>
+            <p><a href="mailto:finance.steering@ismar.net">finance.steering@ismar.net</a></p>
+        </div>
+    </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Jens Grubert.jpg' | relative_url }}" />
+        <p class="name">Jens Grubert</p>
+        <div class="member-info">
+            <p class="role">Sponsorship Officer</p>
+            <p class="affiliation">HS Coburg, Germany</p>
+            <p><a href="mailto:sponsorship.steering@ismar.net">sponsorship.steering@ismar.net</a></p>
+        </div>
+    </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Kiyoshi Kiyokawa.webp' | relative_url }}" />
+        <p class="name">Kiyoshi Kiyokawa</p>
+        <div class="member-info">
+            <p class="role">Awards & Liaison Officer</p>
+            <p class="affiliation">NAIST, Japan</p>
+            <p><a href="mailto:awards_liaison.steering@ismar.net">awards_liaison.steering@ismar.net</a></p>
+        </div>
+    </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Daisuke Iwai.jpg' | relative_url }}" />
+        <p class="name">Daisuke Iwai</p>
+        <div class="member-info">
+            <p class="role">Technical Program Officer</p>
+            <p class="affiliation">University of Osaka, Japan</p>
+            <p><a href="mailto:science.steering@ismar.net">science.steering@ismar.net</a></p>
+        </div>
+    </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Guillaume Moreau.jpg' | relative_url }}" />
+        <p class="name">Guillaume Moreau</p>
+        <div class="member-info">
+            <p class="role">Conference Coordination Officer</p>
+            <p class="affiliation">IMT Atlantique, France</p>
+            <p><a href="mailto:conference_coordination.steering@ismar.net">conference_coordination.steering@ismar.net</a></p>
+        </div>
+    </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Ulrich Eck.jpg' | relative_url }}" />
+        <p class="name">Ulrich Eck</p>
+        <div class="member-info">
+            <p class="role">Conference Location Officer</p>
+            <p class="affiliation">TU Munich, Germany</p>
+            <p><a href="mailto:conference_location.steering@ismar.net">conference_location.steering@ismar.net</a></p>
+        </div>
+    </div>
+    <div class="steering-member">
+        <img src="{{ 'assets/2025/img/Steering Committee/Stefanie Zollmann.webp' | relative_url }}" />
+        <p class="name">Stefanie Zollmann</p>
+        <div class="member-info">
+            <p class="role">Communications Officer</p>
+            <p class="affiliation">University of Otago, New Zealand</p>
+            <p><a href="mailto:communications.steering@ismar.net">communications.steering@ismar.net</a></p>
+        </div>
         </div>
     </div>
     <div class="steering-category">
