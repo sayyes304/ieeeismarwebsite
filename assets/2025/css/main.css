@@ -616,3 +616,90 @@ h2 {
         font-size: 14px;
     }
 }
+
+
+/* General styling for the members container */
+.steering {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Ensures the items are spaced evenly */
+    gap: 20px; /* Adds space between each member */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Individual member container */
+.steering-member {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    width: calc(33.33% - 20px); /* Makes sure each member takes 1/3 of the container width, minus gap */
+    box-sizing: border-box; /* Ensures padding/margins are included in width calculation */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Styling for each member image */
+.steering img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 10%;
+    margin-bottom: 10px;
+}
+
+/* Ensuring names below each image are aligned */
+.steering p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 3px 0;
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Making sure the name has bold font */
+.steering p.name {
+    font-weight: bold;
+}
+
+/* Styling for role text */
+.steering p.role {
+    font-size: 14px;
+    text-align: center;
+    margin: 3px 0;
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap; /* Prevents wrapping of the role text */
+}
+
+/* Category header style */
+.steering-category h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(37, 37, 197);
+    font-weight: 600;
+}
+
+/* Media Queries for responsive design */
+
+/* For medium screens (tablets, etc.) */
+@media (max-width: 768px) {
+    .steering-member {
+        width: calc(50% - 20px); /* 2 items per row */
+    }
+}
+
+/* For very small screens (mobiles) */
+@media (max-width: 480px) {
+    .steering-member {
+        width: 100%; /* 1 item per row */
+    }
+}
