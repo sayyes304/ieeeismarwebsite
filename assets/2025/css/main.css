@@ -617,7 +617,6 @@ h2 {
     }
 }
 
-
 /* General styles */
 body {
     font-family: "Poppins", sans-serif;
@@ -718,6 +717,17 @@ body {
     white-space: nowrap; /* Prevents the email from wrapping to the next line */
 }
 
+/* Styling for role and affiliation */
+.steering p.role,
+.steering p.affiliation {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 3px 0;
+    width: 200px; /* Same width as name for alignment */
+    white-space: nowrap; /* Prevents wrapping for role and affiliation */
+}
+
 /* Category header style */
 .steering-category h3 {
     font-size: 24px;
@@ -732,6 +742,8 @@ body {
 
 /* Media Queries for responsive design */
 
+/* Media Queries for responsive design */
+
 /* For medium screens (tablets, etc.) */
 @media (max-width: 768px) {
     .steering-member {
@@ -741,6 +753,11 @@ body {
     .steering p a {
         max-width: 100%; /* Ensure email addresses take up the full width */
         font-size: 14px; /* Slightly smaller font size for medium screens */
+    }
+
+    .steering p.role,
+    .steering p.affiliation {
+        font-size: 14px; /* Increase font size for role and affiliation on medium screens */
     }
 }
 
@@ -752,7 +769,13 @@ body {
 
     .steering p a {
         max-width: 100%; /* Ensure email addresses take up the full width */
-        font-size: 12px; /* Smaller font size for mobile screens */
+        font-size: 14px; /* Slightly larger font size for mobile screens */
+    }
+
+    .steering p.role,
+    .steering p.affiliation {
+        font-size: 12px; /* Increase font size for role and affiliation on mobile screens */
     }
 }
+
 
