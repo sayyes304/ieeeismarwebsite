@@ -622,155 +622,106 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #ffff;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: #fff;
+    overflow-x: hidden;
     box-sizing: border-box;
 }
 
 /* Steering container */
 .steering-container {
-    margin-top: 40px;
     width: 100%;
-    background-color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-.steering-container h2 {
-    font-size: 28px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+/* Category header style */
+.steering-category h3 {
+    font-size: 24px;
+    margin: 30px 0 20px 0;
     text-align: left;
-    padding-left: 20px;
     font-family: "Poppins", sans-serif;
-    color: black;
-    font-weight: 800;
+    color: rgb(37, 37, 197);
+    font-weight: 600;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
 }
 
 /* General styling for the members container */
 .steering {
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line */
-    justify-content: space-between; /* Ensures the items are spaced evenly */
-    gap: 20px; /* Adds space between each member */
-    padding-left: 20px;
-    padding-right: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px 20px; /* 30px vertical, 20px horizontal */
 }
 
 /* Individual member container */
 .steering-member {
     text-align: center;
-    position: relative;
-    margin-bottom: 30px;
-    width: calc(33.33% - 20px); 
-    box-sizing: border-box; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    width: calc(33.33% - 14px); /* 3 items per row with gap accounted for */
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 /* Styling for each member image */
 .steering img {
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
     object-position: 50% 10%;
     margin-bottom: 10px;
 }
 
-/* Ensuring names below each image are aligned */
+/* Text styling */
 .steering p {
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    margin: 3px 0;
-    width: 200px;
+    margin: 5px 0;
     font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
-/* Making sure the name has bold font */
+/* Name styling */
 .steering p.name {
     font-weight: bold;
+    font-size: 16px;
 }
 
-/* Styling for email addresses */
-.steering p a {
-    font-size: 16px; 
-    font-family: "Poppins", sans-serif;
-    color: #0073e6; 
-    text-decoration: none;
-    word-wrap: break-word; 
-    overflow-wrap: break-word;
-    width: 100%; 
-    max-width: 200px;
-    text-align: center;
-    white-space: nowrap; 
-}
-
-/* Styling for role and affiliation */
-.steering p.role,
-.steering p.affiliation {
-    font-size: 14px;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    margin: 3px 0;
-    width: 200px; 
-    white-space: nowrap; 
-}
-
-/* Category header style */
-.steering-category h3 {
-    font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-align: left;
-    padding-left: 20px;
-    font-family: "Poppins", sans-serif;
-    color: rgb(37, 37, 197);
+/* Role styling */
+.steering p.role {
     font-weight: 600;
+    color: #333;
 }
 
-/* For medium screens (tablets, etc.) */
+/* Email styling */
+.steering p a {
+    color: #0073e6;
+    text-decoration: none;
+    word-break: break-all;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 900px) {
+    .steering {
+        gap: 25px 15px;
+    }
+    .steering-member {
+        width: calc(33.33% - 10px); /* Keep 3 per row but adjust gap */
+    }
+}
+
 @media (max-width: 768px) {
     .steering-member {
-        width: calc(50% - 20px); /* 2 items per row */
-    }
-
-    .steering p a {
-        max-width: 100%; 
-        font-size: 11px; 
-    }
-
-    .steering p.role,
-    .steering p.affiliation {
-        font-size: 14px; 
+        width: calc(50% - 10px); /* 2 items per row */
     }
 }
 
-/* For very small screens (mobiles) */
 @media (max-width: 480px) {
     .steering-member {
         width: 100%; /* 1 item per row */
-    }
-
-    .steering p a {
-        max-width: 100%; 
-        font-size: 11px; 
-    }
-
-    .steering p.role,
-    .steering p.affiliation {
-        font-size: 12px; 
     }
 }
 
