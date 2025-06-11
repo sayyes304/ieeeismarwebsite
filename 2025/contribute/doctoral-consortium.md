@@ -3,7 +3,7 @@ layout: 2025/page
 title: Call for Participation in Doctoral Consortium
 ---
 
-*Last updated: 2025-03-28 1:42PM GMT*
+*Last updated: 2025-06-11 2:46PM GMT*
 
 ## Overview
 The Doctoral Consortium at ISMAR 2025 is a concentrated event where students present their research interests, plans, and results to a panel of researchers in related fields and receive specific and constructive feedback, including opportunities to meet with mentors one-on-one. Accepted students will be expected to give in-depth presentations of their research and will receive valuable comments from mentors. Additionally, accepted students will create a poster to share their work with ISMAR ’25 Doctoral Consortium and general conference attendees. Accepted students will have the option to publish their two-page extended abstract in the conference proceedings and to be included in the ISMAR 2025 online program. Abstracts may be archived in the IEEE Xplore digital library.
@@ -14,9 +14,9 @@ Ideal candidates will be in the early or mid-stage of their PhD and should have 
 
 ## Important Deadlines
 
-- Application submission deadline: June 9th, 2025 (23:59 AoE, Monday)
-- Acceptance notification: July 3rd, 2025 (23:59 AoE, Thursday)
-- Attendance confirmation deadline: July 10th, 2025 (23:59 AoE, Thursday)
+- Application submission deadline: <s style="color: #999;">June 9th, 2025 (23:59 AoE, Monday)</s>, June 30th, 2025 (23:59 AoE, Monday)
+- Acceptance notification: <s style="color: #999;">July 3rd, 2025 (23:59 AoE, Thursday)</s>, July 10th, 2025 (23:59 AoE, Thursday)
+- Attendance confirmation deadline: <s style="color: #999;">July 10th, 2025 (23:59 AoE, Thursday)</s>, July 17th, 2025 (23:59 AoE, Thursday)
 - Final Notification: July 22nd, 2025 (23:59 AoE, Tuesday)
 - DC paper camera-ready version: July 31st, 2025 (23:59 AoE, Thursday)
 - Consortium meeting: Wednesday, October 8th, 2025
@@ -39,4 +39,4 @@ For any enquiries, please contact the Doctoral Consortium Chairs at <ismar2025dc
 
 Youngwon Kim, KIT\
 SJ Kim, University of Nevada Las Vegas\
-Lee Lisle, Virginia Tech
+Lee Lisle, University of Central Florida
