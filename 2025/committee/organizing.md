@@ -349,6 +349,11 @@ redirect_from:
                 <p class="name">Si-jung Kim</p>
                 <p>University of Nevada Las Vegas</p>
             </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Lee_Lisle.jpg' | relative_url }}" />
+                <p class="name">Lee Lisle</p>
+                <p>University of Central Florida</p>
+            </div>
         </div>
     </div>
 
