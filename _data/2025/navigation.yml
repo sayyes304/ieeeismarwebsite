@@ -32,15 +32,15 @@
           url: "2025/contribute/guidelines/poster-paper-guidelines"
 - title: Sponsorship
   url: "2025/sponsorship"
-# - title: Attend
-#   url: "javascript:void(0)"
-#   children:
-#     - title: Venue
-#       url: "2025/attend/venue"
-#     - title: Transportation
-#       url: "2025/attend/transportation"
-#     - title: Visa Requirements
-#       url: "2025/attend/visa-requirements"
+- title: Attend
+  url: "javascript:void(0)"
+  children:
+    - title: Venue
+      url: "2025/attend/venue"
+    - title: Transportation
+      url: "2025/attend/transportation"
+    - title: Visa Requirements
+      url: "2025/attend/visa-requirements"
 - title: Committee
   url: "javascript:void(0)"
   children:
