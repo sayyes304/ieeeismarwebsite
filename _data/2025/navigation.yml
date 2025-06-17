@@ -36,11 +36,11 @@
   url: "javascript:void(0)"
   children:
     - title: Venue
-      url: "2025/Attend/venue"
+      url: "2025/attend/venue"
     - title: Transportation
-      url: "2025/Attend/transportation"
+      url: "2025/attend/transportation"
     - title: Visa Requirements
-      url: "2025/Attend/visa-requirements"
+      url: "2025/attend/visa-requirements"
 - title: Committee
   url: "javascript:void(0)"
   children:
