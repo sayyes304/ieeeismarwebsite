@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Visa Requirements
 ---
-*Last updated: 2025-03-16 02:36PM GMT*
+*Last updated: 2025-06-17 02:36PM GMT*
 
 ## Visa Requirements
 
