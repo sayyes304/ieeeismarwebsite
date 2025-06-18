@@ -2,7 +2,9 @@
 layout: 2025/page
 title: Transportation
 ---
-*Last updated: 2025-06-17 02:36PM GMT*
+*Last updated: 2025-06-18 04:01AM GMT*
+
+<a id="top"></a>
 
 ## Transportation
 
@@ -17,9 +19,14 @@ Daejeon is a major city in South Korea, located approximately **170 km south of 
 
 Incheon Airport has **two terminals (T1 and T2)**. with your flight arriving at one of them depending on the airline. Below, we outline the most convenient ways to get there.
 
+<div class="transport-nav">
+  <a href="#express-bus" class="transport-button">🚍 Airport Express Bus</a>
+  <a href="#train" class="transport-button">🚄 Train (AREX + KTX)</a>
+  <a href="#taxi" class="transport-button">🚖 Taxi / Private Car</a>
+</div>
 ---
 
-### 🚍 1. Direct Express Bus from Incheon Int'l Airport to Daejeon
+### 🚍 <a id="express-bus"></a>1. Direct Express Bus from Incheon Int'l Airport to Daejeon
 
 The **airport express bus service** offers a **direct and comfortable** way to travel from Incheon International Airport to Daejeon.
 
@@ -32,9 +39,9 @@ The **airport express bus service** offers a **direct and comfortable** way to t
 
 #### 💰 Price Range:
 - **KRW 26,000 – 33,000**, depending on the bus class:
-  - `Il-Ban (Regular)`
-  - `Woo-Deung (Excellent)`
-  - `Premium`
+  - Il-Ban (Regular)
+  - Woo-Deung (Excellent)
+  - Premium
 
 > Higher-class buses offer more spacious seating but take the **same amount of time** and **stop at the same stations**.
 
@@ -44,13 +51,13 @@ The **airport express bus service** offers a **direct and comfortable** way to t
 - **Terminal 1** bus stop location (1 Floor, No. 11A)
 
 <div class="transportation-img-wrapper">
-  <img src="{{ 'assets/2025/img/Transportation1.jpg' | relative_url }}" alt="Transportation Image">
+  <img src="{{ 'assets/2025/img/Transportation1.png' | relative_url }}" alt="Transportation Image">
 </div>
 
 - **Terminal 2** bus stop location (Transportation Center Basement 1, No. 5)
 
 <div class="transportation-img-wrapper">
-  <img src="{{ 'assets/2025/img/Transportation2.jpg' | relative_url }}" alt="Transportation Image">
+  <img src="{{ 'assets/2025/img/Transportation2.png' | relative_url }}" alt="Transportation Image">
 </div>
 ---
 
@@ -89,7 +96,7 @@ Book online via [TXBUS](https://intercitybuse.tmoney.co.kr/)
 
 ---
 
-### 🚄 2. Train (AREX + KTX)
+### 🚄 <a id="train"></a>2. Train (AREX + KTX)
 
 For a **faster journey**, combining the **AREX (Airport Railroad Express)** with the **KTX high-speed train** is an excellent option.
 
@@ -142,7 +149,7 @@ Board the AREX from **Incheon Airport Transportation Center (B1F)**.
 
 ---
 
-### 🚖 3. Taxi or Private Car
+### 🚖 <a id="taxi"></a>3. Taxi or Private Car
 
 For those seeking **maximum convenience**, taxis and private car services are also available.
 
@@ -185,3 +192,6 @@ For those seeking **maximum convenience**, taxis and private car services are al
   - 🚄 *Korail App* – for checking KTX schedules and booking
 
 ---
+<div style="text-align: center; margin: 3rem 0;">
+  <a href="#top" class="back-to-top">⬆️ Back to Top</a>
+</div>
