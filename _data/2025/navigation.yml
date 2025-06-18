@@ -37,8 +37,8 @@
   children:
     - title: Venue
       url: "2025/attend/venue"
-    - title: Transportation
-      url: "2025/attend/transportation"
+    # - title: Transportation
+    #   url: "2025/attend/transportation"
     - title: Visa Requirements
       url: "2025/attend/visa-requirements"
 - title: Committee
