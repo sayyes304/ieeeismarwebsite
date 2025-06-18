@@ -799,7 +799,7 @@ body {
 }
 
 :target {
-  scroll-margin-top: 80px; /* Adjust based on your header height */
+  scroll-margin-top: 80px; 
 }
 
 .back-to-top {
@@ -816,3 +816,4 @@ body {
 .back-to-top:hover {
   background-color: #111;
 }
+
