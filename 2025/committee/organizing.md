@@ -246,7 +246,6 @@ redirect_from:
         </div>
     </div>
 
-
     <div class="chairs-category">
         <h3>Web Chairs</h3>
         <div class="chairs">
@@ -267,8 +266,6 @@ redirect_from:
             </div>
         </div>
     </div>
-
-
     <div class="chairs-category">
         <h3>Design Chairs</h3>
         <div class="chairs">
@@ -284,8 +281,6 @@ redirect_from:
             </div>
         </div>
     </div>
-
-
     <div class="chairs-category">
         <h3>Publicity, SNS & Communications Chairs</h3>
         <div class="chairs">
@@ -311,8 +306,6 @@ redirect_from:
             </div>
         </div>
     </div>
-
-
     <div class="chairs-category">
         <h3>Hybrid Media Chairs</h3>
         <div class="chairs">
@@ -356,9 +349,7 @@ redirect_from:
             </div>
         </div>
     </div>
-
-
-    <div class="chairs-category">
+    <!-- <div class="chairs-category">
         <h3>Mental Health Chairs</h3>
         <div class="chairs">
             <div class="chair">
@@ -387,7 +378,7 @@ redirect_from:
                 <p>The University of South Australia</p>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="chairs-category">
