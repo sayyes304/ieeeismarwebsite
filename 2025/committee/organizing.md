@@ -575,7 +575,7 @@ redirect_from:
         </div>
     </div>
     <div class="chairs-category">
-        <h3>Mental Health Chairs</h3>
+        <h3>Mental Health Organizers</h3>
         <div class="chairs">
             <div class="chair">
                 <img src="{{ 'assets/2025/img/Committee Members Images/Nilufar Baghaei.jpg' | relative_url }}" />
