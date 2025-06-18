@@ -53,7 +53,7 @@ body {
     width: 160px;
     height: 48px;
    /* height: 50px;            /* Set a height for the logo */
-    margin-right: 570px;      /* Add space between logo and navigation */
+/*     margin-right: 570px;      /* Add space between logo and navigation */
     /*display: inline-block;   /* Make sure the logo stays inline */
 }
 
@@ -64,6 +64,12 @@ body {
         height: 48px;
        /* height: 40px;        /* Reduce the logo height slightly for smaller screens */
         margin-right: 0;     /* Remove the large right margin on smaller screens */
+    }
+}
+
+@media (min-width: 1350px) {
+    .logo {
+        margin-right: 570px; 
     }
 }
 
