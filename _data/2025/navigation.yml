@@ -7,14 +7,17 @@
       url: "2025/contribute/posters"
     - title: Workshops
       url: "2025/contribute/workshops"
+    - title: Accepted Workshops
+      url: "javascript:void(0)"
+      children:
+        - title: Mental Health
+          url: "2025/contribute/mental-health"
     - title: Demos
       url: "2025/contribute/demos"
     - title: Tutorials
       url: "2025/contribute/tutorials"
     - title: Doctoral Consortium
       url: "2025/contribute/doctoral-consortium"
-    - title: Mental Health
-      url: "2025/contribute/mental-health"
     - title: Panels
       url: "2025/contribute/panels"
     - title: Call for Student Volunteers
