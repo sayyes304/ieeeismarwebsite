@@ -197,5 +197,3 @@ For those seeking **maximum convenience**, taxis and private car services are al
 <div style="text-align: center; margin: 3rem 0;">
   <a href="#top" class="back-to-top">⬆️ Back to Top</a>
 </div>
-
-<link rel="stylesheet" href="{{ 'assets/2025/css/main.css' | relative_url }}">
