@@ -2,7 +2,7 @@
 layout: 2025/page
 title: Transportation
 ---
-*Last updated: 2025-06-18 04:01AM GMT*
+*Last updated: 2025-06-18 07:15AM GMT*
 
 <a id="top"></a>
 
@@ -32,14 +32,14 @@ Incheon Airport has **two terminals (T1 and T2)**. with your flight arriving at 
 
 The **airport express bus service** offers a **direct and comfortable** way to travel from Incheon International Airport to Daejeon.
 
-#### 🛒 How to Purchase Tickets:
+####  **How to Purchase Tickets:**
 - Purchase tickets at **bus ticket counters** located:
   - Terminal 1: near Gates **4 and 9**
   - Terminal 2: near Gates **1 and 2**
 
 ---
 
-#### 💰 Price Range:
+####  **Price Range:**
 - **KRW 26,000 – 33,000**, depending on the bus class:
   - Il-Ban (Regular)
   - Woo-Deung (Excellent)
@@ -49,7 +49,7 @@ The **airport express bus service** offers a **direct and comfortable** way to t
 
 ---
 
-#### 🚏 Bus Stop Locations:
+####  **Bus Stop Locations:**
 - **Terminal 1** bus stop location (1 Floor, No. 11A)
 
 <div class="transportation-img-wrapper">
@@ -63,19 +63,19 @@ The **airport express bus service** offers a **direct and comfortable** way to t
 </div>
 ---
 
-#### ⏱️ Travel Duration:
+####  **Travel Duration:**
 - The journey takes **approximately 2.5 to 3 hours**, depending on traffic.
 
 ---
 
-#### 📍 Arrival Points in Daejeon:
+####  **Arrival Points in Daejeon:**
 - Most buses terminate at Daejeon Government Complex ("DaejeonCheongsa”) or Daejeon Bus Terminal.
 - Bus Stops: Incheon Airport T2 ->IncheonAirport T1->North DaejonIC->Daedeok Community Center->Daejeon Cheongsa->DaejeonBus Terminal.
 - Note that our venue (DCC) area is closer to Daejeon Government Complex ("DaejeonCheongsa”)
 
 ---
 
-#### 🕒 Bus Schedule (Approx. every 20 minutes):
+####  **Bus Schedule (Approx. every 20 minutes):**
 - **First Bus:**
   - Terminal 1 – 06:20  
   - Terminal 2 – 06:00
@@ -86,14 +86,14 @@ The **airport express bus service** offers a **direct and comfortable** way to t
 
 ---
 
-#### ✅ Key Benefits:
+####  **Key Benefits:**
 - No transfers required  
 - Ample luggage space  
 - Comfortable seating with **onboard Wi-Fi**
 
 ---
 
-#### 🎟️ Ticket Booking:
+####  **Ticket Booking:**
 Book online via [TXBUS](https://intercitybuse.tmoney.co.kr/)
 
 ---
@@ -102,7 +102,7 @@ Book online via [TXBUS](https://intercitybuse.tmoney.co.kr/)
 
 For a **faster journey**, combining the **AREX (Airport Railroad Express)** with the **KTX high-speed train** is an excellent option.
 
-#### 🧭 Take AREX to Seoul Station
+####  **Take AREX to Seoul Station**
 Board the AREX from **Incheon Airport Transportation Center (B1F)**.
 
 - **Express Train**:
@@ -124,27 +124,27 @@ Board the AREX from **Incheon Airport Transportation Center (B1F)**.
 </div>
 ---
 
-#### 🚆 Transfer to KTX at Seoul Station
+####  **Transfer to KTX at Seoul Station**
 - Purchase KTX tickets at counters or machines
 - Price range: **KRW 23,700 – KRW 33,200** depending on seat class
 
 ---
 
-#### ⏱ Travel to Daejeon
+####  **Travel to Daejeon**
 - KTX travel time: **50–65 minutes**
 - Interval: every 10–30 minutes  
   ⏱ First train: 05:03 | Last train: 23:28
 
 ---
 
-#### ✅ Benefits
+####  **Benefits**
 - ⚡ Significantly faster than the bus
 - 🪑 Comfortable seating
 - 🚄 Efficient schedule
 
 ---
 
-#### 🎟️ Booking
+#### **Booking**
 - Use the [Korail Website](https://www.letskorail.com/ebizbf/EbizbfForeign_pr16100.do?gubun=1)
 
 > ⚠️ **Note:** Ensure sufficient time between AREX and KTX transfers, especially during peak hours.
@@ -155,43 +155,43 @@ Board the AREX from **Incheon Airport Transportation Center (B1F)**.
 
 For those seeking **maximum convenience**, taxis and private car services are also available.
 
-#### 🚕 Find a Taxi
+#### **Find a Taxi**
 - Regular and deluxe taxis are available at **designated taxi stands** at the airport
 - Alternatively, book a **private car service** in advance.
 
 ---
 
-#### 🕒 Travel Duration
+#### **Travel Duration**
 - The journey takes about **2.5 hours** under normal traffic conditions
 
 ---
 
-#### 💰 Estimated Costs
+#### **Estimated Costs**
 - **Regular taxi**: KRW 200,000 – 250,000  
 - **Deluxe taxi/private car**: KRW 300,000+
 
 ---
 
-#### ✅ Benefits
-- 🚪 Door-to-door service  
-- 👥 Suitable for groups or those with heavy luggage
+#### **Benefits**
+- Door-to-door service  
+- Suitable for groups or those with heavy luggage
 
 ---
 
-#### ⚠️ Considerations
-- 🚦 Traffic congestion can cause delays  
-- 💸 Higher cost compared to other options
+#### **Considerations**
+- Traffic congestion can cause delays  
+- Higher cost compared to other options
 
 ---
 
 ### 💡 Tips for a Smooth Journey
 
-- 🈺 **Language Assistance**: Most transportation staff understand basic English. However, having your destination written in Korean can be helpful.
-- 🕘 **Avoid Peak Hours**: Plan around **7–9 AM** and **5–8 PM** to avoid delays.
-- 📱 **Apps to Use**:
-  - 🗺️ *KakaoMap* or *Naver Map* – for navigation
-  - 🚖 *KakaoTaxi* – for convenient taxi booking
-  - 🚄 *Korail App* – for checking KTX schedules and booking
+- **Language Assistance**: Most transportation staff understand basic English. However, having your destination written in Korean can be helpful.
+- **Avoid Peak Hours**: Plan around **7–9 AM** and **5–8 PM** to avoid delays.
+- **Apps to Use**:
+  - *KakaoMap* or *Naver Map* – for navigation
+  - *KakaoTaxi* – for convenient taxi booking
+  - *Korail App* – for checking KTX schedules and booking
 
 ---
 <div style="text-align: center; margin: 3rem 0;">
