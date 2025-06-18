@@ -6,9 +6,6 @@ title: Venue
 
 ## Venue
 
-![Alt Text]({{ "assets/2025/img/DCC_Logo.jpg" | relative_url }})
-
-
 Established in 2008, the **Daejeon Convention Center (DCC)** is located next to the Daejeon Expo Science Park. DCC is both accessible and appropriately remote from the busiest sectors of Daejeon, offering an immersive and comfortable experience for the conference participants. Numerous conferences and conventions are held regularly at DCC, which features a grand ballroom, an exhibition hall, and 20 meeting rooms of various sizes for all sessions of the scientific program of INPC 2025. A separate boardroom for VIP guests and committee meetings is also available.
 
 **Address:**  
