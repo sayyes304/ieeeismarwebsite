@@ -24,7 +24,9 @@ Incheon Airport has **two terminals (T1 and T2)**. with your flight arriving at 
   <a href="#train" class="transport-button">🚄 Train (AREX + KTX)</a>
   <a href="#taxi" class="transport-button">🚖 Taxi / Private Car</a>
 </div>
+
 ---
+
 
 ### 🚍 <a id="express-bus"></a>1. Direct Express Bus from Incheon Int'l Airport to Daejeon
 
@@ -195,3 +197,5 @@ For those seeking **maximum convenience**, taxis and private car services are al
 <div style="text-align: center; margin: 3rem 0;">
   <a href="#top" class="back-to-top">⬆️ Back to Top</a>
 </div>
+
+<link rel="stylesheet" href="{{ 'assets/2025/css/main.css' | relative_url }}">
