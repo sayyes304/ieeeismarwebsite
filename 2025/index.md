@@ -79,8 +79,8 @@ redirect_from: /
                 </td>
             </tr>
             <tr>
-                <td><b>Mental Health</b></td>
-                <td><b>July 21st, 2025 (23:59 AoE, Monday)</b></td>
+                <td><b>Workshop Papers</b></td>
+                <td><b><a href="/2025/contribute/workshop-papers/">See workshop websites for deadlines</a></b></td>
             </tr>
             <tr>
                 <td><b>Poster Papers</b></td>
