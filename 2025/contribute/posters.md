@@ -3,7 +3,7 @@ layout: 2025/page
 title: Call for Poster Papers
 
 ---
-*Last updated: 2025-03-16 2:23AM GMT*
+*Last updated: 2025-06-25 2:51AM GMT*
 
 ## Overview
 
@@ -22,6 +22,8 @@ All submissions will be accepted or rejected as poster papers.
 1. All accepted poster papers will be published in the conference adjunct proceedings of ISMAR 2025.
 2.  All accepted poster papers will be archived in the IEEE Xplore digital library.
 3.  All accepted poster papers will be subject to the registration and publication processing policies of ISMAR 2025.
+
+The accepted poster papers will be granted a poster presentation during the conference. **The standard format for poster presentations is in-person.** However, in exceptional cases (such as difficulties attending in person due to funding, visa, or health issues), we offer the option to present posters **in a video-only format** (without hardcopy posters), **provided there is at least one full registration**.
 
 ## Important Deadlines
 
