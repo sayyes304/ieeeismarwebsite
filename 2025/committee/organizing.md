@@ -35,6 +35,22 @@ redirect_from:
     </div>
 
     <div class="chairs-category">
+        <h3>Assistants to General Chairs</h3>
+        <div class="chairs">
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Sungjei Kim.jpg' | relative_url }}" />
+                <p class="name">Sungjei Kim</p>
+                <p>Koreatech</p>
+            </div>
+            <div class="chair">
+                <img src="{{ 'assets/2025/img/Committee Members Images/Dooyoung Kim.jpg' | relative_url }}" />
+                <p class="name">Dooyoung Kim</p>
+                <p>KAIST</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="chairs-category">
         <h3>Technical Program Chairs</h3>
         <div class="chairs">
             <div class="chair">
