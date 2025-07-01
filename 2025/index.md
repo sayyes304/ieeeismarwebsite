@@ -74,8 +74,10 @@ redirect_from: /
             <tr>
                 <td><b>Doctoral Consortium</b></td>
                 <td>
-                    <b class="manual-strike" style="color: #999;"><s>June 9th, 2025 (23:59 AoE, Monday)</s></b><br>
-                    <b>June 30th, 2025 (23:59 AoE, Monday)</b>
+                <b>
+                    <s style="color: #999;">June 9th, 2025 (23:59 AoE, Monday)</s><br>
+                    <s>June 30th, 2025 (23:59 AoE, Monday)</s>
+                    </b>
                 </td>
             </tr>
             <tr>
