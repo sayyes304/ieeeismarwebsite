@@ -14,7 +14,7 @@ Ideal candidates will be in the early or mid-stage of their PhD and should have 
 
 ## Important Deadlines
 
-- Application submission deadline: <s style="color: #999;">June 9th, 2025 (23:59 AoE, Monday)</s>, June 30th, 2025 (23:59 AoE, Monday)
+- Application submission deadline: <s style="color: #999;">June 9th, 2025 (23:59 AoE, Monday)</s>, <s style="color: #999;">June 30th, 2025 (23:59 AoE, Monday)</s>
 - Acceptance notification: <s style="color: #999;">July 3rd, 2025 (23:59 AoE, Thursday)</s>, July 10th, 2025 (23:59 AoE, Thursday)
 - Attendance confirmation deadline: <s style="color: #999;">July 10th, 2025 (23:59 AoE, Thursday)</s>, July 17th, 2025 (23:59 AoE, Thursday)
 - Final Notification: July 22nd, 2025 (23:59 AoE, Tuesday)
